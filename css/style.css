@@ -3,3 +3,134 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 78px;
+  display: flex;
+  align-content: center;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+}
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.header--logo {
+  width: 30%;
+}
+.header--menu ul {
+  width: 70%;
+  list-style: none;
+  display: flex;
+}
+
+.header--menu li {
+  margin-left: 20px;
+  color:white;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.header--menu li:not(:first-child):before {
+  content: "|";
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin:auto;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  font-size: 75rem;
+  line-height: 60rem;
+  font-weight: 700;
+}
+
+.image p {
+  display: inline-block;
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description {
+  width: 50%;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description h2{
+  width: max-content;
+  position: relative;
+  font-size: 6.5rem;
+  margin-bottom: 50px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+.description h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: -10px;
+  width: 80px;
+  height: 8px;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+
+.description span {
+  width: max-content;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+}
+
+.description p {
+  width: 70%;
+  color:#4d4d4d;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.description a {
+  width: max-content;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 2rem;
+  color:#f1f1f1;
+  border-radius: 5px;
+  background: #534784;
+}
