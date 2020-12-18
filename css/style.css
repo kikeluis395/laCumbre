@@ -1,3 +1,20 @@
+@font-face {
+  font-family: fontBold;
+  src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Black.otf);
+}
+@font-face {
+  font-family: font;
+  src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Regular.otf);
+}
+@font-face {
+  font-family: fontMedium;
+  src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Medium.otf);
+}
+@font-face {
+  font-family: fontLight;
+  src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Light.otf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,9 +27,9 @@ body {
   display: flex;
   flex-direction: column;
   background: #f1f1f1;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 100%;
-  height: 100vh;
+  font-family: font;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 header {
@@ -51,11 +68,107 @@ header {
   margin-right: 20px;
 }
 
+.hero {
+  width: 100vw;
+  height: calc(100vh - 78px);
+  display: flex;
+  align-items: center;
+}
+
+.hero--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background: url(../img/hero.jpg) no-repeat;
+  background-size: 110%;
+  height: 65%;
+}
+.hero--container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  background: rgb(26,177,194);
+background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 100%);
+  width: 100%;
+  height: 100%;
+}
+
+.hero--container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+}
+
+.hero--box {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero--container-title {
+  position: relative;
+  font-size: 6.5rem;
+  font-weight: 400;
+  line-height: 70px;
+  color:white;
+  z-index: 1000;
+}
+
+.hero--container-content p{
+  position: relative;
+  color:white;
+  font-size: 5rem;
+  font-family: fontBold;
+  z-index: 10000;
+}
+
+.hero--container-content p::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: -20px;
+  width: 90px;
+  height: 8px;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+
+.hero--container-content p::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 250px;
+  height: 8px;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+
+.hero--container-content .content-description {
+  font-size: 5rem;
+}
+
+.title-bold {
+  font-weight: 700;
+}
+
 .container {
   display: flex;
   width: 80%;
   height: 600px;
   margin:auto;
+  margin-top: 80px;
 }
 
 .image {
@@ -67,17 +180,13 @@ header {
 }
 
 .image p {
-  display: inline-block;
-  position:absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: auto;
+  position: relative;
+  font-family: fontBold;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: url('../img/background.png');
-  background-size: cover;
+  -webkit-text-fill-color: rgba(27,176,194,.19);
+  background-image: url('../img/nuestrosServicios1.jpg');
+  background-size: 160%;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -92,20 +201,28 @@ header {
   width: max-content;
   position: relative;
   font-size: 6.5rem;
+  line-height: 65px;
+  letter-spacing: 2px;
   margin-bottom: 50px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+  background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 .description h2::before {
   content: "";
   display: block;
   position: absolute;
   left: 3px;
-  top: -10px;
-  width: 80px;
+  top: -20px;
+  width: 90px;
   height: 8px;
   background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+
+.description .services {
+  font-size: 6.5rem;
+  font-family: fontMedium;
+  background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 
 .description span {
@@ -120,6 +237,7 @@ header {
 
 .description p {
   width: 70%;
+  font-family: fontLight;
   color:#4d4d4d;
   margin-bottom: 50px;
   font-size: 2.5rem;
