@@ -33,6 +33,10 @@ body {
 }
 
 header {
+  /* colocar position fixed: */
+  /* Se coloco z index para que se encuentre sobre los elementos */
+  position: fixed;
+  z-index: 100;
   width: 100vw;
   height: 78px;
   display: flex;
@@ -170,6 +174,15 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   margin:auto;
   margin-top: 80px;
 }
+  
+
+.servicios {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin:60px auto;
+}
+
 
 .image {
   position: relative;
@@ -251,4 +264,31 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   color:#f1f1f1;
   border-radius: 5px;
   background: #534784;
+}
+
+
+/* Estilos del section: conocenos */
+
+.conocenos__img img{
+  width: 250px;
+}
+
+.conocenos{
+  display: flex;
+  justify-content: center;
+}
+
+.conocenos__info{
+  width: 40%;
+}
+.conocenos__img{
+  width: 40%;
+}
+.description{
+  width: 100%;
+}
+
+.conocenos__texto{
+  width: 100%;
+  height: 100px;
 }
