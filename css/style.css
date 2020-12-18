@@ -168,9 +168,7 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
 }
 
 .container {
-  display: flex;
   width: 80%;
-  height: 600px;
   margin:auto;
   margin-top: 80px;
 }
@@ -178,8 +176,6 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
 
 .servicios {
   display: flex;
-  width: 80%;
-  height: 600px;
   margin:60px auto;
 }
 
@@ -274,21 +270,65 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
 }
 
 .conocenos{
+  height: calc(100vh - 78px);
+  padding: 40px 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .conocenos__info{
-  width: 40%;
+  width: 50%;
 }
 .conocenos__img{
-  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "img1 img2"
+                       "img3 img3"
+                       "img4 img5";
+  width: 50%;
+  height: 95%;
 }
-.description{
-  width: 100%;
+.img1 {
+  grid-area: img1;
+  background: url('../img/executive-business-woman-in-an-office.jpg');
+  background-size: cover;
 }
+.img2 {
+  grid-area: img2;
+  background: url('../img/smiling-african-american-cashier-sitting-at-checkout.jpg');
+  background-size: cover;
+}
+.img3 {
+  grid-area: img3;
+  background: url('../img/businesswomen-looking-at-speaker-with-papers.jpg');
+  background-size: cover;
+  background-position: center;
 
-.conocenos__texto{
-  width: 100%;
-  height: 100px;
+}
+.img4 {
+  grid-area: img4;
+  background: url('../img/shopkeeper-grocery-store.jpg');
+  background-size: cover;
+}
+.img5 {
+  grid-area: img5;
+  background: url('../img/young-couple-buying-car-in-car-showroom.jpg');
+  background-size: cover;
+}
+.conocenos .description{
+  min-width: 100%;
+  margin-top: 20px;
+}
+.conocenos .description h2{
+  
+  font-family: fontBold;
+  font-size: 8rem;
+}
+.description .conocenos__texto{
+  min-width: 100%;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding-right: 30px;
 }
