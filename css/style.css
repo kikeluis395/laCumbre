@@ -73,7 +73,7 @@ header {
 }
 
 .hero {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 78px);
   display: flex;
   align-items: center;
@@ -331,4 +331,53 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   letter-spacing: 1px;
   line-height: 30px;
   padding-right: 30px;
+}
+
+.noticias {
+  width: 100%;
+  height: calc(100vh - 78px);
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  
+}
+.noticias .description {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.noticias .entradas {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-areas: "i1 i2 i4"
+                       "i1 i3 i4";
+  height: 700px;
+}
+
+.i1 {
+  grid-area: i1;
+  background: url(../img/pexels-burst-374016.jpg);
+  background-size: cover;
+}
+
+.i2 {
+  grid-area: i2;
+  background: url(../img/pexels-karolina-grabowska-5632379.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.i3 {
+  grid-area: i3;
+  background: url(../img/pexels-fauxels-3184291.jpg);
+  background-size: cover;
+}
+
+.i4 {
+  grid-area: i4;
+  background: url(../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg);
+  background-size: cover;
+  background-position: center;
 }
