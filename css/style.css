@@ -434,9 +434,9 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
 }
 .noticias .description {
   width: 100%;
-<<<<<<< HEAD
   height: 100px;
 }
+
 
 /* Estilos del section: Misión Visión */
 
@@ -536,5 +536,3 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   width: 38px;
   height: 10px;
   background: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
->>>>>>> c4f100e111a89e1e2eb07d4c5c63e485d2fce3dc
-}
