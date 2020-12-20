@@ -167,3 +167,34 @@ header {
   width: 100%;
   height: 100px;
 }
+
+/* Estilos del section: Misión Visión */
+
+.conocenos__img img{
+  width: 250px;
+}
+
+.misionVision{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.conocenos__info{
+  width: 40%;
+}
+.conocenos__img{
+  width: 40%;
+}
+.description{
+  width: 100%;
+}
+
+.conocenos__texto{
+  width: 100%;
+  height: 100px;
+}
+
+.misionVision img{
+  width: 250px;
+}
