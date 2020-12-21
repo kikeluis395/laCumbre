@@ -489,6 +489,40 @@ li:hover > ul {
 }
 .noticias .description {
   width: 100%;
+  height: 100px;
+}
+
+
+/* Estilos del section: Misión Visión */
+
+.conocenos__img img{
+  width: 250px;
+}
+
+.misionVision{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.conocenos__info{
+  width: 40%;
+}
+.conocenos__img{
+  width: 40%;
+}
+.description{
+  width: 100%;
+}
+
+.conocenos__texto{
+  width: 100%;
+  height: 100px;
+}
+
+.misionVision img{
+  width: 250px;
+=======
   padding: 0;
   display: flex;
   align-items: center;
@@ -557,4 +591,3 @@ li:hover > ul {
   width: 38px;
   height: 10px;
   background: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
-}
