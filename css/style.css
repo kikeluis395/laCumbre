@@ -43,12 +43,16 @@ header {
   align-content: center;
   flex-direction: column;
   font-family: fontLight;
-  
+
+}
+.header a {
+  text-decoration: none;
+  color: #f1f1f1;
 }
 .header {
   width: 100%;
+  padding-top: 8px;
   display: flex;
-  padding: 7px 0;
   justify-content: flex-end;
   align-self: center;
   background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
@@ -79,7 +83,6 @@ header {
 }
 
 .header1--search input {
-
   border: none;
 }
 
@@ -102,25 +105,74 @@ header {
   grid-area: operations;
   width: 300px;
 }
-.header--menu ul {
+.header--menu-main {
   width: 70%;
+  height: 40px;
   margin-right: 100px;
   list-style: none;
   display: flex;
 }
 
 .header--menu li {
+  position: relative;
   margin-left: 20px;
   color:white;
   font-size: 2rem;
   letter-spacing: 1px;
 }
 
-.header--menu li:not(:first-child):before {
+.header--menu .menu-item:not(:first-child):before {
   content: "|";
   margin-right: 20px;
 }
 
+
+/* estilos del submenu */
+.submenu {
+  position: absolute;
+  top: 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  display: block;
+  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+  list-style: none;
+  display: none;
+}
+
+.submenu li {
+  padding:8px;
+  margin-left: 8px;
+  font-family: fontLight;
+}
+
+/* .header li a:hover {
+  background-color: rgba(0, 0, 0, .3);
+} */
+
+.submenu li a {
+  padding-left: 15px;
+}
+
+.submenu li:not(:last-child):after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 290px;
+  height: 1px;
+  background: linear-gradient(313deg, rgba(255,255,255,0.19931722689075626) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* visualizacion del submenu */
+li:hover > ul {
+  display: block;
+  z-index: 999999;
+}
+
+/* estilos del hero */
 .hero {
   width: 100%;
   height: calc(100vh - 139px);
@@ -146,7 +198,7 @@ header {
   right: 0;
   left: 0;
   background: rgb(26,177,194);
-background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 100%);
+  background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 100%);
   width: 100%;
   height: 100%;
 }
@@ -182,7 +234,8 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   position: relative;
   color:white;
   font-size: 5rem;
-  font-family: fontBold;
+  font-family: fontMedium;
+  line-height: 40px;
   z-index: 10000;
 }
 
@@ -191,7 +244,7 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   display: block;
   position: absolute;
   left: 3px;
-  top: -20px;
+  top: -25px;
   width: 90px;
   height: 8px;
   background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
@@ -202,14 +255,15 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   display: block;
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -20px;
   width: 250px;
   height: 8px;
   background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
 }
 
 .hero--container-content .content-description {
-  font-size: 5rem;
+  font-family: fontMedium;
+  font-size: 3.2rem;
 }
 
 .title-bold {
@@ -221,8 +275,8 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   margin:auto;
   margin-top: 80px;
 }
-  
 
+/* estilos de la seccion servicios */
 .servicios {
   display: grid;
   grid-template-columns: 1fr 4fr 4fr;
@@ -242,6 +296,7 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
 
 .image p {
   position: relative;
+  cursor: default;
   font-family: fontBold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(15, 67, 73, 0.424);
@@ -412,7 +467,7 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   margin-top: 20px;
 }
 .conocenos .description h2{
-  
+
   font-family: fontBold;
   font-size: 8rem;
 }
@@ -430,7 +485,7 @@ background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 10
   grid-template-rows: 100px 1fr;
   grid-template-areas: "description"
                        "entradas";
-  
+
 }
 .noticias .description {
   width: 100%;
