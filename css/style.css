@@ -271,13 +271,12 @@ li:hover > ul {
 }
 
 .container {
-  width: 80%;
-  margin:auto;
   margin-top: 80px;
 }
 
 /* estilos de la seccion servicios */
 .servicios {
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 4fr 4fr;
   grid-template-areas: ". image description";
@@ -416,6 +415,8 @@ li:hover > ul {
 }
 
 .conocenos{
+  width: 80%;
+  margin:auto;
   height: calc(100vh - 78px);
   padding: 40px 0px;
   display: flex;
@@ -480,6 +481,8 @@ li:hover > ul {
 }
 
 .noticias {
+  width: 80%;
+  margin:auto;
   height: calc(100vh - 78px);
   display: grid;
   grid-template-rows: 100px 1fr;
@@ -495,38 +498,78 @@ li:hover > ul {
 
 /* Estilos del section: Misión Visión */
 
-.conocenos__img img{
-  width: 250px;
-}
-
-.misionVision{
-  margin-top: 100px;
+.container .misionVision{
+  width: 100%;
+  height: calc(100vh);
   display: flex;
   justify-content: center;
 }
 
-.conocenos__info{
-  width: 40%;
-}
-.conocenos__img{
-  width: 40%;
-}
-.description{
+.misionVision__info--mision img, .misionVision__info--vision img{
   width: 100%;
+  height: 350px;
 }
 
-.conocenos__texto{
-  width: 100%;
-  height: 100px;
-}
-
-.misionVision img{
-  width: 250px;
-=======
+.misionVision__info--mision {
+  display: grid;
   padding: 0;
-  display: flex;
-  align-items: center;
+  padding-right: 20px;
+  height: 70%;
+  grid-template-columns: 2fr 8fr;
+  grid-template-areas: ". title"
+                       ". content"
+                       "img1 img1";
 }
+
+.misionVision__info--vision {
+  display: grid;
+  padding: 0;
+  padding-left: 20px;
+  height: 70%;
+  grid-template-columns: 8fr 2fr;
+  grid-template-areas: "title ."
+                       "content ."
+                       "img2 img2";
+}
+.misionVision__title {
+  grid-area: title;
+}
+
+.misionVision h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0px;
+  font-family: fontbold;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.misionVision h2::before {
+  width: 35px;
+  height: 6px;
+  top: 0;
+}
+
+.misionVision .misionVision__texto {
+  grid-area: content;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 35px;
+  margin-bottom: 70px;
+}
+
+.misionVision__Img--mision{
+  grid-area: img1;
+}
+
+.misionVision__Img--vision{
+  grid-area: img2;
+}
+
+.misionVision__info--vision {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+
 
 .noticias .entradas {
   grid-area: entradas;
@@ -591,3 +634,18 @@ li:hover > ul {
   width: 38px;
   height: 10px;
   background: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+}
+
+/* agregando estilos del footer  */
+footer {
+  width: 100%;
+  height: 40vh;
+}
+.footer {
+  height: 90%;
+  background: rgba(83,70,130,1);
+}
+.footer2 {
+  height: 10%;
+  background: linear-gradient(to left, #534682, #3f629f, #1b7db3, #0097be, #1bb0c2);
+}
