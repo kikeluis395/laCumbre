@@ -14,6 +14,18 @@
   font-family: fontLight;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Light.otf);
 }
+@font-face {
+  font-family: fontExtraLight;
+  src: url(../fonts/Adlinnaka/OTF/Adlinnaka-UltraLight.otf);
+}
+@keyframes spin1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 * {
   padding: 0;
@@ -639,13 +651,225 @@ li:hover > ul {
 /* agregando estilos del footer  */
 footer {
   width: 100%;
-  height: 40vh;
 }
 .footer {
-  height: 90%;
   background: rgba(83,70,130,1);
 }
 .footer2 {
-  height: 10%;
-  background: linear-gradient(to left, #534682, #3f629f, #1b7db3, #0097be, #1bb0c2);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #f1f1f1;
+  font-family: fontExtraLight;
+  justify-content: center;
+  background-color:  #1bb0c2;
+  background-image:
+    linear-gradient(to left, #534682, #1bb0c2 30%);
+}
+
+/* estilos de la seccion contactanos */
+.contact {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.contact__img {
+  background: url('../img/pexels-trang-doan-1024248.jpg') no-repeat;
+  background-size: 150%;
+  background-position: 50% 65%;
+  height: 200px;
+}
+
+.contact__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact__button--img {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  
+  background: url('../img/icono_contacto.png')no-repeat center;
+  background-size: cover;
+}
+
+.contact__button--text {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background: url('../img/icono_palabras.png')no-repeat center;
+  background-size: cover;
+  animation-name: spin1;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.contact__info {
+  display: grid;
+  max-width: 350px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contact__info--number {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact__info--email {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact__info--address {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact__info span {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color:#534682;
+  font-family: fontLight;
+}
+
+.contact__info i {
+  display: block;
+  justify-self: center;
+}
+.icon-number {
+  width: 30px;
+  height: 30px;
+  background: url('../img/iconos_teléfono.png') no-repeat center;
+  background-size: contain;
+}
+
+.icon-email {
+  width: 43px;
+  height: 30px;
+  background: url('../img/iconos_correo.png') no-repeat center;
+  background-size: contain;
+}
+
+.icon-address {
+  width: 25px;
+  height: 34px;
+  background: url('../img/iconos_ubicación.png') no-repeat center;
+  background-size: contain;
+}
+
+/* estilos de la seccion menu footer */
+.footer__grid {
+  width: 80%;
+  padding: 60px 0px 40px 0px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 14fr 6fr;
+  grid-template-areas: "menu social"
+                       "description description";
+}
+.footer__menu {
+  grid-area: menu;
+  margin-left: -47px;
+}
+.footer__menu-main {
+  width: max-content;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(5, 200px);
+}
+
+.footer__menu--item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: ". item ."
+                       ". submenu submenu";
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.footer__menu--item a {
+  grid-area: item;
+  font-family: fontLight;
+  color:white;
+  text-decoration: none;
+  
+}
+
+.footer__menu-main .footer__menu--item:not(:first-child)::before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  font-size: 2rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image:
+  linear-gradient(to top, #534682, #1bb0c2 80%);
+}
+
+.footer__menu--item .footer__submenu {
+  margin-top: 10px;
+  list-style: none;
+  align-items: flex-start;
+  font-family: fontExtraLight;
+  font-size: 1.4rem;
+  text-align: start;
+}
+
+.footer__social {
+  grid-area: social;
+  padding-left: 30px;
+}
+.footer__submenu {
+  grid-area: submenu;
+}
+.footer__social--logo {
+  width:270px;
+  height: 65px;
+  background: url('../img/Logotipo-02.png') no-repeat center;
+  background-size: cover;
+}
+
+.footer__social--redes {
+  width: 170px;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social--redes i{
+  font-size: 3.5em;
+  color: #f1f1f1;
+}
+
+.footer__description {
+  font-family: fontExtraLight;
+  font-size: .9rem;
+  margin-top: 20px;
+  color: #fafbfd;
+  grid-area: description;
+}
+
+.footer__description::before {
+  content: "";
+  display: block;
+  margin-bottom: 15px;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to left,#534682, #1bb0c2 80%);
 }
