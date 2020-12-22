@@ -47,7 +47,7 @@ body {
     right: 0;
     display: inline-grid;
     z-index: 2;
-    transition: transform 0.4s;
+    transition: scroll 0.4s ease;
 }
 
 .top-navbar {
@@ -137,6 +137,7 @@ body {
     align-items: center;
     background: linear-gradient(275deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
     padding: 10px 100px;
+    transition: scroll 0.4s ease;
 }
 
 .menu-navbar ul {

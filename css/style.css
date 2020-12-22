@@ -47,102 +47,129 @@ body {
 header {
   /* colocar position fixed: */
   /* Se coloco z index para que se encuentre sobre los elementos */
-  /* position: fixed;
-  z-index: 100; */
+  position: fixed;
+  z-index: 100;
   width: 100vw;
-  height: 78px;
   display: flex;
   align-content: center;
   flex-direction: column;
   font-family: fontLight;
 
 }
-.header a {
-  text-decoration: none;
-  color: #f1f1f1;
-}
-.header {
-  width: 100%;
-  padding-top: 8px;
-  display: flex;
-  justify-content: flex-end;
-  align-self: center;
-  background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+.header1 {
+  transition: all 0.5s;
 }
 .header1 ul{
   display: grid;
   align-items: center;
   padding: 20px;
   list-style: none;
-  grid-template-columns: 2fr 5fr 4fr 3fr 6fr;
+  grid-template-columns: 2fr 5fr 2fr auto 5fr;
   grid-template-areas: ". logo search button operations";
 }
 .header1--logo {
   grid-area: logo;
-  width: 250px;
-  height: 60px;
+  width: 220px;
+  height: 55px;
   background: url('../img/Logotipo-1.png') no-repeat;
   background-size: cover;
 }
 .header1--search {
   grid-area: search;
   display: flex;
-  align-content: center;
-  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 33px;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
+  
 }
-
+.fa-search {
+  font-size: 1.5rem;
+}
 .header1--search input {
   border: none;
+  outline: none;
 }
 
 .header1--button {
   grid-area: button;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1ab3c4;
-  height: 40px;
+  height: 33px;
   border-radius: 5px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .header1--button a{
   text-decoration: none;
   color: #f1f1f1;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 .operations {
   grid-area: operations;
-  width: 300px;
+  width: 250px;
+  margin-left: 50px;
 }
+
+.header a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+}
+
 .header--menu-main {
-  width: 70%;
-  height: 40px;
-  margin-right: 100px;
+  height: 30px;
+  margin-right: 200px;
   list-style: none;
   display: flex;
 }
-
-.header--menu li {
+.header {
+  display: flex;
+  padding: 2px 0px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all .5s;
+}
+.header li {
   position: relative;
   margin-left: 20px;
   color:white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
 }
 
-.header--menu .menu-item:not(:first-child):before {
+.menu-item:not(:first-child):before {
   content: "|";
   margin-right: 20px;
 }
+.logo-white {
+  width: 100%;
+  display: block;
+}
 
+.logotipo {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-left: 100px;
+}
 
 /* estilos del submenu */
 .submenu {
   position: absolute;
-  top: 40px;
+  top: 30px;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -187,7 +214,7 @@ li:hover > ul {
 /* estilos del hero */
 .hero {
   width: 100%;
-  height: calc(100vh - 139px);
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -199,8 +226,10 @@ li:hover > ul {
   width: 100%;
   position: relative;
   background: url(../img/hero.jpg) no-repeat;
+  filter: contrast(180%);
   background-size: 110%;
-  height: 65%;
+  height: 55%;
+  margin-top: 100px;
 }
 .hero--container::before {
   content: "";
@@ -222,33 +251,38 @@ li:hover > ul {
   left: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .2);
   width: 100%;
   height: 100%;
 }
 
 .hero--box {
   width: 70%;
+  margin-top: 60px;
   height: 60%;
   display: flex;
   justify-content: space-between;
 }
 .hero--container-title {
   position: relative;
-  font-size: 6.5rem;
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 60px;
   color:white;
-  z-index: 1000;
+  z-index: 1;
 }
-
+.hero--container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero--container-content p{
   position: relative;
   color:white;
   font-size: 5rem;
   font-family: fontMedium;
   line-height: 40px;
-  z-index: 10000;
+  z-index: 1;
 }
 
 .hero--container-content p::after {
@@ -259,7 +293,7 @@ li:hover > ul {
   top: -25px;
   width: 90px;
   height: 8px;
-  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 
 .hero--container-content p::before {
@@ -270,11 +304,11 @@ li:hover > ul {
   bottom: -20px;
   width: 250px;
   height: 8px;
-  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 
 .hero--container-content .content-description {
-  font-family: fontMedium;
+  font-family: fontLight;
   font-size: 3.2rem;
 }
 
@@ -284,6 +318,19 @@ li:hover > ul {
 
 .container {
   margin-top: 80px;
+}
+
+.hero--container-button{
+  width: max-content;
+  position: relative;
+  font-size: 1.8rem;
+  padding:5px 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  color:#573c3c;
+  text-decoration: none;
+  z-index: 1;
+  background: white;
 }
 
 /* estilos de la seccion servicios */
