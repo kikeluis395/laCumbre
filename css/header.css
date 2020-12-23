@@ -35,8 +35,10 @@ body {
     font-family: font;
     width: 100vw;
     min-height: 100vh;
-    padding-top: 100px;
-    /* padding: 100px; */
+}
+
+.container {
+    margin: 150px 100px;
 }
 
 .navbar {
@@ -174,195 +176,123 @@ body {
 #navbar {
     width: 100%;
     text-align: center;
-}
-
-
-/*------------------------
-          Inicio          
-------------------------*/
-
-.hero {
-    width: 100%;
-    height: calc(100vh - 139px);
-    display: flex;
     align-items: center;
 }
 
-.hero--container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/*------------------------------
+        SLIDER OF SERVICES
+--------------------------------*/
+
+.content-slides {
     width: 100%;
-    position: relative;
-    background: url(../img/hero.jpg) no-repeat;
-    background-size: 110%;
-    height: 65%;
 }
 
-.hero--container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    left: 0;
-    background: rgb(26, 177, 194);
-    background: linear-gradient(97deg, rgba(26, 177, 194, .3) 0%, rgba(83, 70, 130, .5) 100%);
+.slider {
     width: 100%;
-    height: 100%;
-}
-
-.hero--container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .5);
-    width: 100%;
-    height: 100%;
-}
-
-.hero--box {
-    width: 70%;
-    height: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero--container-title {
-    position: relative;
-    font-size: 6.5rem;
-    font-weight: 400;
-    line-height: 70px;
-    color: white;
-    z-index: 1000;
-}
-
-.hero--container-content p {
-    position: relative;
-    color: white;
-    font-size: 5rem;
-    font-family: fontBold;
-    z-index: 10000;
-}
-
-.hero--container-content p::after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 3px;
-    top: -20px;
-    width: 90px;
-    height: 8px;
-    background: linear-gradient(275deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
-}
-
-.hero--container-content p::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 250px;
-    height: 8px;
-    background: linear-gradient(275deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
-}
-
-.hero--container-content .content-description {
-    font-size: 5rem;
-}
-
-
-/*-------------------------
-          INICIO           
--------------------------*/
-
-
-/*-------------------------
-          SERVICIOS        
--------------------------*/
-
-.title-bold {
-    font-weight: 700;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    margin-top: 80px;
-}
-
-.servicios {
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr;
-    grid-template-areas: ". image description";
-    margin: 60px auto;
+    grid-template-columns: 30px auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 80px;
+}
+
+slide-list {
+    display: inline;
+}
+
+.slide {
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+}
+
+.slider ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inidicators {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.inidicators .indicator {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    background-color: rgb(146, 145, 145);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.inidicators .active {
+    background-color: rgb(73, 73, 73);
+}
+
+.inidicators .indicator:hover .active {
+    background-color: rgb(73, 73, 73);
+}
+
+.slider ul li {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(146, 145, 145);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slider ul li:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.slider ul .active {
+    background-color: rgb(73, 73, 73);
 }
 
 .image {
     grid-area: image;
     position: relative;
     width: max-content;
-    font-size: 75rem;
-    line-height: 60rem;
+    font-size: 36rem;
+    line-height: 50rem;
     font-weight: 700;
 }
 
-.image p {
+.image h1 {
     position: relative;
+    cursor: default;
     font-family: fontBold;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(15, 67, 73, 0.424);
     background-repeat: no-repeat;
 }
 
-.bkg1 p {
+.bkg1 h1 {
     background-image: url('../img/nuestrosServicios1.jpg');
     background-size: 160%;
     background-position: right;
 }
 
-.bkg2 p {
+.bkg2 h1 {
     background-image: url('../img/pexels-fauxels-3184292.jpg');
     background-size: 200%;
     background-position: right;
 }
 
-.bkg3 p {
+.bkg3 h1 {
     background-image: url('../img/beautiful-female-women-driver-sitting-her-vehicle-holding-car-keys-ready-drive.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.bkg4 p {
-    background-image: url('../img/');
-    background-size: cover;
-    background-position: center;
-}
-
-.bkg5 p {
-    background-image: url('../img/handshake-close-up-executives.jpg');
-    background-size: cover;
-    background-position: right;
-}
-
-.bkg6 p {
-    background-image: url('../img/home-improvement-kitchen-view-installed-new-kitchen-cabinet.jpg');
-    background-size: 210%;
-    background-position: right;
-}
-
-.bkg7 p {
-    background-image: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
-    background-size: cover;
-    background-position: right;
-}
-
 .description {
     grid-area: description;
-    padding-left: 25px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,9 +301,10 @@ body {
 .description h2 {
     width: max-content;
     position: relative;
-    font-size: 6.5rem;
-    line-height: 65px;
+    font-size: 5rem;
+    line-height: 60px;
     letter-spacing: 2px;
+    background-clip: text;
     margin-bottom: 50px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -391,28 +322,23 @@ body {
     background: linear-gradient(275deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
 
-.description .services {
-    font-size: 6.5rem;
-    font-family: fontMedium;
-    background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
-}
-
 .description span {
     width: max-content;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(275deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
 }
 
 .description p {
-    width: 70%;
+    width: 100%;
     font-family: fontLight;
     color: #4d4d4d;
-    margin-bottom: 50px;
-    font-size: 2.5rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 2rem;
 }
 
 .description a {
@@ -423,163 +349,4 @@ body {
     color: #f1f1f1;
     border-radius: 5px;
     background: #534784;
-}
-
-
-/*-------------------------
-          SERVICIOS        
--------------------------*/
-
-
-/* Estilos del section: conocenos */
-
-.conocenos__img img {
-    width: 250px;
-}
-
-.conocenos {
-    height: calc(100vh - 78px);
-    padding: 40px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.conocenos__info {
-    width: 50%;
-}
-
-.conocenos__img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "img1 img2" "img3 img3" "img4 img5";
-    width: 50%;
-    height: 95%;
-}
-
-.img1 {
-    grid-area: img1;
-    background: url('../img/executive-business-woman-in-an-office.jpg');
-    background-size: cover;
-}
-
-.img2 {
-    grid-area: img2;
-    background: url('../img/smiling-african-american-cashier-sitting-at-checkout.jpg');
-    background-size: cover;
-}
-
-.img3 {
-    grid-area: img3;
-    background: url('../img/businesswomen-looking-at-speaker-with-papers.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.img4 {
-    grid-area: img4;
-    background: url('../img/shopkeeper-grocery-store.jpg');
-    background-size: cover;
-}
-
-.img5 {
-    grid-area: img5;
-    background: url('../img/young-couple-buying-car-in-car-showroom.jpg');
-    background-size: cover;
-}
-
-.conocenos .description {
-    min-width: 100%;
-    margin-top: 20px;
-}
-
-.conocenos .description h2 {
-    font-family: fontBold;
-    font-size: 8rem;
-}
-
-.description .conocenos__texto {
-    min-width: 100%;
-    font-size: 2rem;
-    letter-spacing: 1px;
-    line-height: 30px;
-    padding-right: 30px;
-}
-
-.noticias {
-    height: calc(100vh - 78px);
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    grid-template-areas: "description" "entradas";
-}
-
-.noticias .description {
-    width: 100%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
-
-.noticias .entradas {
-    grid-area: entradas;
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: "i1 i2 i4" "i1 i3 i4";
-    height: 450px;
-}
-
-.i1 {
-    grid-area: i1;
-    display: flex;
-    align-items: flex-end;
-    padding: 30px 35px;
-    background: url('../img/pexels-burst-374016.jpg');
-    background-size: 120%;
-    background-position: right;
-    transition: all 2s;
-}
-
-.i1:hover {
-    background-size: 140%;
-}
-
-.i2 {
-    grid-area: i2;
-    background: url('../img/pexels-karolina-grabowska-5632379.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.i3 {
-    grid-area: i3;
-    background: url('../img/pexels-fauxels-3184291.jpg');
-    background-size: cover;
-}
-
-.i4 {
-    grid-area: i4;
-    background: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.i1 p {
-    position: relative;
-    z-index: 1;
-    color: #f1f1f1;
-    font-size: 3em;
-    font-family: fontMedium;
-}
-
-.i1 p::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 38px;
-    height: 10px;
-    background: linear-gradient(90deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
