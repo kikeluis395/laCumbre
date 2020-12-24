@@ -84,7 +84,7 @@ header {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-  
+
 }
 .fa-search {
   font-size: 1.5rem;
@@ -334,6 +334,14 @@ li:hover > ul {
 }
 
 /* estilos de la seccion servicios */
+.servicios__main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  overflow-y: scroll;
+  height: 720px;
+}
+
 .servicios {
   width: 80%;
   display: grid;
@@ -380,7 +388,7 @@ li:hover > ul {
 }
 
 .bkg4 p{
-  background-image: url('../img/');
+  background-image: url('../img/coin-on-wooden-table.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -484,6 +492,7 @@ li:hover > ul {
 
 .conocenos__info{
   width: 50%;
+  height: 100%;
 }
 .conocenos__img{
   display: grid;
@@ -493,7 +502,7 @@ li:hover > ul {
                        "img3 img3"
                        "img4 img5";
   width: 50%;
-  height: 95%;
+  height: 100%;
 }
 .img1 {
   grid-area: img1;
@@ -526,109 +535,45 @@ li:hover > ul {
   min-width: 100%;
   margin-top: 20px;
 }
+.conocenos__info .description {
+  width: 100%;
+  height: 100%;
+}
 .conocenos .description h2{
-
-  font-family: fontBold;
+  line-height:normal;
+  height: 100px;
+  font-family: fontMedium;
   font-size: 8rem;
 }
 .description .conocenos__texto{
   min-width: 100%;
+  height: auto;
+  overflow-y: scroll;
   font-size: 2rem;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 40px;
   padding-right: 30px;
 }
 
 .noticias {
   width: 80%;
   margin:auto;
-  height: calc(100vh - 78px);
+  height: 80%;
   display: grid;
   grid-template-rows: 100px 1fr;
   grid-template-areas: "description"
                        "entradas";
-
+  margin-bottom: 150px;
 }
 .noticias .description {
   width: 100%;
   height: 100px;
+  flex-direction: row;
 }
 
-
-/* Estilos del section: Misión Visión */
-
-.container .misionVision{
-  width: 100%;
-  height: calc(100vh);
-  display: flex;
-  justify-content: center;
+.noticias .description h2 {
+  margin-bottom: 0px;
 }
-
-.misionVision__info--mision img, .misionVision__info--vision img{
-  width: 100%;
-  height: 350px;
-}
-
-.misionVision__info--mision {
-  display: grid;
-  padding: 0;
-  padding-right: 20px;
-  height: 70%;
-  grid-template-columns: 2fr 8fr;
-  grid-template-areas: ". title"
-                       ". content"
-                       "img1 img1";
-}
-
-.misionVision__info--vision {
-  display: grid;
-  padding: 0;
-  padding-left: 20px;
-  height: 70%;
-  grid-template-columns: 8fr 2fr;
-  grid-template-areas: "title ."
-                       "content ."
-                       "img2 img2";
-}
-.misionVision__title {
-  grid-area: title;
-}
-
-.misionVision h2 {
-  font-size: 3.5rem;
-  letter-spacing: 0px;
-  font-family: fontbold;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.misionVision h2::before {
-  width: 35px;
-  height: 6px;
-  top: 0;
-}
-
-.misionVision .misionVision__texto {
-  grid-area: content;
-  width: 100%;
-  font-size: 2rem;
-  line-height: 35px;
-  margin-bottom: 70px;
-}
-
-.misionVision__Img--mision{
-  grid-area: img1;
-}
-
-.misionVision__Img--vision{
-  grid-area: img2;
-}
-
-.misionVision__info--vision {
-  display: grid;
-  grid-template-columns: 1fr 100px;
-}
-
 
 .noticias .entradas {
   grid-area: entradas;
@@ -637,7 +582,8 @@ li:hover > ul {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-areas: "i1 i2 i4"
                        "i1 i3 i4";
-  height: 450px;
+  height: 40vh;
+  min-height: 450px;
 }
 
 .i1 {
@@ -646,13 +592,10 @@ li:hover > ul {
   align-items: flex-end;
   padding:30px 35px;
   background: url('../img/pexels-burst-374016.jpg');
-  background-size: 120%;
+  background-size: cover;
   background-position: right;
+  background-repeat: no-repeat;
   transition: all 2s;
-}
-
-.i1:hover {
-  background-size: 140%;
 }
 
 .i2 {
@@ -695,12 +638,89 @@ li:hover > ul {
   background: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
 }
 
+/* Estilos del section: Misión Visión */
+
+.container .misionVision{
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  justify-content: center;
+}
+
+.misionVision__info--mision img, .misionVision__info--vision img{
+  width: 100%;
+  height: 350px;
+}
+
+.misionVision__info--mision {
+  display: grid;
+  padding: 0;
+  padding-right: 20px;
+  height: 70%;
+  grid-template-columns: 2fr 8fr;
+  grid-template-areas: ". title"
+                       ". content"
+                       "img1 img1";
+}
+
+.misionVision__info--vision {
+  display: grid;
+  padding: 0;
+  padding-left: 20px;
+  height: 70%;
+  grid-template-columns: 8fr 2fr;
+  grid-template-areas: "title ."
+                       "content ."
+                       "img2 img2";
+}
+.misionVision__title {
+  grid-area: title;
+}
+
+.misionVision h2 {
+  font-size: 3rem;
+  letter-spacing: 0px;
+  font-family: fontMedium;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.misionVision h2::before {
+  width: 35px;
+  height: 6px;
+  top: 0;
+}
+
+.misionVision .misionVision__texto {
+  grid-area: content;
+  width: 85%;
+  font-size: 2rem;
+  line-height: 30px;
+  margin-bottom: 70px;
+}
+
+.misionVision__Img--mision{
+  grid-area: img1;
+}
+
+.misionVision__Img--vision{
+  grid-area: img2;
+}
+
+.misionVision__info--vision {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+
 /* agregando estilos del footer  */
 footer {
   width: 100%;
+  height: 40vh;
+
 }
 .footer {
   background: rgba(83,70,130,1);
+  height: calc(40vh - 30px);
 }
 .footer2 {
   height: 30px;
@@ -735,14 +755,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .contact__button--img {
   position: relative;
   width: 280px;
   height: 280px;
-  
+
   background: url('../img/icono_contacto.png')no-repeat center;
   background-size: cover;
 }
@@ -821,6 +841,7 @@ footer {
 /* estilos de la seccion menu footer */
 .footer__grid {
   width: 80%;
+  height: 30vh;
   padding: 60px 0px 40px 0px;
   margin: auto;
   display: grid;
@@ -855,7 +876,7 @@ footer {
   font-family: fontLight;
   color:white;
   text-decoration: none;
-  
+
 }
 
 .footer__menu-main .footer__menu--item:not(:first-child)::before {
