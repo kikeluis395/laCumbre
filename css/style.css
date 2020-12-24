@@ -1147,8 +1147,23 @@ footer {
   width: 33.33%;
 }
 
+.img--mision {
+  margin-top: 60px;
+  background: url("../img/pexels-fauxels-3184423.jpg") no-repeat;
+  background-size: 130%;
+  background-position: 40% 10%;
+  height: 400px;
+  width: 850px;
+}
 
-
+.img--vision {
+  margin-top: 60px;
+  background: url("../img/pexels-designecologist-975668.jpg") no-repeat;
+  background-size: 130%;
+  background-position: 40% 10%;
+  height: 400px;
+  width: 850px;
+}
 
 
 
