@@ -337,7 +337,7 @@ li:hover > ul {
 .servicios__main {
   width: 80%;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 15rem 1fr;
   grid-template-areas: "indicators servicios";
   justify-items: center;
   align-items: center;
