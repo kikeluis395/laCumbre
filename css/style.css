@@ -265,7 +265,7 @@ li:hover > ul {
 }
 .hero--container-title {
   position: relative;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 60px;
   color:white;
@@ -309,7 +309,7 @@ li:hover > ul {
 
 .hero--container-content .content-description {
   font-family: fontLight;
-  font-size: 3.2rem;
+  font-size: 3.4rem;
 }
 
 .title-bold {
@@ -338,7 +338,7 @@ li:hover > ul {
 .servicios__main {
   width: 80%;
   display: grid;
-  grid-template-columns: 15rem 1fr;
+  grid-template-columns: 15rem auto;
   grid-template-areas: "indicators servicios";
   justify-items: center;
   align-items: center;
@@ -354,7 +354,7 @@ li:hover > ul {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 4fr 4fr;
+  grid-template-columns: 50% 50%;
   grid-template-areas: "image description";
   column-gap: 20px;
 }
@@ -388,7 +388,7 @@ li:hover > ul {
   grid-area: image;
   position: relative;
   width: max-content;
-  font-size: 75rem;
+  font-size: 65rem;
   line-height: 60rem;
   font-weight: 700;
 }
@@ -454,7 +454,7 @@ li:hover > ul {
 .description h2{
   width: max-content;
   position: relative;
-  font-size: 6.5rem;
+  font-size: 5rem;
   line-height: 65px;
   letter-spacing: 2px;
   margin-bottom: 50px;
@@ -474,14 +474,14 @@ li:hover > ul {
 }
 
 .description .services {
-  font-size: 6.5rem;
+  font-size: 5rem;
   font-family: fontMedium;
   background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 
 .description span {
-  width: max-content;
-  font-size: 4rem;
+  width: 100%;
+  font-size: 3.4rem;
   font-weight: 700;
   margin-bottom: 30px;
   -webkit-background-clip: text;
@@ -494,14 +494,14 @@ li:hover > ul {
   font-family: fontLight;
   color:#4d4d4d;
   margin-bottom: 50px;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .description a {
   width: max-content;
   text-decoration: none;
   padding: 5px 15px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color:#f1f1f1;
   border-radius: 5px;
   background: #534784;
@@ -517,7 +517,8 @@ li:hover > ul {
 .conocenos{
   width: 80%;
   margin:auto;
-  height: calc(100vh - 78px);
+  margin-top: 50px;
+  height: calc(100vh);
   padding: 40px 0px;
   display: flex;
   justify-content: space-between;
@@ -535,7 +536,7 @@ li:hover > ul {
                        "img3 img3"
                        "img4 img5";
   width: 50%;
-  height: 100%;
+  height: 90%;
 }
 .img1 {
   grid-area: img1;
@@ -574,15 +575,14 @@ li:hover > ul {
 }
 .conocenos .description h2{
   line-height:normal;
-  height: 100px;
   font-family: fontMedium;
-  font-size: 8rem;
+  font-size: 7rem;
 }
 .description .conocenos__texto{
   min-width: 100%;
   height: auto;
   overflow-y: scroll;
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   line-height: 40px;
   padding-right: 30px;
@@ -590,13 +590,11 @@ li:hover > ul {
 
 .noticias {
   width: 80%;
-  margin:auto;
-  height: 80%;
+  margin:150px auto;
   display: grid;
   grid-template-rows: 100px 1fr;
   grid-template-areas: "description"
                        "entradas";
-  margin-bottom: 150px;
 }
 .noticias .description {
   width: 100%;
@@ -656,7 +654,7 @@ li:hover > ul {
   position: relative;
   z-index: 1;
   color:#f1f1f1;
-  font-size: 3em;
+  font-size: 3.4em;
   font-family: fontMedium;
 }
 
@@ -680,10 +678,10 @@ li:hover > ul {
   justify-content: center;
 }
 
-.misionVision__info--mision img, .misionVision__info--vision img{
+/* .misionVision__info--mision img, .misionVision__info--vision img{
   width: 100%;
   height: 350px;
-}
+} */
 
 .misionVision__info--mision {
   display: grid;
@@ -726,11 +724,27 @@ li:hover > ul {
 
 .misionVision .misionVision__texto {
   grid-area: content;
-  width: 85%;
-  font-size: 2rem;
+  width: 90%;
+  font-size: 1.8rem;
   line-height: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
+
+.img--mision {
+  background: url("../img/pexels-fauxels-3184423.jpg") no-repeat;
+  background-size: 130%;
+  background-position: 40% 10%;
+  height: 400px;
+}
+
+.img--vision {
+  background: url("../img/pexels-designecologist-975668.jpg") no-repeat;
+  background-size: 130%;
+  background-position: 40% 10%;
+  height: 400px;
+
+}
+
 
 .misionVision__Img--mision{
   grid-area: img1;
@@ -748,18 +762,17 @@ li:hover > ul {
 /* agregando estilos del footer  */
 footer {
   width: 100%;
-  height: 40vh;
-
+  
 }
 .footer {
   background: rgba(83,70,130,1);
-  height: calc(40vh - 30px);
+  height: auto;
 }
 .footer2 {
   height: 30px;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   color: #f1f1f1;
   font-family: fontExtraLight;
@@ -767,6 +780,10 @@ footer {
   background-color:  #1bb0c2;
   background-image:
     linear-gradient(to left, #534682, #1bb0c2 30%);
+}
+
+.footer2 span {
+  font-size: 1.4rem;
 }
 
 /* estilos de la seccion contactanos */
@@ -840,7 +857,7 @@ footer {
 }
 
 .contact__info span {
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   color:#534682;
   font-family: fontLight;
@@ -874,29 +891,27 @@ footer {
 /* estilos de la seccion menu footer */
 .footer__grid {
   width: 80%;
-  height: 30vh;
   padding: 60px 0px 40px 0px;
   margin: auto;
   display: grid;
-  grid-template-columns: 14fr 6fr;
+  grid-template-columns: 70% 30%;
   grid-template-areas: "menu social"
                        "description description";
 }
 .footer__menu {
   grid-area: menu;
-  margin-left: -47px;
 }
 .footer__menu-main {
-  width: max-content;
+  width: 100%;
   display: grid;
   list-style: none;
-  grid-template-columns: repeat(5, 200px);
+  grid-template-columns: repeat(5, 20%);
 }
 
 .footer__menu--item {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 10% 80% 10%;
   grid-template-areas: ". item ."
                        ". submenu submenu";
   text-align: center;
@@ -997,7 +1012,7 @@ footer {
 
 .info--beneficios {
   margin-left: 20px;
-  font-size: 23px;
+  font-size: 1.8rem;
   line-height: 60px;
   color: rgb(92, 90, 90);
 }
@@ -1165,25 +1180,6 @@ footer {
   height: 400px;
   width: 33.33%;
 }
-
-.img--mision {
-  margin-top: 60px;
-  background: url("../img/pexels-fauxels-3184423.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 850px;
-}
-
-.img--vision {
-  margin-top: 60px;
-  background: url("../img/pexels-designecologist-975668.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 850px;
-}
-
 
 
 
