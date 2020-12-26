@@ -1,0 +1,244 @@
+.hero-transparencia {
+  width: 100%;
+  height: 70vh;
+}
+
+.hero-transparencia__img {
+  width: 100%;
+  height: 100%;
+  background: url('../img/young-couple-buying-car-in-car-showroom.jpg') no-repeat center;
+  background-size: cover;
+  background-position: 50% 30%;
+  filter: contrast(140%);
+}
+
+.documents {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.documents__container {
+  width: 100%;
+  display: grid;
+  row-gap: 60px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "title title"
+                       "parrafo ."
+                       "items items";
+}
+
+.documents__title {
+  grid-area: title;
+  position: relative;
+  letter-spacing: 1px;
+  font-size: 2.7rem;
+  font-family: fontMedium;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+}
+.documents__title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 30px;
+  height: 5px;
+  background: rgba(83,70,130,1);
+}
+
+.documents__description {
+  grid-area: parrafo;
+  font-size: 2rem;
+  color: #4d4d4d;
+}
+
+.documents__items {
+  grid-area: items;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.documents__item {
+  margin: 30px 0px;
+}
+
+.bkg2 {
+  background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+}
+
+.documents__buttons {
+  position: relative;
+  width: max-content;
+  padding: 25px 0px 40px 0px;
+}
+
+.documents__buttons::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(0,0,0,0) 100%);
+}
+.documents__buttons a{
+  width: max-content;
+  text-decoration: none;
+  padding: 3px 15px;
+  font-size: 1.5rem;
+  font-family: fontLight;
+  letter-spacing: 1px;
+  color:#f1f1f1;
+  border-radius: 5px;
+  background: #534784;
+}
+
+.documents__buttons a:first-child {
+  margin-right: 40px;
+}
+
+.documents__item--parrafo {
+  font-size: 2rem;
+  color: #4d4d4d;
+}
+
+.tarifarios1__container {
+  width: 80%;
+  margin: 0px auto 70px;
+}
+
+.tarifarios1__container .documents__title {
+  font-size: 2.8rem;
+  font-family: fontLight;
+  margin-bottom: 50px;
+}
+
+.tarifarios1__container span {
+  font-family: fontMedium;
+}
+.tarifario1__table h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: fontExtraLight;
+  color:#f1f1f1;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg, rgba(83,70,130,1) 0%,  rgba(27,176,194,1) 100%);
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.tarifario1__table table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0px;
+}
+
+.tarifario1__subtitle th {
+  padding: 8px 0px;
+  width: 20%;
+}
+
+.tarifario1__subtitle th:not(:last-child) {
+  border-right: 1px solid #f1f1f1;
+}
+
+.tarifario1__table td {
+  padding: 8px 0px;
+  border-spacing: 0px;
+  border-bottom: 1px solid #534784;
+  border-collapse: collapse;
+}
+
+.tarifario1__table {
+  font-size: 1.8rem;
+  font-family: fontLight;
+  color:#4d4d4d;
+  letter-spacing: 2px;
+}
+.tarifario1__subtitle {
+  width: 100%;
+  background: linear-gradient(275deg, rgba(83,70,130,1) 0%,  rgba(27,176,194,1) 100%);
+  color:#f1f1f1;
+}
+
+.table2 {
+  width: 75%;
+  margin: auto;
+}
+
+.tarifarios1__parrafo {
+  width: 90%;
+  margin: 70px auto;
+  font-size: 1.5rem;
+  color:#4d4d4d;
+}
+
+.reclamaciones {
+  width: 100%;
+  background-color: rgba(27,176,194,1);
+}
+
+.reclamaciones__container {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.reclamaciones__title {
+  color:#f1f1f1;
+  font-size: 3.7rem;
+  font-family: fontMedium;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.reclamaciones__form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 30px;
+}
+
+.reclamaciones__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.reclamaciones__items select {
+  background-color: transparent;
+  color: #f1f1f1;
+  font-size: 2rem;
+  font-family: fontExtraLight;
+  border: none;
+  height: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+  outline: none;
+}
+
+
+.reclamaciones__items label {
+  color: #f1f1f1;
+  font-size: 2rem;
+  font-family: fontLight;
+  margin-bottom: 30px;
+}
+
+.reclamaciones__items input {
+  background-color: transparent;
+  color: #f1f1f1;
+  font-size: 2rem;
+  font-family: fontExtraLight;
+  border: none;
+  height: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #f1f1f1;
+  outline: none;
+  padding: 5px 0px;
+}
+
+.reclamaciones__items input::placeholder, select::placeholder {
+  color:#cbcbcb;
+}
