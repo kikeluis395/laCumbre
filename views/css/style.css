@@ -2,22 +2,27 @@
   font-family: fontBold;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Black.otf);
 }
+
 @font-face {
   font-family: font;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Regular.otf);
 }
+
 @font-face {
   font-family: fontMedium;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Medium.otf);
 }
+
 @font-face {
   font-family: fontLight;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-Light.otf);
 }
+
 @font-face {
   font-family: fontExtraLight;
   src: url(../fonts/Adlinnaka/OTF/Adlinnaka-UltraLight.otf);
 }
+
 @keyframes spin1 {
   from {
     transform: rotate(0deg);
@@ -32,9 +37,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -54,12 +61,13 @@ header {
   align-content: center;
   flex-direction: column;
   font-family: fontLight;
-
 }
+
 .header1 {
   transition: all 0.5s;
 }
-.header1 ul{
+
+.header1 ul {
   display: grid;
   align-items: center;
   padding: 20px;
@@ -67,6 +75,7 @@ header {
   grid-template-columns: 2fr 5fr 2fr auto 5fr;
   grid-template-areas: ". logo search button operations";
 }
+
 .header1--logo {
   grid-area: logo;
   width: 220px;
@@ -74,6 +83,7 @@ header {
   background: url('../img/Logotipo-1.png') no-repeat;
   background-size: cover;
 }
+
 .header1--search {
   grid-area: search;
   display: flex;
@@ -84,11 +94,12 @@ header {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-
 }
+
 .fa-search {
   font-size: 1.5rem;
 }
+
 .header1--search input {
   border: none;
   outline: none;
@@ -105,11 +116,13 @@ header {
   border-radius: 5px;
   margin-left: 30px;
 }
-.header1--button a{
+
+.header1--button a {
   text-decoration: none;
   color: #f1f1f1;
   font-size: 1.8rem;
 }
+
 .operations {
   grid-area: operations;
   width: 250px;
@@ -120,12 +133,13 @@ header {
   text-decoration: none;
   color: #f1f1f1;
 }
+
 .header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+  background: linear-gradient(275deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
 }
 
 .header--menu-main {
@@ -134,6 +148,7 @@ header {
   list-style: none;
   display: flex;
 }
+
 .header {
   display: flex;
   padding: 2px 0px;
@@ -142,10 +157,11 @@ header {
   align-items: center;
   transition: all .5s;
 }
+
 .header li {
   position: relative;
   margin-left: 20px;
-  color:white;
+  color: white;
   font-size: 1.8rem;
   letter-spacing: 1px;
 }
@@ -154,9 +170,10 @@ header {
   content: "|";
   margin-right: 20px;
 }
+
 .logo-white {
   width: 100%;
-  display: block;
+  display: none;
 }
 
 .logotipo {
@@ -167,6 +184,7 @@ header {
 }
 
 /* estilos del submenu */
+
 .submenu {
   position: absolute;
   top: 30px;
@@ -174,13 +192,13 @@ header {
   display: flex;
   flex-direction: column;
   display: block;
-  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+  background: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
   list-style: none;
   display: none;
 }
 
 .submenu li {
-  padding:8px;
+  padding: 8px;
   margin-left: 8px;
   font-family: fontLight;
 }
@@ -202,16 +220,18 @@ header {
   bottom: 0;
   width: 290px;
   height: 1px;
-  background: linear-gradient(313deg, rgba(255,255,255,0.19931722689075626) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(313deg, rgba(255, 255, 255, 0.19931722689075626) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 /* visualizacion del submenu */
-li:hover > ul {
+
+li:hover>ul {
   display: block;
   z-index: 999999;
 }
 
 /* estilos del hero */
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -231,6 +251,7 @@ li:hover > ul {
   height: 55%;
   margin-top: 100px;
 }
+
 .hero--container::before {
   content: "";
   position: absolute;
@@ -238,8 +259,8 @@ li:hover > ul {
   left: 0;
   right: 0;
   left: 0;
-  background: rgb(26,177,194);
-  background: linear-gradient(97deg, rgba(26,177,194,.3) 0%, rgba(83,70,130,.5) 100%);
+  background: rgb(26, 177, 194);
+  background: linear-gradient(97deg, rgba(26, 177, 194, .3) 0%, rgba(83, 70, 130, .5) 100%);
   width: 100%;
   height: 100%;
 }
@@ -263,22 +284,25 @@ li:hover > ul {
   display: flex;
   justify-content: space-between;
 }
+
 .hero--container-title {
   position: relative;
   font-size: 5rem;
   font-weight: 400;
   line-height: 60px;
-  color:white;
+  color: white;
   z-index: 1;
 }
+
 .hero--container-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero--container-content p{
+
+.hero--container-content p {
   position: relative;
-  color:white;
+  color: white;
   font-size: 5rem;
   font-family: fontMedium;
   line-height: 40px;
@@ -293,7 +317,7 @@ li:hover > ul {
   top: -25px;
   width: 90px;
   height: 8px;
-  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
 }
 
 .hero--container-content p::before {
@@ -304,7 +328,7 @@ li:hover > ul {
   bottom: -20px;
   width: 250px;
   height: 8px;
-  background: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
 }
 
 .hero--container-content .content-description {
@@ -321,20 +345,21 @@ li:hover > ul {
   margin-top: 80px;
 }
 
-.hero--container-button{
+.hero--container-button {
   width: max-content;
   position: relative;
   font-size: 1.8rem;
-  padding:5px 10px;
+  padding: 5px 10px;
   margin-top: 40px;
   border-radius: 5px;
-  color:#573c3c;
+  color: #573c3c;
   text-decoration: none;
   z-index: 1;
   background: white;
 }
 
 /* estilos de la seccion servicios */
+
 .servicios__main {
   width: 80%;
   display: grid;
@@ -342,8 +367,7 @@ li:hover > ul {
   grid-template-areas: "indicators servicios";
   justify-items: center;
   align-items: center;
-  margin:60px auto;
-  
+  margin: 60px auto;
 }
 
 .servicios__slider {
@@ -383,7 +407,6 @@ li:hover > ul {
   background-color: rgb(73, 73, 73);
 }
 
-
 .image {
   grid-area: image;
   position: relative;
@@ -397,48 +420,49 @@ li:hover > ul {
   position: relative;
   cursor: default;
   font-family: fontBold;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(15, 67, 73, 0.424);
   background-repeat: no-repeat;
 }
 
-.bkg1 p{
+.bkg1 p {
   background-image: url('../img/nuestrosServicios1.jpg');
   background-size: 160%;
   background-position: right;
 }
 
-.bkg2 p{
+.bkg2 p {
   background-image: url('../img/pexels-fauxels-3184292.jpg');
   background-size: 200%;
   background-position: right;
 }
 
-.bkg3 p{
+.bkg3 p {
   background-image: url('../img/beautiful-female-women-driver-sitting-her-vehicle-holding-car-keys-ready-drive.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.bkg4 p{
+.bkg4 p {
   background-image: url('../img/coin-on-wooden-table.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.bkg5 p{
+.bkg5 p {
   background-image: url('../img/handshake-close-up-executives.jpg');
   background-size: cover;
   background-position: right;
 }
 
-.bkg6 p{
+.bkg6 p {
   background-image: url('../img/home-improvement-kitchen-view-installed-new-kitchen-cabinet.jpg');
   background-size: 210%;
   background-position: right;
 }
 
-.bkg7 p{
+.bkg7 p {
   background-image: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
   background-size: cover;
   background-position: right;
@@ -451,7 +475,8 @@ li:hover > ul {
   flex-direction: column;
   justify-content: center;
 }
-.description h2{
+
+.description h2 {
   width: max-content;
   position: relative;
   font-size: 5rem;
@@ -460,8 +485,9 @@ li:hover > ul {
   margin-bottom: 50px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+  background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
 }
+
 .description h2::before {
   content: "";
   display: block;
@@ -470,13 +496,13 @@ li:hover > ul {
   top: -20px;
   width: 90px;
   height: 8px;
-  background: linear-gradient(275deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(275deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
 
 .description .services {
   font-size: 5rem;
   font-family: fontMedium;
-  background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
+  background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
 }
 
 .description span {
@@ -486,13 +512,13 @@ li:hover > ul {
   margin-bottom: 30px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(275deg, rgba(83,70,130,1) 0%, rgba(26,177,194,1) 26%);
+  background-image: linear-gradient(275deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
 }
 
 .description p {
   width: 70%;
   font-family: fontLight;
-  color:#4d4d4d;
+  color: #4d4d4d;
   margin-bottom: 50px;
   font-size: 1.8rem;
 }
@@ -502,21 +528,20 @@ li:hover > ul {
   text-decoration: none;
   padding: 5px 15px;
   font-size: 1.8rem;
-  color:#f1f1f1;
+  color: #f1f1f1;
   border-radius: 5px;
   background: #534784;
 }
 
-
 /* Estilos del section: conocenos */
 
-.conocenos__img img{
+.conocenos__img img {
   width: 250px;
 }
 
-.conocenos{
+.conocenos {
   width: 80%;
-  margin:auto;
+  margin: auto;
   margin-top: 50px;
   height: calc(100vh);
   padding: 40px 0px;
@@ -524,61 +549,68 @@ li:hover > ul {
   justify-content: space-between;
 }
 
-.conocenos__info{
+.conocenos__info {
   width: 50%;
   height: 100%;
 }
-.conocenos__img{
+
+.conocenos__img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "img1 img2"
-                       "img3 img3"
-                       "img4 img5";
+  grid-template-areas: "img1 img2" "img3 img3" "img4 img5";
   width: 50%;
   height: 90%;
 }
+
 .img1 {
   grid-area: img1;
   background: url('../img/executive-business-woman-in-an-office.jpg');
   background-size: cover;
 }
+
 .img2 {
   grid-area: img2;
   background: url('../img/smiling-african-american-cashier-sitting-at-checkout.jpg');
   background-size: cover;
 }
+
 .img3 {
   grid-area: img3;
   background: url('../img/businesswomen-looking-at-speaker-with-papers.jpg');
   background-size: cover;
   background-position: center;
-
 }
+
 .img4 {
   grid-area: img4;
   background: url('../img/shopkeeper-grocery-store.jpg');
   background-size: cover;
 }
+
 .img5 {
   grid-area: img5;
   background: url('../img/young-couple-buying-car-in-car-showroom.jpg');
   background-size: cover;
 }
-.conocenos .description{
+
+.conocenos .description {
   min-width: 100%;
   margin-top: 20px;
 }
+
 .conocenos__info .description {
   width: 100%;
   height: 100%;
 }
-.conocenos .description h2{
-  line-height:normal;
+
+.conocenos .description h2 {
+  line-height: normal;
   font-family: fontMedium;
   font-size: 7rem;
 }
-.description .conocenos__texto{
+
+.description .conocenos__texto {
   min-width: 100%;
   height: auto;
   overflow-y: scroll;
@@ -590,12 +622,12 @@ li:hover > ul {
 
 .noticias {
   width: 80%;
-  margin:150px auto;
+  margin: 150px auto;
   display: grid;
   grid-template-rows: 100px 1fr;
-  grid-template-areas: "description"
-                       "entradas";
+  grid-template-areas: "description" "entradas";
 }
+
 .noticias .description {
   width: 100%;
   height: 100px;
@@ -611,8 +643,7 @@ li:hover > ul {
   position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-areas: "i1 i2 i4"
-                       "i1 i3 i4";
+  grid-template-areas: "i1 i2 i4" "i1 i3 i4";
   height: 40vh;
   min-height: 450px;
 }
@@ -621,7 +652,7 @@ li:hover > ul {
   grid-area: i1;
   display: flex;
   align-items: flex-end;
-  padding:30px 35px;
+  padding: 30px 35px;
   background: url('../img/pexels-burst-374016.jpg');
   background-size: cover;
   background-position: right;
@@ -653,7 +684,7 @@ li:hover > ul {
 .i1 p {
   position: relative;
   z-index: 1;
-  color:#f1f1f1;
+  color: #f1f1f1;
   font-size: 3.4em;
   font-family: fontMedium;
 }
@@ -666,12 +697,12 @@ li:hover > ul {
   bottom: -10px;
   width: 38px;
   height: 10px;
-  background: linear-gradient(90deg, rgba(83,70,130,1) 35%, rgba(27,176,194,1) 100%);
+  background: linear-gradient(90deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
 
 /* Estilos del section: Misión Visión */
 
-.container .misionVision{
+.container .misionVision {
   width: 100%;
   height: calc(100vh);
   display: flex;
@@ -689,9 +720,7 @@ li:hover > ul {
   padding-right: 20px;
   height: 70%;
   grid-template-columns: 2fr 8fr;
-  grid-template-areas: ". title"
-                       ". content"
-                       "img1 img1";
+  grid-template-areas: ". title" ". content" "img1 img1";
 }
 
 .misionVision__info--vision {
@@ -700,10 +729,9 @@ li:hover > ul {
   padding-left: 20px;
   height: 70%;
   grid-template-columns: 8fr 2fr;
-  grid-template-areas: "title ."
-                       "content ."
-                       "img2 img2";
+  grid-template-areas: "title ." "content ." "img2 img2";
 }
+
 .misionVision__title {
   grid-area: title;
 }
@@ -742,15 +770,13 @@ li:hover > ul {
   background-size: 130%;
   background-position: 40% 10%;
   height: 400px;
-
 }
 
-
-.misionVision__Img--mision{
+.misionVision__Img--mision {
   grid-area: img1;
 }
 
-.misionVision__Img--vision{
+.misionVision__Img--vision {
   grid-area: img2;
 }
 
@@ -760,14 +786,16 @@ li:hover > ul {
 }
 
 /* agregando estilos del footer  */
+
 footer {
   width: 100%;
-  
 }
+
 .footer {
-  background: rgba(83,70,130,1);
+  background: rgba(83, 70, 130, 1);
   height: auto;
 }
+
 .footer2 {
   height: 30px;
   display: flex;
@@ -777,9 +805,8 @@ footer {
   color: #f1f1f1;
   font-family: fontExtraLight;
   justify-content: center;
-  background-color:  #1bb0c2;
-  background-image:
-    linear-gradient(to left, #534682, #1bb0c2 30%);
+  background-color: #1bb0c2;
+  background-image: linear-gradient(to left, #534682, #1bb0c2 30%);
 }
 
 .footer2 span {
@@ -787,6 +814,7 @@ footer {
 }
 
 /* estilos de la seccion contactanos */
+
 .contact {
   display: grid;
   align-items: center;
@@ -805,14 +833,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contact__button--img {
   position: relative;
   width: 280px;
   height: 280px;
-
   background: url('../img/icono_contacto.png')no-repeat center;
   background-size: cover;
 }
@@ -859,7 +885,7 @@ footer {
 .contact__info span {
   font-size: 1.8rem;
   letter-spacing: 1px;
-  color:#534682;
+  color: #534682;
   font-family: fontLight;
 }
 
@@ -867,6 +893,7 @@ footer {
   display: block;
   justify-self: center;
 }
+
 .icon-number {
   width: 30px;
   height: 30px;
@@ -889,18 +916,20 @@ footer {
 }
 
 /* estilos de la seccion menu footer */
+
 .footer__grid {
   width: 80%;
   padding: 60px 0px 40px 0px;
   margin: auto;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-areas: "menu social"
-                       "description description";
+  grid-template-areas: "menu social" "description description";
 }
+
 .footer__menu {
   grid-area: menu;
 }
+
 .footer__menu-main {
   width: 100%;
   display: grid;
@@ -912,8 +941,7 @@ footer {
   position: relative;
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  grid-template-areas: ". item ."
-                       ". submenu submenu";
+  grid-template-areas: ". item ." ". submenu submenu";
   text-align: center;
   font-size: 1.8rem;
   letter-spacing: 1px;
@@ -922,9 +950,8 @@ footer {
 .footer__menu--item a {
   grid-area: item;
   font-family: fontLight;
-  color:white;
+  color: white;
   text-decoration: none;
-
 }
 
 .footer__menu-main .footer__menu--item:not(:first-child)::before {
@@ -934,8 +961,7 @@ footer {
   font-size: 2rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image:
-  linear-gradient(to top, #534682, #1bb0c2 80%);
+  background-image: linear-gradient(to top, #534682, #1bb0c2 80%);
 }
 
 .footer__menu--item .footer__submenu {
@@ -951,11 +977,13 @@ footer {
   grid-area: social;
   padding-left: 30px;
 }
+
 .footer__submenu {
   grid-area: submenu;
 }
+
 .footer__social--logo {
-  width:270px;
+  width: 270px;
   height: 65px;
   background: url('../img/Logotipo-02.png') no-repeat center;
   background-size: cover;
@@ -968,7 +996,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.footer__social--redes i{
+
+.footer__social--redes i {
   font-size: 3.5em;
   color: #f1f1f1;
 }
@@ -987,10 +1016,8 @@ footer {
   margin-bottom: 15px;
   height: 3px;
   border-radius: 5px;
-  background: linear-gradient(to left,#534682, #1bb0c2 80%);
+  background: linear-gradient(to left, #534682, #1bb0c2 80%);
 }
-
-
 
 /* Inicio estilos Nuestras Alianzas - Euroidiomas */
 
@@ -998,6 +1025,7 @@ footer {
   display: flex;
   margin: 120px 0;
 }
+
 .title--alianza {
   margin: 15px 150px;
 }
@@ -1039,14 +1067,16 @@ footer {
   background-size: cover;
 }
 
-.alianza--img{
+.alianza--img {
   display: flex;
   margin: 120px 0;
   flex-wrap: wrap;
 }
+
 .alianzas--title {
   width: 50%;
 }
+
 .alianzas--beneficios {
   width: 50%;
 }
@@ -1082,7 +1112,6 @@ footer {
 
 /* Fin de estilos Nuestras Alianzas - Euroidiomas */
 
-
 /* Inicio estilos Nuestras Alianzas - Cruz del sur */
 
 .img--cruzSur {
@@ -1094,7 +1123,7 @@ footer {
   width: 850px;
 }
 
-.img--cruzSur{
+.img--cruzSur {
   width: 100%;
   display: flex;
 }
@@ -1105,7 +1134,6 @@ footer {
   background: url("../img/logo/logo_cruzdelsur.png") no-repeat center;
   background-size: 90%;
 }
-
 
 .img--cruzSur01 {
   background: url("../img/pexels-julia-volk-5273189.jpg") no-repeat;
@@ -1133,7 +1161,6 @@ footer {
 
 /* Fin de estilos Nuestras Alianzas - Cruz del sur */
 
-
 /* Inicio estilos Nuestras Alianzas - Huampani */
 
 .img--huampani {
@@ -1145,7 +1172,7 @@ footer {
   width: 850px;
 }
 
-.img--huampani{
+.img--huampani {
   width: 100%;
   display: flex;
 }
@@ -1180,11 +1207,3 @@ footer {
   height: 400px;
   width: 33.33%;
 }
-
-
-
-
-
-
-
-
