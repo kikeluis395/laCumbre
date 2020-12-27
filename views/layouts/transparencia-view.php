@@ -163,59 +163,94 @@
         <h2 class="reclamaciones__title">
             Libro de reclamaciones
         </h2>
-        <form action="" class="reclamaciones__form">
-            <div class="reclamaciones__items">
-                <label for="">Tipo de documento:</label>
-                <select placeholder="D.N.I">
-                    <option value="D.N.I">D.N.I</option>
-                    <option value="D.N.I">D.N.I</option>
-                    <option value="D.N.I">D.N.I</option>
-                </select>
+        <form action="" >
+            <div class="reclamaciones__form">
+                <div class="reclamaciones__items">
+                    <label for="">Tipo de documento:</label>
+                    <select placeholder="D.N.I">
+                        <option value="D.N.I">D.N.I</option>
+                        <option value="D.N.I">D.N.I</option>
+                        <option value="D.N.I">D.N.I</option>
+                    </select>
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Número de documento:</label>
+                    <input type="number" placeholder="Número de documento">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Nombre o razón social:</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Dirección:</label>
+                    <input type="text" placeholder="Dirección">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Teléfono de contacto:</label>
+                    <input type="number" placeholder="Teléfono de contacto">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Producto:</label>
+                    <input type="text" placeholder="Plazo fijo">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Canal de respuesta:</label>
+                    <input type="email" placeholder="Correo electrónico">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Tipo:</label>
+                    <input type="text" placeholder="Reclamo">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Tema:</label>
+                    <input type="text" placeholder="Ahorros">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Moneda:</label>
+                    <input type="text" placeholder="S/.">
+                </div>
+                <div class="reclamaciones__items">
+                    <label for="">Importe:</label>
+                    <input type="number" placeholder="000">
+                </div>
             </div>
-            <div class="reclamaciones__items">
-                <label for="">Número de documento:</label>
-                <input type="number" placeholder="Número de documento">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Nombre o razón social:</label>
-                <input type="text" placeholder="Nombre">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Dirección:</label>
-                <input type="text" placeholder="Dirección">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Teléfono de contacto:</label>
-                <input type="number" placeholder="Teléfono de contacto">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Email:</label>
-                <input type="email" placeholder="Email">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Producto:</label>
-                <input type="text" placeholder="Plazo fijo">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Canal de respuesta:</label>
-                <input type="email" placeholder="Correo electrónico">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Tipo:</label>
-                <input type="text" placeholder="Reclamo">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Tema:</label>
-                <input type="text" placeholder="Ahorros">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Moneda:</label>
-                <input type="text" placeholder="S/.">
-            </div>
-            <div class="reclamaciones__items">
-                <label for="">Importe:</label>
-                <input type="number" placeholder="000">
-            </div>
+                <div class="reclamaciones__items">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje:">
+                    </textarea>
+                </div>
+                <div class="documents__buttons">
+                    <a href="" type="submit">solicitar</a>
+                </div>
         </form>
+        <div class="reclamaciones__footer">
+            <p>
+                En la sección mensaje detallar tu reclamo o queja especificando datos esenciales como fechas e importes de las operaciones reclamadas, nombre del comercio en caso de tenerlo. Asimismo indicar número de tarjeta, préstamo, seguro, cuenta afectada, u otro elemento adicional que nos permita efectuar el análisis.
+            </p>
+            <p>
+                Reclamo: Disconformidad relacionada a los productos o servicios.
+            </p>
+            <p>
+                Queja: Disconformidad no relacionada a los productos o servicios, o malestar o descontento respecto a la atención del público.
+            </p>
+            <p>
+                El usuario al momento de enviar esta información, acepta los siguientes términos:
+            </p>
+            <p>
+                – Manifiesta su conformidad con el contenido de la presente.
+            </p>
+            <p>
+                -Sus Datos Personales serán recopilados conforme al D.S 011-2011-PCM , y serán incorporados al Banco de Datos de la Cooperativa Pacifico con código N° RNDPD-PJP N° 13809; el mismo que se encuentra alojado en su oficina principal.
+            </p>
+            <p>
+                -Autoriza al tratamiento de Datos Personales con la nalidad de atender y darle respuesta a la queja o reclamo realizado, y para fines estadísticos
+            </p>
+            <p>
+                -Autoriza a Cooperativa La Cumbre a brindar la presente información al Instituto Nacional de Defensa de la Competencia de la Propiedad Intelectual (INDECOPI), o cualquier otra autoridad Estatal, en caso sea requerida por ésta.
+            </p>
+        </div>
     </div>
 </section>

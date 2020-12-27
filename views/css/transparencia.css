@@ -64,7 +64,7 @@
   margin: 30px 0px;
 }
 
-.bkg2 {
+.documents__item .bkg2 {
   background-image: linear-gradient(90deg, rgba(83,70,130,1) 0%, rgba(27,176,194,1) 100%);
 }
 
@@ -183,8 +183,9 @@
 
 .reclamaciones__container {
   width: 80%;
+  height: 100%;
   margin: auto;
-  padding-top: 50px;
+  padding: 50px 0px;
 }
 
 .reclamaciones__title {
@@ -202,6 +203,7 @@
 }
 
 .reclamaciones__items {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -241,4 +243,35 @@
 
 .reclamaciones__items input::placeholder, select::placeholder {
   color:#cbcbcb;
+}
+
+.reclamaciones__items textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: font;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 20px;
+}
+.reclamaciones__container .documents__buttons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reclamaciones__container .documents__buttons a {
+  margin: 0;
+}
+
+.reclamaciones__container .documents__buttons::before {
+  display: none;
+}
+
+.reclamaciones__footer p{
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 1.4rem;
+  margin: 20px 0px;
+  font-family: fontExtraLight;
 }
