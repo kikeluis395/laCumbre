@@ -28,16 +28,17 @@
             <span class="indicator" onclick="currentDiv(6)"></span>
             <span class="indicator" onclick="currentDiv(7)"></span>
         </div>
-        <div class="servicios__slider">
             <div class="servicios">
                 <section class="image bkg1">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>Mujer maravilla</span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -51,11 +52,13 @@
                 <section class="image bkg2">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>Crédito MICROPYME</span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -69,11 +72,13 @@
                 <section class="image bkg3">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>Crédito vehicular</span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -87,11 +92,13 @@
                 <section class="image bkg4">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>Depósito a plazo fijo</span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -105,11 +112,13 @@
                 <section class="image bkg5">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>Convenios</span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -123,13 +132,15 @@
                 <section class="image bkg6">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>
-                        Remodelaciones para <br />
+                        Remodelaciones para
                         venta de inmuebles
                     </span>
                     <p>
@@ -144,13 +155,15 @@
                 <section class="image bkg7">
                     <p>C</p>
                 </section>
-                <section class="description">
+                <section class="description1">
                     <h2>
-                        Nuestros <br />
+                        Nuestros
                         Servicios
                     </h2>
+                </section>
+                <section class="description2">
                     <span>
-                        Préstamos con garantías <br />
+                        Préstamos con garantías
                         de inmueble
                     </span>
                     <p>

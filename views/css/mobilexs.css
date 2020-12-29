@@ -1,0 +1,32 @@
+.header1--logo {
+  width: 100px;
+  height: 25px;
+}
+
+.header1--button a{
+ font-size: 1rem;
+}
+
+.logotipo {
+  width: 100px;
+  height: 25px;
+}
+
+.header--container {
+  height: 50.1562px
+}
+
+.noticias .entradas {
+  min-height: 300px;
+}
+.description1 h2 {
+  font-size: 3.8rem;
+}
+.description1 h2::before {
+  width: 50px;
+  height: 5px;
+  top:-10px;
+}
+.inidicators {
+  left: 0;
+}

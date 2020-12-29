@@ -68,20 +68,26 @@ header {
 }
 
 .header1 ul {
-  display: grid;
+  display: flex;
   align-items: center;
-  padding: 20px;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px;
   list-style: none;
-  grid-template-columns: 2fr 5fr 2fr auto 5fr;
-  grid-template-areas: ". logo search button operations";
 }
 
 .header1--logo {
   grid-area: logo;
-  width: 220px;
-  height: 55px;
+  width: 180px;
+  height: 45px;
   background: url('../img/Logotipo-1.png') no-repeat;
   background-size: cover;
+}
+
+.header1--inputs {
+  display: flex;
+  width: 60%;
 }
 
 .header1--search {
@@ -89,7 +95,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 250px;
+  width: 40%;
   height: 33px;
   background-color: white;
   padding: 10px;
@@ -101,20 +107,21 @@ header {
 }
 
 .header1--search input {
+  width: 100%;
   border: none;
   outline: none;
 }
 
 .header1--button {
   grid-area: button;
-  width: 150px;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1ab3c4;
   height: 33px;
   border-radius: 5px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .header1--button a {
@@ -125,8 +132,8 @@ header {
 
 .operations {
   grid-area: operations;
-  width: 250px;
-  margin-left: 50px;
+  width: 40%;
+  margin-left: 20px;
 }
 
 .header a {
@@ -144,9 +151,9 @@ header {
 
 .header--menu-main {
   height: 30px;
-  margin-right: 200px;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .header {
@@ -158,6 +165,13 @@ header {
   transition: all .5s;
 }
 
+.header--container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .header li {
   position: relative;
   margin-left: 20px;
@@ -177,10 +191,15 @@ header {
 }
 
 .logotipo {
-  width: 100%;
-  max-width: 200px;
+  width: 180px;
   height: auto;
-  margin-left: 100px;
+}
+
+.menu--icon {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: none;
 }
 
 /* estilos del submenu */
@@ -249,7 +268,6 @@ li:hover>ul {
   filter: contrast(180%);
   background-size: 110%;
   height: 55%;
-  margin-top: 100px;
 }
 
 .hero--container::before {
@@ -342,7 +360,6 @@ li:hover>ul {
 
 .container {
   width: 100%;
-  margin-top: 80px;
 }
 
 .hero--container-button {
@@ -363,23 +380,20 @@ li:hover>ul {
 .servicios__main {
   width: 80%;
   display: grid;
-  grid-template-columns: 15rem auto;
+  grid-template-columns: 10rem auto;
   grid-template-areas: "indicators servicios";
   justify-items: center;
   align-items: center;
   margin: 60px auto;
 }
 
-.servicios__slider {
-  grid-area: servicios;
-}
-
 .servicios {
-  display: grid;
-  justify-items: center;
+  display: none;
+  grid-area: servicios;
   align-items: center;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "image description";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image description"
+                        "image description2";
   column-gap: 20px;
 }
 
@@ -410,15 +424,17 @@ li:hover>ul {
 .image {
   grid-area: image;
   position: relative;
+  height: 500px;
   width: max-content;
   font-size: 65rem;
-  line-height: 60rem;
+  line-height: 50rem;
   font-weight: 700;
 }
 
 .image p {
   position: relative;
   cursor: default;
+  height: 100%;
   font-family: fontBold;
   background-clip: text;
   -webkit-background-clip: text;
@@ -469,11 +485,40 @@ li:hover>ul {
 }
 
 .description {
-  grid-area: description;
   padding-left: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.description1 {
+  grid-area: description;
+}
+.description2 {
+  grid-area: description2;
+}
+
+.description1 h2 {
+  width: max-content;
+  max-width: 300px;
+  position: relative;
+  font-size: 5rem;
+  line-height: 50px;
+  letter-spacing: 2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
+}
+
+.description1 h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: -20px;
+  width: 90px;
+  height: 8px;
+  background: linear-gradient(275deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
 
 .description h2 {
@@ -505,7 +550,7 @@ li:hover>ul {
   background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(27, 176, 194, 1) 100%);
 }
 
-.description span {
+.description2 span {
   width: 100%;
   font-size: 3.4rem;
   font-weight: 700;
@@ -515,15 +560,15 @@ li:hover>ul {
   background-image: linear-gradient(275deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 26%);
 }
 
-.description p {
+.description2 p {
   width: 70%;
   font-family: fontLight;
   color: #4d4d4d;
-  margin-bottom: 50px;
+  margin: 30px 0px 50px 0px;
   font-size: 1.8rem;
 }
 
-.description a {
+.description2 a {
   width: max-content;
   text-decoration: none;
   padding: 5px 15px;
@@ -646,6 +691,9 @@ li:hover>ul {
   grid-template-areas: "i1 i2 i4" "i1 i3 i4";
   height: 40vh;
   min-height: 450px;
+}
+
+.entradas__img {
 }
 
 .i1 {

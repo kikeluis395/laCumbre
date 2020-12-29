@@ -1,0 +1,20 @@
+.header li {
+  margin-left: 10px;
+}
+
+.menu-item:not(:first-child):before {
+  margin-right: 10px;
+}
+
+.header1--inputs {
+  width: 70%;
+}
+
+.footer__menu--item {
+  letter-spacing: 0px;
+}
+
+.footer__social--logo {
+  width: 200px;
+  height: 50px;
+}

@@ -1,0 +1,16 @@
+html {
+  font-size: 50%;
+}
+
+.image {
+  height: 400px;
+}
+
+.description1 h2::before {
+  top: -10px;
+  width: 60px;
+}
+
+.description1 h2 {
+  line-height: 40px;
+}

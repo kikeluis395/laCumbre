@@ -12,13 +12,23 @@ function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     top_navbar.style.display = "none";
     logo.style.display = "block";
+    menu_navbar.style.justifyContent="space-between";
   } else {
     top_navbar.style.display = "flex";
     logo.style.display = "none";
+    menu_navbar.style.justifyContent="flex-end";
   }
 }
 
 /** FIN HIDE/SHOW HEADER */
+
+// MENU RESPONSIVE
+  var menu_icon = document.getElementById('menu--icon')
+
+  menu_icon.addEventListener('click', function() {
+
+  });
+// FIN DEL MENU RESPONSIVE
 
 /** SLIDER SERVICIOS */
 
