@@ -51,6 +51,18 @@ body {
   min-height: 100vh;
 }
 
+/* ANIMACIÓN DE FONDO */
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  margin-top: 150px;
+  position: fixed;
+  z-index: -1;
+}
+
+/* ANIMACIÓN DE FONDO */
+
 header {
   /* colocar position fixed: */
   /* Se coloco z index para que se encuentre sobre los elementos */
@@ -172,6 +184,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
+
 .header li {
   position: relative;
   margin-left: 20px;
@@ -392,8 +405,7 @@ li:hover>ul {
   grid-area: servicios;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "image description"
-                        "image description2";
+  grid-template-areas: "image description" "image description2";
   column-gap: 20px;
 }
 
@@ -494,6 +506,7 @@ li:hover>ul {
 .description1 {
   grid-area: description;
 }
+
 .description2 {
   grid-area: description2;
 }
@@ -693,8 +706,7 @@ li:hover>ul {
   min-height: 450px;
 }
 
-.entradas__img {
-}
+.entradas__img {}
 
 .i1 {
   grid-area: i1;

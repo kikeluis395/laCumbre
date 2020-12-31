@@ -14,7 +14,7 @@
 <!-- FIN DEL HERO DEL HOME -->
 
 <!-- CONTENEDOR DE LOS ELEMENTOS DEL HOME -->
-<main class="container">
+<!-- <main class="container"> -->
 
     <!-- INICIO DE LA SECCION SERVICIOS DEL HOME -->
 
