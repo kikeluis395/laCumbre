@@ -4,8 +4,9 @@
 <head>
     <title><?php echo COMPANY; ?></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <script src="https://kit.fontawesome.com/adf54586be.js" crossorigin="anonymous"></script>
 
     <!-- Css Styles -->
@@ -22,20 +23,24 @@
     //echo $vistasR;
     
     if ($vistasR == "404") :
-        require_once "./views/layouts/404-view.php";
-else :
+        //require_once "./views/layouts/404-view.php";
+        echo "Error 404";
+    else :
 ?>
-        <!-- Header -->
-        <?php include "./views/partials/header.php"; ?>
+    <!-- Header -->
+    <?php include "./views/partials/header.php"; ?>
 
-        <!-- Content page-->
-        <main class="container">
-            <?php require_once $vistasR; ?>
-        </main>
-        <!-- Content page -->
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    
+    <!-- Content page-->
+    <main class="container">
+        <?php require_once $vistasR; ?>
+    </main>
+    <!-- Content page -->
 
-        <!-- footer -->
-        <?php include "./views/partials/footer.php"; ?>
+    <!-- footer -->
+    <?php include "./views/partials/footer.php"; ?>
 
     <?php
     endif;
