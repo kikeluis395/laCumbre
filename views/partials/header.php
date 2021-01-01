@@ -32,7 +32,7 @@
             </div>
             <ul class="header--menu-main">
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>conocenos/">Conócenos</a></li>
-                <li class="menu-item"><a href="<?php echo SERVERURL; ?>productos/">Productos</a>
+                <li class="menu-item"><a href="">Productos</a>
                     <ul class="submenu">
                         <li><a href="">Ahorros</a></li>
                         <li><a href="">Créditos personales</a></li>
@@ -40,7 +40,7 @@
                         <li><a href="">Crédito con garantía</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="">Alianzas</a>
+                <li class="menu-item"><a href="<?php echo SERVERURL; ?>productos/">Alianzas</a>
                     <ul class="submenu">
                         <li><a href="">Euroidiomas</a></li>
                         <li><a href="">Huampaní</a></li>

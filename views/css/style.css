@@ -1120,14 +1120,6 @@ footer {
   color: #4d4d4d;
 }
 
-.img--euroidiomas {
-  background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  width: 100%;
-  height: 350px;
-}
-
 .icon-euroidiomas {
   width: 25px;
   height: 34px;
@@ -1156,51 +1148,43 @@ footer {
 .alianzas--beneficios {
   width: 50%;
 }
-
-.img--euro--container {
+.img--alianzas--container {
+  width: 100%;
+  overflow: hidden;
+}
+.img--container {
   width: 100%;
   display: flex;
+  height: 350px;
 }
 
-.img--euroidiomas01 {
-  background: url("../img/LSP9rE9xR2WUpOsK2nfh_surface-DMVU0XqiT90-unsplash.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
-}
-
-.img--euroidiomas02 {
-  background: url("../img/blog_virtual_classroom.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
-}
-
-.img--euroidiomas03 {
+.img--alianzas {
   background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
+.img--alianzas01 {
+  background: url("../img/LSP9rE9xR2WUpOsK2nfh_surface-DMVU0XqiT90-unsplash.jpg") no-repeat;
+}
+
+.img--alianzas02 {
+  background: url("../img/blog_virtual_classroom.jpg") no-repeat;
+}
+
+.img--alianzas03 {
+  background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
+}
 /* Fin de estilos Nuestras Alianzas - Euroidiomas */
 
 /* Inicio estilos Nuestras Alianzas - Cruz del sur */
 
 .img--cruzSur {
   background: url("../img/traffic-vehicle-urban-reflections-city.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 50% 50%;
-  width: 100%;
-  height: 350px;
 }
 
 .img--cruzSur--container {
   width: 100%;
   display: flex;
+  height: 350px;
 }
 
 .footer__cruzSur--logo {
@@ -1213,26 +1197,14 @@ footer {
 
 .img--cruzSur01 {
   background: url("../img/pexels-julia-volk-5273189.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
 .img--cruzSur02 {
   background: url("../img/view-from-sightseeing-bus-from-inside-outside-motion-toning-travel-concept.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
 .img--cruzSur03 {
   background: url("../img/interior-of-public-bus-transport.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
 /* Fin de estilos Nuestras Alianzas - Cruz del sur */
@@ -1241,15 +1213,12 @@ footer {
 
 .img--huampani {
   background: url("../img/pexels-juan-salamanca-61136.jpg") no-repeat;
-  background-size: 110%;
-  background-position: 100% 80%;
-  height: 350px;
-  width: 100%;
 }
 
 .img--huampani--container {
   width: 100%;
   display: flex;
+  height: 350px;
 }
 
 .footer__huampani--logo {
@@ -1262,24 +1231,18 @@ footer {
 
 .img--huampani01 {
   background: url("../img/pexels-armin-rimoldi-5269789.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
 .img--huampani02 {
   background: url("../img/pexels-perfecto-capucine-1247523.jpg") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
 }
 
 .img--huampani03 {
   background: url("../img/pexels-marctutorials-870170.jpg") no-repeat;
-  background-size: 130%;
+}
+
+.alianzas--img--slides {
+  background-size: cover;
   background-position: 40% 10%;
-  height: 400px;
-  width: 33.33%;
+  min-width: 100%;
 }
