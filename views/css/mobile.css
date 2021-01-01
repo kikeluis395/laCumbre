@@ -8,9 +8,6 @@
 
 /* seccion nuestros servicios */
 
-.servicios {
-
-}
 .footer__grid {
   grid-template-columns: 100%;
   grid-template-areas: "menu"
@@ -193,4 +190,10 @@
 }
 .description2 span {
   margin-bottom: 0px;
+}
+
+/* seccion hero */
+
+.hero--container-content p::before {
+  width: 200px;
 }

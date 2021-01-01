@@ -262,37 +262,41 @@ li:hover>ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   width: 100%;
   position: relative;
-  background: url(../img/hero.jpg) no-repeat;
-  filter: contrast(180%);
-  background-size: 110%;
   height: 55%;
 }
 
-.hero--container::before {
-  content: "";
+.hero__img-container {
+  width: 100%;
+  height: 100%;
   position: absolute;
+  display: flex;
   top: 0;
-  left: 0;
   right: 0;
   left: 0;
-  background: rgb(26, 177, 194);
-  background: linear-gradient(97deg, rgba(26, 177, 194, .3) 0%, rgba(83, 70, 130, .5) 100%);
-  width: 100%;
+  bottom: 0;
+}
+
+.hero__img {
+  min-width: 100vw;
   height: 100%;
 }
 
-.hero--container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0, 0, 0, .2);
-  width: 100%;
-  height: 100%;
+.hero1 {
+  background: url(../img/hero.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero2 {
+  background: url(../img/beautiful-girl-in-hat-in-swimming-pool.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero3 {
+  background: url(../img/executive-business-woman-in-an-office.jpg) no-repeat;
+  background-size: cover;
 }
 
 .hero--box {
@@ -586,12 +590,14 @@ li:hover>ul {
 
 .conocenos {
   width: 80%;
+  color:#4d4d4d;
   margin: auto;
   margin-top: 50px;
   height: calc(100vh);
   padding: 40px 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .conocenos__info {
@@ -693,12 +699,12 @@ li:hover>ul {
   min-height: 450px;
 }
 
-.entradas__img {
-}
 
 .i1 {
+  position: relative;
   grid-area: i1;
   display: flex;
+  cursor: pointer;
   align-items: flex-end;
   padding: 30px 35px;
   background: url('../img/pexels-burst-374016.jpg');
@@ -709,6 +715,7 @@ li:hover>ul {
 }
 
 .i2 {
+  position: relative;
   grid-area: i2;
   background: url('../img/pexels-karolina-grabowska-5632379.jpg');
   background-size: cover;
@@ -717,12 +724,14 @@ li:hover>ul {
 }
 
 .i3 {
+  position: relative;
   grid-area: i3;
   background: url('../img/pexels-fauxels-3184291.jpg');
   background-size: cover;
 }
 
 .i4 {
+  position: relative;
   grid-area: i4;
   background: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
   background-size: cover;
@@ -747,6 +756,26 @@ li:hover>ul {
   height: 10px;
   background: linear-gradient(90deg, rgba(83, 70, 130, 1) 35%, rgba(27, 176, 194, 1) 100%);
 }
+
+.entradas__img:not(:first-child)::before {
+  content: "";
+  background: url('../img/trespuntos.png') no-repeat;
+  background-position: center;
+  background-size: 50%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: all 1s ease;
+}
+
+.entradas__img:hover:not(:first-child)::before {
+  background-size: 60%;
+}
+
+
 
 /* Estilos del section: Misión Visión */
 
@@ -800,6 +829,7 @@ li:hover>ul {
 
 .misionVision .misionVision__texto {
   grid-area: content;
+  color:#4d4d4d;
   width: 90%;
   font-size: 1.8rem;
   line-height: 30px;
@@ -990,7 +1020,7 @@ footer {
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-areas: ". item ." ". submenu submenu";
-  text-align: center;
+  text-align: start;
   font-size: 1.8rem;
   letter-spacing: 1px;
 }
@@ -1068,7 +1098,6 @@ footer {
 }
 
 /* Inicio estilos Nuestras Alianzas - Euroidiomas */
-
 .section--alianza {
   display: flex;
   margin: 120px 0;
@@ -1076,30 +1105,27 @@ footer {
 
 .title--alianza {
   margin: 15px 150px;
+  
 }
 
-.alianzas--beneficios {
-  padding: 0 60px;
-}
-
-.title--beneficios {
-  margin-top: 120px;
+.title--alianza h2 {
+  font-size: 6rem;
 }
 
 .info--beneficios {
-  margin-left: 20px;
-  font-size: 1.8rem;
-  line-height: 60px;
-  color: rgb(92, 90, 90);
+  width: 75%;
+  margin-top: 50px;
+  font-size: 2rem;
+  line-height: 40px;
+  color: #4d4d4d;
 }
 
 .img--euroidiomas {
-  margin-top: 60px;
   background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
   background-size: 130%;
   background-position: 40% 10%;
-  height: 400px;
-  width: 850px;
+  width: 100%;
+  height: 350px;
 }
 
 .icon-euroidiomas {
@@ -1113,6 +1139,7 @@ footer {
   height: 65px;
   background: url("../img/logo/logo_euroidiomas.png") no-repeat center;
   background-size: cover;
+  margin: 52.5px 0px 92.5px 0px;
 }
 
 .alianza--img {
@@ -1123,13 +1150,14 @@ footer {
 
 .alianzas--title {
   width: 50%;
+  padding: 0px 60px 0px 0px;
 }
 
 .alianzas--beneficios {
   width: 50%;
 }
 
-.img--euro {
+.img--euro--container {
   width: 100%;
   display: flex;
 }
@@ -1163,15 +1191,14 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Cruz del sur */
 
 .img--cruzSur {
-  margin-top: 60px;
   background: url("../img/traffic-vehicle-urban-reflections-city.jpg") no-repeat;
   background-size: 130%;
-  background-position: 40% 10%;
-  height: 400px;
-  width: 850px;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 350px;
 }
 
-.img--cruzSur {
+.img--cruzSur--container {
   width: 100%;
   display: flex;
 }
@@ -1181,6 +1208,7 @@ footer {
   height: 65px;
   background: url("../img/logo/logo_cruzdelsur.png") no-repeat center;
   background-size: 90%;
+  margin: 52.5px 0px 92.5px 0px;
 }
 
 .img--cruzSur01 {
@@ -1212,15 +1240,14 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Huampani */
 
 .img--huampani {
-  margin-top: 60px;
   background: url("../img/pexels-juan-salamanca-61136.jpg") no-repeat;
   background-size: 110%;
   background-position: 100% 80%;
-  height: 400px;
-  width: 850px;
+  height: 350px;
+  width: 100%;
 }
 
-.img--huampani {
+.img--huampani--container {
   width: 100%;
   display: flex;
 }
@@ -1230,6 +1257,7 @@ footer {
   height: 65px;
   background: url("../img/logo/logo_huampaní.png") no-repeat center;
   background-size: 80%;
+  margin: 52.5px 0px 92.5px 0px;
 }
 
 .img--huampani01 {

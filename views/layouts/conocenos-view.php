@@ -1,4 +1,4 @@
-<section class="conocenos">
+    <section class="conocenos"> 
       <div class="conocenos__info">
         <section class="description">
           <h2>

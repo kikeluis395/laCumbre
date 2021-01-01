@@ -13,7 +13,7 @@
 }
 
 .header--container {
-  height: 50.1562px
+  height: 50.1562px;
 }
 
 .noticias .entradas {
@@ -29,4 +29,30 @@
 }
 .inidicators {
   left: 0;
+}
+.hero--container {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  height: 65%;
+  margin-top: 100px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hero--box {
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  margin: 0;
+}
+
+.hero--container-title {
+  margin-bottom: 50px;
+  font-size: 4rem;
+  line-height: normal;
+}
+
+.hero--container-content p {
+  font-size: 4rem;
 }

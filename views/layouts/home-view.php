@@ -1,6 +1,12 @@
 <!-- INICIO DEL HERO DEL HOME -->
 <section class="hero">
     <div class="hero--container">
+        <div class="hero__img-container">
+            <div class="hero__img hero1"></div>
+            <div class="hero__img hero2"></div>
+            <div class="hero__img hero3"></div>
+            <div class="hero__img hero1"></div>
+        </div>
         <div class="hero--box">
             <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
             <div class="hero--container-content">

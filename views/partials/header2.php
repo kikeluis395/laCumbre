@@ -1,29 +1,5 @@
-<header>
-    <!-- primer encabezado -->
-    <div class="header1" id="top_navbar">
-        <ul>
-            <a href="<?php echo SERVERURL; ?>home/">
-                <li class="header1--logo"></li>
-            </a>
-            <div class="header1--inputs">
-                <li class="header1--search">
-                    <form action="">
-                        <input type="search" class="search" placeholder="Búscar">
-                    </form>
-                    <span class="">
-                        <a href="" type="button">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </span>
-                </li>
-                <li class="header1--button"><a href="">¡Hazte socio!</a></li>
-                <li class="header1--button operations"><a href="">Operaciones en linea</a></li>
-            </div>
-        </ul>
-    </div>
-    <!-- fin del primer encabezado -->
-    <!-- menu principal -->
-    <nav class="header" id="menu_navbar">
+<!-- menu principal -->
+<nav class="header" id="menu_navbar">
         <div class="header--container">
             <div class="logo-white" id="logo_white">
                 <a href="<?php echo SERVERURL; ?>home/">
@@ -62,4 +38,3 @@
         </div>
     </nav>
     <!-- fin del menu principal -->
-</header>
