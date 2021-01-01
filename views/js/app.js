@@ -22,66 +22,6 @@ function scrollFunction() {
 
 /** FIN HIDE/SHOW HEADER */
 
-// SLIDER HERO
-
-let slider1 = document.querySelector(".slide--container")
-let slider2 = document.querySelector(".slide--container2")
-let slider3 = document.querySelector(".slide--container3")
-let slider4 = document.querySelector(".hero__img-container")
-
-let sliderIndividual1 = document.querySelectorAll(".slide")
-let sliderIndividual2 = document.querySelectorAll(".slide2")
-let sliderIndividual3 = document.querySelectorAll(".slide3")
-let sliderIndividual4 = document.querySelectorAll(".hero__img")
-
-let contador = 1;
-let intervalo = 3000;
-
-function sliderHero() {
-  let width2 = sliderIndividual4[0].clientWidth;
-  window.addEventListener("resize", function(){
-      width2 = sliderIndividual4[0].clientWidth;
-  })
-  
-  setInterval(function(){
-      slides(slider4,sliderIndividual4,width2);
-  },intervalo);
-}
-  let width = sliderIndividual1[0].clientWidth;
-  window.addEventListener("resize", function(){
-      width = sliderIndividual1[0].clientWidth;
-  })
-  
-  setInterval(function(){
-      slides();
-  },intervalo);
-
-function slides(){
-    slider1.style.transform = "translate("+(-width*contador)+"px)";
-    slider1.style.transition = "transform .8s";
-
-    slider2.style.transform = "translate("+(-width*contador)+"px)";
-    slider2.style.transition = "transform .8s";
-
-    slider3.style.transform = "translate("+(-width*contador)+"px)";
-    slider3.style.transition = "transform .8s";
-    contador++;
-
-    if(contador == sliderIndividual1.length){
-        setTimeout(function(){
-            slider1.style.transform = "translate(0px)";
-            slider1.style.transition = "transform 0s";
-
-            slider2.style.transform = "translate(0px)";
-            slider2.style.transition = "transform 0s";
-
-            slider3.style.transform = "translate(0px)";
-            slider3.style.transition = "transform 0s";
-            contador=1;
-        },1500)
-    }
-}
-
 // MENU RESPONSIVE
   var menu_icon = document.getElementById('menu--icon')
 

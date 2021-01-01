@@ -225,3 +225,4 @@
         </div>
       </section>
     <!-- FIN DE LA SECCION CONTACTANOS -->
+<script src="<?php echo SERVERURL; ?>views/js/slidesHero.js"></script>

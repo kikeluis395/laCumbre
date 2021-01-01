@@ -2,6 +2,11 @@
     <section class="alianzas">
       <!-- EUROIDIOMAS -->
       <div class="alianzas--container">
+          <div class="inidicators--alianzas">
+              <span class="indicator Alianzas active" onclick="currentDiv2(1)"></span>
+              <span class="indicator Alianzas" onclick="currentDiv2(2)"></span>
+              <span class="indicator Alianzas" onclick="currentDiv2(3)"></span>
+          </div>
         <div class="alianzas--items">
           <div class="section--alianza">
             <div class="alianzas--title">
@@ -38,8 +43,6 @@
               </div>
           </div>
         </div>
-
-
         <!-- CRUZ DEL SUR -->
         <div class="alianzas--items">
           <div class="section--alianza">
@@ -119,3 +122,4 @@
       </div>
   </section>
    <!-- Fin de seccion Nuestras Alianzas -->
+   <script src="<?php echo SERVERURL; ?>views/js/slidesAlianzas.js"></script>

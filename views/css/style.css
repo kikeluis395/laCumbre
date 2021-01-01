@@ -407,7 +407,15 @@ li:hover>ul {
   grid-template-columns: auto;
 }
 
-.inidicators .indicator {
+.inidicators--alianzas {
+  position: absolute;
+  bottom: -50px;
+  left: 70%;
+  display: flex;
+  width: 150px;
+  height: 50px;
+}
+.inidicators .indicator, .inidicators--alianzas .Alianzas {
   height: 13px;
   width: 13px;
   padding: 0;
@@ -417,11 +425,11 @@ li:hover>ul {
   cursor: pointer;
 }
 
-.inidicators .active {
+.inidicators .active,  .inidicators--alianzas .active{
   background-color: rgb(73, 73, 73);
 }
 
-.inidicators .indicator:hover .active {
+.inidicators .indicator:hover .active,.inidicators--alianzas .indicator:hover .active{
   background-color: rgb(73, 73, 73);
 }
 
@@ -1245,4 +1253,8 @@ footer {
   background-size: cover;
   background-position: 40% 10%;
   min-width: 100%;
+}
+
+.alianzas--container {
+  position:relative;
 }
