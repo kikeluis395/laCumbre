@@ -1289,115 +1289,111 @@ footer {
     rgba(83, 70, 130, 1) 120%
   );
   color: #fff;
-  font-size: 25px;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
 .pyme {
+  width: 80%;
   display: flex;
   margin: 0 auto;
   margin-bottom: 100px;
   margin-top: 55.156px;
 }
 .beneficios {
-  width: 40%;
-  margin-left: 120px;
+  width: 50%;
   margin-top: 50px;
-}
-.beneficios__title {
-  margin-left: -25px;
 }
 
 .requisitos {
   width: 50%;
 }
 
+.beneficios__title {
+  margin-bottom: 30px;
+}
+
+.beneficios__title .beneficios__subtitle {
+  font-size: 4rem;
+}
+
 .beneficios__description {
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
   margin-bottom: 30px;
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 .beneficios__detalle {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
 }
 
 .beneficios__lista {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 .requisitos__detalle {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
 }
 
 /**/
-
-.requisitos {
-  width: 30%;
-  margin-left: 120px;
-}
-
 .requisitos {
   width: 50%;
 }
 
 .req__img {
-  background: url("../img/Mujermaravilla.png") no-repeat;
-  background-size: 130%;
-  background-position: 40% 10%;
-  height: 300px;
-  width: 33.33%;
-  margin-left: 150px;
+  background: url(../img/Mujermaravilla.png) no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 342px;
+  margin: 0 auto;
 }
+
 .requisitos__description {
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
   margin-bottom: 30px;
 }
 .requisitos__detalle {
-  margin-top: 30px;
-  font-size: 26px;
+  font-size: 2.6rem;
   color: rgba(27, 176, 194, 1);
 }
 
 .requisitos__lista {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
-  width: 90%;
-  line-height: 28px;
+  line-height: 3rem;
 }
 .requisitos__detalle {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
 }
 
 .btn__beneficios {
-  margin-top: 30px;
   display: flex;
 }
 
 .terminos {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
   width: 100%;
 }
 
 .terminos__text {
-  margin-left: 150px;
-  font-size: 25px;
+  font-size: 2rem;
   color: rgba(83, 70, 130, 1);
 }
 
 .inidicators__productos {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 40px;
-  margin-right: 30%;
 }
 
 .inidicators .indicator {
@@ -1423,6 +1419,7 @@ footer {
 /* Estilos del section: testimonio */
 
 .testimonio {
+  width: 80%;
   display: flex;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -1432,24 +1429,27 @@ footer {
 .testimonio__principal {
   margin-top: 40px;
   display: flex;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .testimonio__informacion {
-  width: 40%;
-  margin-left: 120px;
-}
-.beneficios__title {
-  margin-left: -25px;
+  width: 50%;
 }
 
 .testimonio__title h3 {
   color: rgba(27, 176, 194, 1);
-  font-size: 35px;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+}
+
+.testimonio__imagen-container {
+  width: 170px;
+  display: flex;
+  justify-content: center;
 }
 
 .testimonio__imagen {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   background-color: rgb(73, 73, 73);
   border-radius: 50%;
   background: url("../img/businesswomen-looking-at-speaker-with-papers.jpg");
@@ -1457,59 +1457,52 @@ footer {
   background-position: center;
 }
 
+.datos__text {
+  margin-left: 50px;
+}
 .testimonio__datos {
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
-  margin-bottom: 30px;
-  line-height: 28px;
+  line-height: 2.8rem;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.datos__text {
-  margin-left: 100px;
-}
 
 .testimonio__text {
-  font-size: 20px;
+  font-size: 2rem;
   color: #4d4d4d;
   margin-bottom: 30px;
-  line-height: 32px;
+  line-height: 3.2rem;
   width: 100%;
-  font-size: 22px;
 }
 .beneficios__detalle {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
 }
 
 .requisitos__detalle {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
-}
-.btn__beneficios{
-  margin-left: -30px;
 }
 
 /**/
 
 .testimonio__img {
   width: 50%;
-  margin-left: 120px;
-  height: 1000px;
+  height: 500px;
 }
 
 .testimonio__imagenes {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "testimonio__img1 testimonio__img1"
     "testimonio__img2 testimonio__img3";
-  width: 85%;
-  height: 85%;
-  margin-left: -100px;
+  width: 100%;
+  height: 100%;
 }
 
 .testimonio__img1 {
