@@ -26,9 +26,13 @@
         //require_once "./views/layouts/404-view.php";
         echo "Error 404";
     else :
-?>
-    <!-- Header -->
-    <?php include "./views/partials/header.php"; ?>
+
+        if ($vistasR == "./views/layouts/home-view.php"):
+            include "./views/partials/header.php"; 
+        else:
+            include "./views/partials/header2.php";
+        endif
+    ?>
 
     <!-- particles.js container -->
     <div id="particles-js"></div>

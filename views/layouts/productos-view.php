@@ -1,125 +1,104 @@
-<!-- Inicio de seccion Nuestras Alianzas -->
-    <section class="alianzas">
-      <!-- EUROIDIOMAS -->
-      <div class="alianzas--container">
-          <div class="inidicators--alianzas">
-              <span class="indicator Alianzas active" onclick="currentDiv2(1)"></span>
-              <span class="indicator Alianzas" onclick="currentDiv2(2)"></span>
-              <span class="indicator Alianzas" onclick="currentDiv2(3)"></span>
-          </div>
-        <div class="alianzas--items">
-          <div class="section--alianza">
-            <div class="alianzas--title">
-              <div class="description title--alianza">
-                <h2 class="">
-                  Nuestras <br />
-                  Alianzas
-                </h2>
-              </div>
-              <div class="img--alianzas--container">
-                <div class="img--container slide--container">
-                  <div class="img--alianzas alianzas--img--slides slide"></div>
-                  <div class="img--alianzas01 alianzas--img--slides slide"></div>
-                  <div class="img--alianzas02 alianzas--img--slides slide"></div>
-                  <div class="img--alianzas03 alianzas--img--slides slide"></div>
-                  <div class="img--alianzas alianzas--img--slides slide"></div>
-                </div>
-              </div>
-            </div>
-            <div class="alianzas--beneficios">    
-              <div class="footer__euroidiomas--logo"></div>     
-              <div class="description2 title--beneficios">
-                <span>
-                  Beneficios
-                </span>
-              </div>     
-              <p class="info--beneficios">              
-                -Exoneración de pago de matrícula (S/)</br>
-                -Exoneración de pago de examen de clasicación (S/ 30.00)</br>
-                -10% de descuento en la pensión de los cursos de Inglés para
-                Jóvenes y Adultos, Portugués y Alemán.</br>
-                -Tarifa preferencial programa de Inglés virtual (Plataforma</br>            
-              </p>
-              </div>
-          </div>
+<section class="pyme">
+    <div class="beneficios ">
+      <div class="beneficios__title description2">
+        <div class="credito">Crédito PYME      
         </div>
-        <!-- CRUZ DEL SUR -->
-        <div class="alianzas--items">
-          <div class="section--alianza">
-            <div class="alianzas--title">
-              <div class="description title--alianza">
-                <h2 class="">
-                  Nuestras <br />
-                  Alianzas
-                </h2>
-              </div>
-              <div class="img--alianzas--container">
-                <div class="img--container slide--container2">
-                  <div class="img--cruzSur alianzas--img--slides slide2"></div>
-                  <div class="img--cruzSur01 alianzas--img--slides slide2"></div>
-                  <div class="img--cruzSur02 alianzas--img--slides slide2"></div>
-                  <div class="img--cruzSur03 alianzas--img--slides slide2"></div>
-                  <div class="img--cruzSur alianzas--img--slides slide2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="alianzas--beneficios">    
-              <div class="footer__cruzSur--logo"></div>     
-              <div class="description2 title--beneficios">
-                <span>
-                  Beneficios
-                </span>
-              </div>     
-              <p class="info--beneficios">   
-                Conoce las maravillas que el Perú tiene para ti junto a cruz
-                del sur.</br>
-                Viaja tranquilo y seguro disfrutando de bellos paisajes en
-                compañía de tu familia. Visita y descubre lugares maravillosos.
-                No olvides que por ser socio de la cumbre tienes un
-                descuento especial.
-              </p>
-              </div>
-          </div>
-        </div>
+       <span>Mujer maravilla</span>
+      </div>
+      <p class="beneficios__description">
+       Este es un crédito pensado especialmente para todas las
+       mujeres emprendedoras que trabajan día a día por su familia,
+       para cuidar a los que más quieren y darles todo lo mejor. Este
+       crédito está para reforzar tu lado más maravilloso. 
+      </p>
+      <p class="beneficios__detalle">Beneficios</p>
+     
+      <p class="beneficios__lista">
+       -Te asesoramos con tus planes de negocio.<br>
+       -Financiamiento en soles.<br>
+       -Tus pagos pueden ser diarios, semanales o mensuales.<br>
+       -Prepagos sin penalidad.<br>
+       -No se cobran comisiones por desembolso.<br>
+      </p>   
+      <div class="inidicators inidicators__productos">
+       <span class="indicator" ></span>        
+       <span class="indicator" ></span>    
+       <span class="indicator" ></span>        
+       <span class="indicator" ></span>    
+       <span class="indicator" ></span>        
+       <span class="indicator" ></span>    
+       <span class="indicator" ></span>        
+       <span class="indicator" ></span>    
+    </div>
+      
+    </div>
+    <div class="requisitos ">
+
+     <div class="requisitos__img">
+      <!-- <img src="http://placehold.it/250X200" alt=""> -->
+      <div class="req__img"></div>
+    </div>  
+     <p class="requisitos__detalle">Requisitos</p>     
+     <p class="requisitos__lista">
+       -Ser socia habilitada en LA CUMBRE.<br>
+       -Boletas de compra y venta, facturas, contratos de servicios y
+       último PDT anual (régimen general) con el respectivo voucher
+       de pago.<br>
+       -La Cumbre puede solicitar documentos adicionales.
+       -Negocio con un mínimo de funcionamiento de 6 meses para 
+     </p>  
+     <div class="terminos">
+       <div class="description2 btn__beneficios">
+         <a href="#">solicitar</a>
+       </div>
+       <p class="terminos__text">*ver términos y condiciones</p>
+     </div>
+   </div>    
+   </section>
+    
+ <!-- Fin de seccion pyme -->
 
 
-        <!-- HUAMPANI -->
-        <div class="alianzas--items">
-          <div class="section--alianza">
-            <div class="alianzas--title">
-              <div class="description title--alianza">
-                <h2 class="">
-                  Nuestras <br />
-                  Alianzas
-                </h2>
-              </div>
-              <div class="img--alianzas--container">
-                <div class="img--container slide--container3">
-                  <div class="img--huampani alianzas--img--slides slide3"></div>
-                  <div class="img--huampani01 alianzas--img--slides slide3"></div>
-                  <div class="img--huampani02 alianzas--img--slides slide3"></div>
-                  <div class="img--huampani03 alianzas--img--slides slide3"></div>
-                  <div class="img--huampani alianzas--img--slides slide3"></div>
-                </div>
-              </div>
-            </div>
-            <div class="alianzas--beneficios">
-              <div class="footer__huampani--logo"></div>
-              <div class="description2 title--beneficios">
-                <span>
-                  Beneficios
-                </span>
-              </div>     
-              <p class="info--beneficios">
-                ¿Estás listo para tomarte un descanso y disfrutar de lanaturaleza?</br>
-                Es hora de que te relajes en el centro vacacional Huampani.
-                Relájate con tu familia con las tarifas exclusivas que tenemos
-                para ti. </br>Es la oportunidad perfecta de tomar un descanso.
-              </p>
-              </div>
-          </div>
+
+   <!-- Inicio de seccion testimonio -->
+
+   <section class="testimonio">
+    <div class="testimonio__informacion"> 
+      <div class="testimonio__title">    
+       <h3>Testimonio</h3>
+      </div>
+      <div class="testimonio__principal">
+        <div class="testimonio__imagen">          
+        </div>
+        <div class="testimonio__datos">
+          <p class="datos__text">
+            Irene Gómez Pérez<br>
+            Edad: 35 años<br>
+            Ocupación: Administradora
+          </p>
         </div>
       </div>
-  </section>
-   <!-- Fin de seccion Nuestras Alianzas -->
-   <script src="<?php echo SERVERURL; ?>views/js/slidesAlianzas.js"></script>
+      <p class="testimonio__text">
+        “Contrary to popular belief, Lorem Ipsum is not simply
+        random text. It has roots in a piece of classical Latin literature
+        from 45 BC, making it over 2000 years old. Richard
+        McClintock, a Latin professor at Hampden-Sydney College in
+        Virginia, looked up one of the more obscure Latin words,
+        consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature”.
+      </p>
+      <div class="description2 btn__beneficios"> 
+        <a href="#">solicitar</a>
+      </div>
+      
+    </div>
+    <div class="testimonio__img">
+      <div class="testimonio__imagenes">       
+        <div class="testimonio__img1"></div>
+        <div class="testimonio__img2"></div>
+        <div class="testimonio__img3"></div>
+    </div>
+   </div>    
+   </section>
+    
+ <!-- Fin de seccion testimonio -->
