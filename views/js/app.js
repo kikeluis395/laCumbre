@@ -50,20 +50,22 @@ function showDivs(n) {
   var i;
   var slides = document.getElementsByClassName("servicios");
   var indicators = document.getElementsByClassName("indicator");
-  if (n > slides.length) {
-    slideIndex = 1;
+  if(slides.length != 0){
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < indicators.length; i++) {
+      indicators[i].className = indicators[i].className.replace(" active", " ");
+    }
+    slides[slideIndex - 1].style.display = "grid";
+    indicators[slideIndex - 1].className += " active";
   }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < indicators.length; i++) {
-    indicators[i].className = indicators[i].className.replace(" active", " ");
-  }
-  slides[slideIndex - 1].style.display = "grid";
-  indicators[slideIndex - 1].className += " active";
 }
 var newIndex = 0;
 autoPlay();
@@ -72,24 +74,25 @@ function autoPlay() {
   var i;
   var slides = document.getElementsByClassName("servicios");
   var indicators = document.getElementsByClassName("indicator");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-    indicators[i].className = indicators[i].className.replace(" active", " ");
+  if(slides.length != 0) {
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      indicators[i].className = indicators[i].className.replace(" active", " ");
+    }
+    newIndex++;
+    if (newIndex > slides.length) {
+      newIndex = 1;
+    }
+    slides[newIndex - 1].style.display = "grid";
+    indicators[newIndex - 1].className += " active";
+    setTimeout(autoPlay, 5000);
   }
-  newIndex++;
-  if (newIndex > slides.length) {
-    newIndex = 1;
-  }
-  slides[newIndex - 1].style.display = "grid";
-  indicators[newIndex - 1].className += " active";
-  setTimeout(autoPlay, 5000);
 }
 
 /**FIN SLIDER SERVICIOS */
 
 /* MODAL/POPUP CONTÁCTANOS */
-openModal();
-function openModal() {
+
   const btnOpen = document.getElementById("btnOpen");
   const popup = document.getElementById("modal-container");
   const btnClose = document.getElementById("modal-close");
@@ -101,5 +104,5 @@ function openModal() {
   btnClose.addEventListener("click", () => {
     popup.style.display = "none";
   });
-}
+
 /* FIN MODAL/POPUP CONTÁCTANOS */
