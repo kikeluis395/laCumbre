@@ -941,6 +941,7 @@ footer {
   height: 280px;
   background: url('../img/icono_contacto.png')no-repeat center;
   background-size: cover;
+  cursor: pointer;
 }
 
 .contact__button--text {
@@ -1122,7 +1123,7 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Euroidiomas */
 .section--alianza {
   display: flex;
-  margin: 120px 0;
+  margin: 150px 0;
 }
 
 .title--alianza {

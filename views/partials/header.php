@@ -40,7 +40,7 @@
                         <li><a href="">Crédito con garantía</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="<?php echo SERVERURL; ?>productos/">Alianzas</a>
+                <li class="menu-item"><a href="<?php echo SERVERURL; ?>alianzas/">Alianzas</a>
                     <ul class="submenu">
                         <li><a href="">Euroidiomas</a></li>
                         <li><a href="">Huampaní</a></li>

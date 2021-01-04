@@ -1,33 +1,32 @@
 /** HIDE/SHOW HEADER */
 
+
 window.onscroll = function () {
   scrollFunction();
 };
 
-var top_navbar = document.getElementById("top_navbar");
-var menu_navbar = document.getElementById("menu_navbar");
-var logo = document.getElementById("logo_white");
+const top_navbar = document.getElementById("top_navbar");
+const menu_navbar = document.getElementById("menu_navbar");
+const logo = document.getElementById("logo_white");
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     top_navbar.style.display = "none";
     logo.style.display = "block";
-    menu_navbar.style.justifyContent="space-between";
+    menu_navbar.style.justifyContent = "space-between";
   } else {
     top_navbar.style.display = "flex";
     logo.style.display = "none";
-    menu_navbar.style.justifyContent="flex-end";
+    menu_navbar.style.justifyContent = "flex-end";
   }
 }
 
 /** FIN HIDE/SHOW HEADER */
 
 // MENU RESPONSIVE
-  var menu_icon = document.getElementById('menu--icon')
+var menu_icon = document.getElementById("menu--icon");
 
-  menu_icon.addEventListener('click', function() {
-
-  });
+menu_icon.addEventListener("click", function () {});
 // FIN DEL MENU RESPONSIVE
 
 /** SLIDER SERVICIOS */
@@ -83,3 +82,20 @@ function autoPlay() {
 }
 
 /**FIN SLIDER SERVICIOS */
+
+/* MODAL/POPUP CONTÁCTANOS */
+openModal();
+function openModal() {
+  const btnOpen = document.getElementById("btnOpen");
+  const popup = document.getElementById("modal-container");
+  const btnClose = document.getElementById("modal-close");
+
+  btnOpen.addEventListener("click", () => {
+    popup.style.display = "flex";
+  });
+
+  btnClose.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+}
+/* FIN MODAL/POPUP CONTÁCTANOS */
