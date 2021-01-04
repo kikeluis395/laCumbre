@@ -188,6 +188,9 @@ header {
 .header li {
   position: relative;
   margin-left: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
   color: white;
   font-size: 1.8rem;
   letter-spacing: 1px;
@@ -219,8 +222,8 @@ header {
 
 .submenu {
   position: absolute;
-  top: 30px;
   width: 300px;
+  top: 30px;
   display: flex;
   flex-direction: column;
   display: block;
@@ -232,6 +235,7 @@ header {
 .submenu li {
   padding: 8px;
   margin-left: 8px;
+  height: 35px;
   font-family: fontLight;
 }
 
@@ -1294,6 +1298,7 @@ footer {
 }
 
 .pyme {
+  position: relative;
   width: 80%;
   display: flex;
   margin: 0 auto;
@@ -1352,6 +1357,27 @@ footer {
   margin: 0 auto;
 }
 
+.req__img2 {
+  background: url(../img/Convenios.png) no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 342px;
+  margin: 0 auto;
+}
+.req__img3 {
+  background: url(../img/Créditovehicular.png) no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 342px;
+  margin: 0 auto;
+}
+.req__img4 {
+  background: url(../img/Micropyme.png) no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 342px;
+  margin: 0 auto;
+}
 .requisitos__description {
   font-size: 2rem;
   color: #4d4d4d;
@@ -1391,6 +1417,10 @@ footer {
 }
 
 .inidicators__productos {
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
+  left: 20%;
   display: flex;
   justify-content: center;
   margin-top: 40px;

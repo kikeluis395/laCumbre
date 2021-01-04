@@ -56,3 +56,21 @@
 .hero--container-content p {
   font-size: 4rem;
 }
+
+/* seccion productos */
+.req__img {
+  background-size: contain;
+}
+.pyme {
+  flex-direction: column;
+}
+
+.beneficios {
+  order: 2;
+  width:100%;
+}
+
+.requisitos {
+  order:1;
+  width: 100%;
+}

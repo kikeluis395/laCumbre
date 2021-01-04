@@ -197,3 +197,7 @@
 .hero--container-content p::before {
   width: 200px;
 }
+
+.req__img {
+  background-size: cover;
+}
