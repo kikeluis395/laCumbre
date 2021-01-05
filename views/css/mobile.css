@@ -198,6 +198,132 @@
   width: 200px;
 }
 
-.req__img {
-  background-size: cover;
+.pyme {
+  grid-template: 250px repeat(5,auto)/ 10% 10% 70% 10%;
+  grid-template-areas: ". indicators imagen imagen"
+                       ". title title ."
+                       ". description description ."
+                       ". terminos terminos ."
+                       ". detalle detalle ."
+                       ". lista lista ."
+                       ". reqdetalle reqdetalle ."
+                       ". reqlista reqlista .";
+}
+.beneficios__title.description2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.beneficios__description {
+  margin-bottom: 0;
+}
+.inidicators__productos {
+  flex-direction: column;
+}
+
+.beneficios__detalle {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.requisitos__detalle {
+  margin-bottom: 10px;
+}
+
+.requisitos__lista {
+  line-height: 3.6rem;
+}
+.terminos {
+  flex-direction: column;
+}
+
+.terminos__text {
+  align-self: start;
+  margin-top: 10px;
+}
+
+.beneficios__lista {
+  line-height: 3.6rem;
+  margin-bottom: 10px;
+}
+.inidicators__productos .Productos {
+  width: 8px;
+  height: 8px;
+}
+
+.credito {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( 90deg, rgba(27, 176, 194, 1) 60%, rgba(83, 70, 130, 1) 120% );
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.testimonio {
+  flex-direction: column;
+}
+
+.testimonio__informacion {
+  width: 100%;
+}
+
+.testimonio__img {
+  width: 100%;
+}
+
+.conocenos {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.conocenos__container {
+  height: calc(200vh);
+  flex-direction: column;
+}
+
+.conocenos__img {
+  width: 100%;
+  height: 60%;
+}
+
+.conocenos__info {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.container .misionVision {
+  flex-direction: column;
+}
+
+.misionVision__info--mision {
+  grid-template-columns: 10% 80% 10%;
+  row-gap: 20px;
+  grid-template-areas: ". title ."
+                      ". content ."
+                      "img1 img1 img1";
+  padding-right: 0;
+  margin-bottom: 50px;
+}
+
+.misionVision__info--vision {
+  grid-template-columns: 10% 80% 10%;
+  row-gap: 20px;
+  grid-template-areas: ". title ."
+                      ". content ."
+                      "img2 img2 img2";
+  padding-left: 0;
+}
+
+.description .conocenos__texto {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.misionVision .misionVision__texto {
+  font-size: 3rem;
 }

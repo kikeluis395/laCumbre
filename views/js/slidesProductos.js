@@ -25,6 +25,6 @@ function showProductos(n) {
   for (i = 0; i < indicators.length; i++) {
     indicators[i].className = indicators[i].className.replace(" active", " ");
   }
-  slides[slideI2 - 1].style.display = "flex";
+  slides[slideI2 - 1].style.display = "grid";
   indicators[slideI2 - 1].className += " active";
 }

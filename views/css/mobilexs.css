@@ -58,9 +58,6 @@
 }
 
 /* seccion productos */
-.req__img {
-  background-size: contain;
-}
 .pyme {
   flex-direction: column;
 }
@@ -73,4 +70,53 @@
 .requisitos {
   order:1;
   width: 100%;
+}
+
+/* seccion transparencia */
+.documents__container {
+  grid-template-areas:
+        "title title"
+        "parrafo parrafo"
+        "items items";
+}
+.hero-transparencia {
+  height: 50vh;
+}
+
+.documents__items {
+  grid-template-columns: 100%;
+}
+
+.reclamaciones__form {
+  grid-template-columns: 100%;
+}
+
+.table2 {
+  width: 100%;
+}
+
+
+.img--mision {
+  background-size: contain;
+  height: 200px;
+}
+
+.img--vision {
+  background-size: contain;
+  height: 200px;
+}
+
+
+
+.misionVision h2 {
+  margin-bottom: 0px;
+}
+
+.conocenos__info .description h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.conocenos__info {
+  padding-top: 30px;
 }

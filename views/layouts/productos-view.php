@@ -1,37 +1,37 @@
 <section class="productos">
   <!-- <div class="pyme__container"> -->
-    <div class="pyme">
-        <div class="inidicators inidicators__productos">
+      <div class="pyme">
+        <div class="inidicators__productos">
           <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
           <span class="indicator Productos" onclick="currentDiv3(2)"></span>
           <span class="indicator Productos" onclick="currentDiv3(3)"></span>
           <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
         </div>
-        <div class="beneficios ">
-          <div class="beneficios__title description2">
-            <div class="credito">Crédito PYME</div>
-            <span class="beneficios__subtitle">Mujer maravilla</span>
-          </div>
-          <p class="beneficios__description">
+        <div class="beneficios__title description2">
+          <div class="credito">Crédito PYME</div>
+          <span class="beneficios__subtitle">Mujer maravilla</span>
+        </div>
+        <p class="beneficios__description">
           Este es un crédito pensado especialmente para todas las
           mujeres emprendedoras que trabajan día a día por su familia,
           para cuidar a los que más quieren y darles todo lo mejor. Este
           crédito está para reforzar tu lado más maravilloso. 
-          </p>
-          <p class="beneficios__detalle">Beneficios</p>
+        </p>
+        <p class="beneficios__detalle">Beneficios</p>
         
-          <p class="beneficios__lista">
+        <p class="beneficios__lista">
           -Te asesoramos con tus planes de negocio.<br>
           -Financiamiento en soles.<br>
           -Tus pagos pueden ser diarios, semanales o mensuales.<br>
           -Prepagos sin penalidad.<br>
           -No se cobran comisiones por desembolso.<br>
-          </p>
-        </div>
-        <div class="requisitos ">
+        </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-        <div class="req__img"></div>
+        <div class="req__img requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
@@ -46,19 +46,20 @@
           </div>
           <p class="terminos__text">*ver términos y condiciones</p>
         </div>
-      </div>    
-    </div>
+      </div>
 
 
       <div class="pyme">
-        <div class="inidicators inidicators__productos">
-          <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
           <span class="indicator Productos" onclick="currentDiv3(2)"></span>
           <span class="indicator Productos" onclick="currentDiv3(3)"></span>
           <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
         </div>
-        <div class="beneficios ">
-          <div class="beneficios__title description2">
+        <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
           </div>
@@ -77,11 +78,9 @@
           -Prepagos sin penalidad.<br>
           -No se cobran comisiones por desembolso.<br>
           </p>
-        </div>
-        <div class="requisitos ">
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-        <div class="req__img2"></div>
+        <div class="req__img2 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
@@ -95,19 +94,20 @@
             <a href="#">solicitar</a>
           </div>
           <p class="terminos__text">*ver términos y condiciones</p>
-          </div>
         </div>
-    </div>
+      </div>
 
 
       <div class="pyme">
-        <div class="inidicators inidicators__productos">
-          <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
           <span class="indicator Productos" onclick="currentDiv3(2)"></span>
           <span class="indicator Productos" onclick="currentDiv3(3)"></span>
           <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
         </div>
-        <div class="beneficios ">
           <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -127,11 +127,9 @@
           -Prepagos sin penalidad.<br>
           -No se cobran comisiones por desembolso.<br>
           </p>
-        </div>
-        <div class="requisitos ">
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-        <div class="req__img3"></div>
+        <div class="req__img3 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
@@ -146,19 +144,20 @@
           </div>
           <p class="terminos__text">*ver términos y condiciones</p>
         </div>
-      </div>    
-    </div>
+      </div>
 
       
       <div class="pyme">
-        <div class="inidicators inidicators__productos">
-          <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
           <span class="indicator Productos" onclick="currentDiv3(2)"></span>
           <span class="indicator Productos" onclick="currentDiv3(3)"></span>
           <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
         </div>
-        <div class="beneficios ">
-          <div class="beneficios__title description2">
+        <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
           </div>
@@ -177,11 +176,9 @@
           -Prepagos sin penalidad.<br>
           -No se cobran comisiones por desembolso.<br>
           </p>
-        </div>
-        <div class="requisitos ">
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-        <div class="req__img4"></div>
+        <div class="req__img4 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
@@ -196,8 +193,151 @@
           </div>
           <p class="terminos__text">*ver términos y condiciones</p>
         </div>
-      </div>    
-    </div>
+      </div>
+
+      <div class="pyme">
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
+        </div>
+        <div class="beneficios__title description2">
+            <div class="credito">Crédito PYME</div>
+            <span class="beneficios__subtitle">Mujer maravilla</span>
+          </div>
+          <p class="beneficios__description">
+          Este es un crédito pensado especialmente para todas las
+          mujeres emprendedoras que trabajan día a día por su familia,
+          para cuidar a los que más quieren y darles todo lo mejor. Este
+          crédito está para reforzar tu lado más maravilloso. 
+          </p>
+          <p class="beneficios__detalle">Beneficios</p>
+        
+          <p class="beneficios__lista">
+          -Te asesoramos con tus planes de negocio.<br>
+          -Financiamiento en soles.<br>
+          -Tus pagos pueden ser diarios, semanales o mensuales.<br>
+          -Prepagos sin penalidad.<br>
+          -No se cobran comisiones por desembolso.<br>
+          </p>
+
+          <!-- <img src="http://placehold.it/250X200" alt=""> -->
+        <div class="req__img5 requisitos__img"></div>
+        <p class="requisitos__detalle">Requisitos</p>     
+        <p class="requisitos__lista">
+          -Ser socia habilitada en LA CUMBRE.<br>
+          -Boletas de compra y venta, facturas, contratos de servicios y
+          último PDT anual (régimen general) con el respectivo voucher
+          de pago.La Cumbre puede solicitar documentos adicionales.<br>
+          -Negocio con un mínimo de funcionamiento de 6 meses para 
+        </p>  
+        <div class="terminos">
+          <div class="description2 btn__beneficios">
+            <a href="#">solicitar</a>
+          </div>
+          <p class="terminos__text">*ver términos y condiciones</p>
+        </div>
+      </div>
+
+      <div class="pyme">
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
+        </div>
+        <div class="beneficios__title description2">
+            <div class="credito">Crédito PYME</div>
+            <span class="beneficios__subtitle">Mujer maravilla</span>
+          </div>
+          <p class="beneficios__description">
+          Este es un crédito pensado especialmente para todas las
+          mujeres emprendedoras que trabajan día a día por su familia,
+          para cuidar a los que más quieren y darles todo lo mejor. Este
+          crédito está para reforzar tu lado más maravilloso. 
+          </p>
+          <p class="beneficios__detalle">Beneficios</p>
+        
+          <p class="beneficios__lista">
+          -Te asesoramos con tus planes de negocio.<br>
+          -Financiamiento en soles.<br>
+          -Tus pagos pueden ser diarios, semanales o mensuales.<br>
+          -Prepagos sin penalidad.<br>
+          -No se cobran comisiones por desembolso.<br>
+          </p>
+
+          <!-- <img src="http://placehold.it/250X200" alt=""> -->
+        <div class="req__img6 requisitos__img"></div>
+        <p class="requisitos__detalle">Requisitos</p>     
+        <p class="requisitos__lista">
+          -Ser socia habilitada en LA CUMBRE.<br>
+          -Boletas de compra y venta, facturas, contratos de servicios y
+          último PDT anual (régimen general) con el respectivo voucher
+          de pago.La Cumbre puede solicitar documentos adicionales.<br>
+          -Negocio con un mínimo de funcionamiento de 6 meses para 
+        </p>  
+        <div class="terminos">
+          <div class="description2 btn__beneficios">
+            <a href="#">solicitar</a>
+          </div>
+          <p class="terminos__text">*ver términos y condiciones</p>
+        </div>
+      </div>
+
+      <div class="pyme">
+        <div class="inidicators__productos">
+          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
+        </div>
+        <div class="beneficios__title description2">
+            <div class="credito">Crédito PYME</div>
+            <span class="beneficios__subtitle">Mujer maravilla</span>
+          </div>
+          <p class="beneficios__description">
+          Este es un crédito pensado especialmente para todas las
+          mujeres emprendedoras que trabajan día a día por su familia,
+          para cuidar a los que más quieren y darles todo lo mejor. Este
+          crédito está para reforzar tu lado más maravilloso. 
+          </p>
+          <p class="beneficios__detalle">Beneficios</p>
+        
+          <p class="beneficios__lista">
+          -Te asesoramos con tus planes de negocio.<br>
+          -Financiamiento en soles.<br>
+          -Tus pagos pueden ser diarios, semanales o mensuales.<br>
+          -Prepagos sin penalidad.<br>
+          -No se cobran comisiones por desembolso.<br>
+          </p>
+
+          <!-- <img src="http://placehold.it/250X200" alt=""> -->
+        <div class="req__img7 requisitos__img"></div>
+        <p class="requisitos__detalle">Requisitos</p>     
+        <p class="requisitos__lista">
+          -Ser socia habilitada en LA CUMBRE.<br>
+          -Boletas de compra y venta, facturas, contratos de servicios y
+          último PDT anual (régimen general) con el respectivo voucher
+          de pago.La Cumbre puede solicitar documentos adicionales.<br>
+          -Negocio con un mínimo de funcionamiento de 6 meses para 
+        </p>  
+        <div class="terminos">
+          <div class="description2 btn__beneficios">
+            <a href="#">solicitar</a>
+          </div>
+          <p class="terminos__text">*ver términos y condiciones</p>
+        </div>
+      </div>
         
     <!-- Fin de seccion pyme -->
 </section>
@@ -209,7 +349,7 @@
    <div class="testimonio">
     <div class="testimonio__informacion"> 
       <div class="testimonio__title">    
-       <h3>Testimonio</h3>
+       <h3>Testimonios</h3>
       </div>
       <div class="testimonio__principal">
         <div class="testimonio__imagen-container">
