@@ -91,6 +91,22 @@ function autoPlay() {
 
 /**FIN SLIDER SERVICIOS */
 
+/* MODAL/POPUP CONTÁCTANOS */
+
+  const btnOpen = document.getElementById("btnOpen");
+  const popup = document.getElementById("modal-container");
+  const btnClose = document.getElementById("modal-close");
+
+  btnOpen.addEventListener("click", () => {
+    popup.style.display = "flex";
+  });
+
+  btnClose.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+/* FIN MODAL/POPUP CONTÁCTANOS */
+
 /* MODAL/POPUP SERVICIOS */
 
   const btnOpenService = document.getElementById("btnSolcitar");
@@ -125,19 +141,3 @@ function autoPlay() {
   });
 
 /* FIN MODAL/POPUP NOTICIAS */
-
-/* MODAL/POPUP CONTÁCTANOS */
-
-  const btnOpen = document.getElementById("btnOpen");
-  const popup = document.getElementById("modal-container");
-  const btnClose = document.getElementById("modal-close");
-
-  btnOpen.addEventListener("click", () => {
-    popup.style.display = "flex";
-  });
-
-  btnClose.addEventListener("click", () => {
-    popup.style.display = "none";
-  });
-
-/* FIN MODAL/POPUP CONTÁCTANOS */

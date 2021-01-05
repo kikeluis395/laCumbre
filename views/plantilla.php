@@ -44,9 +44,14 @@
     <!-- Content page -->
 
     <!-- footer -->
-    <?php include "./views/partials/contact.php";?>
-    <?php include "./views/partials/footer.php"; ?>
-
+    <?php 
+        if ($vistasR != './views/layouts/contactanos-view.php' && $vistasR != './views/layouts/transparencia-view.php') {
+            include "./views/layouts/modals/contact_modal.php";
+        }
+        
+        include "./views/partials/contact.php";
+        include "./views/partials/footer.php";
+    ?>
     <?php
     endif;
     include "./views/partials/script.php";

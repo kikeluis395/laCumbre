@@ -31,7 +31,7 @@
                         <li><a href="">Libro de sugerencias</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="">Contáctanos</a></li>
+                <li class="menu-item"><a href="<?php echo SERVERURL; ?>contactanos/">Contáctanos</a></li>
             </ul>
             <div class="menu--icon" id="menu--icon">
                 <i class="fa fa-bars"></i>
