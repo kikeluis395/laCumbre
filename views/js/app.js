@@ -91,6 +91,41 @@ function autoPlay() {
 
 /**FIN SLIDER SERVICIOS */
 
+/* MODAL/POPUP SERVICIOS */
+
+  const btnOpenService = document.getElementById("btnSolcitar");
+  const popupService = document.getElementById("modal-container-service");
+  const btnCloseService = document.getElementById("modal-close-service");
+
+  btnOpenService.addEventListener("click", () => {
+    popupService.style.display = "flex";
+  });
+
+  btnCloseService.addEventListener("click", () => {
+    popupService.style.display = "none";
+  });
+
+/* FIN MODAL/POPUP SERVICIOS */
+
+/* MODAL/POPUP NOTICIAS */
+
+  const botones = document.querySelector(".entradas");
+  const btnNotice = document.querySelectorAll(".entradas__img");
+  const popupNotice = document.getElementById("container-modal-notice");
+  const btnCloseNotice = document.getElementById("modal-notice-close");
+
+  for (let i = 0; i < btnNotice.length; i++) {
+    btnNotice[i].addEventListener("click", function () {
+      popupNotice.style.display = "flex";
+    });
+  }
+
+  btnCloseNotice.addEventListener("click", () => {
+    popupNotice.style.display = "none";
+  });
+
+/* FIN MODAL/POPUP NOTICIAS */
+
 /* MODAL/POPUP CONTÁCTANOS */
 
   const btnOpen = document.getElementById("btnOpen");

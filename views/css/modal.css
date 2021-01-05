@@ -10,7 +10,7 @@
 }
 
 .content-modal {
-    max-width: 70%;
+    max-width: 80%;
     width: 100%;
     height: auto;
     margin: auto;
@@ -22,7 +22,7 @@
     position: relative;
 }
 
-.content-modal .modal-close {
+.modal-close {
     position: relative;
     color: black;
     font-size: 1.5rem;
@@ -76,6 +76,7 @@
 .contact-form form input, .contact-form form textarea, .contact-form form button {
     width: 100%;
     padding: .5em 0 .5em 0;
+    font-size: 1.6rem;
     margin-top: 1.5rem;
     border: none;
     outline: none;
@@ -87,9 +88,8 @@
 
 .contact-form form textarea {
     background: rgb(225, 225, 225);
-    height: 100px;
+    height: 150px;
     border: 0;
-    text-transform: uppercase;
     padding: .5em;
     cursor: auto;
 }
@@ -128,4 +128,236 @@
     background-color: white;
     color: #4f487a;
     border: 2px solid #4f487a;
+}
+
+/* MODAL NOTICIAS */
+
+.container-modal-notice {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.content-modal-notice {
+    max-width: 90%;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    /* padding: 3em; */
+    padding-top: 30px;
+    background: RGB(178, 178, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.modal-notice-close {
+    position: relative;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.content-modal-notice::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+.content-modal-notice::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px RGB(178, 178, 178);
+    /* -webkit-box-shadow: inset 0 0 6px rgb(225, 225, 225); */
+}
+
+.content-modal-notice::-webkit-scrollbar-thumb {
+    background-color: RGB(77, 77, 77);
+    /* outline: 2px solid rgb(248, 244, 0); */
+}
+
+.content-modal-notice h1 {
+    margin-top: 1.5rem;
+    width: max-content;
+    height: auto;
+    position: relative;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.content-modal-notice h1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    width: 40px;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 80%);
+}
+
+.content-modal-notice .content-notice {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    position: relative;
+    margin: 3em;
+}
+
+.notice-social {
+    width: 70%;
+    display: flex;
+    position: relative;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(90deg, rgba(83, 70, 130, 1) 0%, rgba(26, 177, 194, 1) 80%);
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: right;
+}
+
+.notice-social h2 {
+    color: white;
+    font-family: fontLight;
+}
+
+.notice-social ul {
+    display: table;
+    width: 50%;
+    list-style: none;
+}
+
+.notice-social ul li {
+    display: table-cell;
+    text-align: right;
+}
+
+.notice-social ul li i {
+    font-size: 24px;
+    color: white;
+}
+
+.content-notice .notice-content-text {
+    margin-top: 2.5rem;
+    /* número de columnas */
+    column-count: 2;
+    /* separación de columnas */
+    column-gap: 100px;
+    grid-column: 1 / 3;
+}
+
+.content-notice .notice-content-text p {
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: fontLight;
+}
+
+.content-notice .notice-content-text div {
+    margin-top: 30px;
+}
+
+.content-notice .notice-content-text div img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@supports(object-fit: cover) {
+    .content-notice .notice-content-text div img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+/* MODAL SERVICIOS */
+
+.modal-container-service {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.content-modal-service {
+    max-width: 80%;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-modal-service .content-service {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.service-desc {
+    padding: 30px;
+    background-color: #4f487a;
+}
+
+.service-desc h1, p {
+    color: white;
+}
+
+.service-desc p {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.modal-close-service {
+    position: relative;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: -20px;
+}
+
+.service-req {
+    padding: 0 3em 3em 3em;
+    background: white;
+}
+
+.service-req h1 {
+    color: rgb(26, 177, 194);
+    font-size: 2rem;
+}
+
+.service-req .req__text {
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 1em;
+}
+
+.req__text p {
+    color: black;
+    font-size: 1.5rem;
+    overflow: auto;
+    height: 50%;
 }

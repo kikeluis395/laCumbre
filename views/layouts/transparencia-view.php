@@ -14,8 +14,8 @@
                     Cómo protegemos tus datos
                 </span>
                 <div class="documents__buttons">
-                    <a href="">ver más</a>
-                    <a href="">descargar</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">ver más</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">descargar</a>
                 </div>
             </div>
             <div class="documents__item">
@@ -23,8 +23,8 @@
                     Responsabilidad social
                 </span>
                 <div class="documents__buttons">
-                    <a href="">ver más</a>
-                    <a href="">descargar</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">ver más</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">descargar</a>
                 </div>
             </div>
             <div class="documents__item">
@@ -32,8 +32,8 @@
                     Tarifario
                 </span>
                 <div class="documents__buttons">
-                    <a href="">ver más</a>
-                    <a href="">descargar</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">ver más</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">descargar</a>
                 </div>
             </div>
             <div class="documents__item">
@@ -41,8 +41,8 @@
                     Formularios
                 </span>
                 <div class="documents__buttons">
-                    <a href="">ver más</a>
-                    <a href="">descargar</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">ver más</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">descargar</a>
                 </div>
             </div>
             <div class="documents__item">
@@ -50,8 +50,8 @@
                     Transparencia de información
                 </span>
                 <div class="documents__buttons">
-                    <a href="">ver más</a>
-                    <a href="">descargar</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">ver más</a>
+                    <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank">descargar</a>
                 </div>
             </div>
             <p class="documents__item--parrafo">*Todos los archivos están disponibles para ser descargados en

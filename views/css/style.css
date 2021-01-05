@@ -1415,6 +1415,7 @@ footer {
 .terminos__text {
   font-size: 2rem;
   color: rgba(83, 70, 130, 1);
+  text-decoration: none;
 }
 
 .inidicators__productos {
