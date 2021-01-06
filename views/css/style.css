@@ -302,18 +302,21 @@ li:hover>ul {
 }
 
 .hero1 {
-  background: url(../img/hero.jpg) no-repeat;
+  background: url(../img/Banner_01.png) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero2 {
-  background: url(../img/traffic-vehicle-urban-reflections-city.jpg) no-repeat;
+  background: url(../img/Banner-02.png) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero3 {
-  background: url(../img/pexels-juan-salamanca-61136.jpg) no-repeat;
+  background: url(../img/Banner-03.png) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero--box {
@@ -323,6 +326,7 @@ li:hover>ul {
   height: 60%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero--container-title {
