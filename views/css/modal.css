@@ -321,7 +321,7 @@
     background-color: #4f487a;
 }
 
-.service-desc h1, p {
+.service-desc h1,.service-desc p {
     color: white;
 }
 

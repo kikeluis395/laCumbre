@@ -1279,6 +1279,11 @@ footer {
   margin-bottom: 30px;
 }
 
+.productos {
+  margin-bottom: 100px;
+  margin-top: 54.156px;
+}
+
 .pyme {
   position: relative;
   width: 100%;
@@ -1290,8 +1295,6 @@ footer {
                        ". lista reqlista ."
                        ". indicators terminos .";
   margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 54.156px;
 }
 
 .beneficios__title {
@@ -1409,6 +1412,10 @@ footer {
 .inidicators__productos {
   grid-area: indicators;
   display: flex;
+  position:relative;
+  z-index: 1;
+  width: 50%;
+  margin-top: -30px;
   justify-content: center;
   align-items: center;
 }

@@ -247,6 +247,13 @@
   line-height: 3.6rem;
   margin-bottom: 10px;
 }
+
+.inidicators__productos {
+  position: absolute;
+  top: 130px;
+  width: 25%;
+}
+
 .inidicators__productos .Productos {
   width: 8px;
   height: 8px;

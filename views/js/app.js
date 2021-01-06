@@ -109,13 +109,12 @@ function autoPlay() {
 
 /* MODAL/POPUP SERVICIOS */
 
-  const btnOpenService = document.getElementById("btnSolcitar");
-  const popupService = document.getElementById("modal-container-service");
-  const btnCloseService = document.getElementById("modal-close-service");
+  var popupService = document.getElementById("modal-container-service");
+  var btnCloseService = document.getElementById("modal-close-service");
 
-  btnOpenService.addEventListener("click", () => {
-    popupService.style.display = "flex";
-  });
+function terminosCondiciones() {
+  popupService.style.display = "flex";
+}
 
   btnCloseService.addEventListener("click", () => {
     popupService.style.display = "none";

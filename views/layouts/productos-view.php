@@ -1,15 +1,6 @@
 <section class="productos">
   <!-- <div class="pyme__container"> -->
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
           <div class="credito">Crédito PYME</div>
           <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -42,23 +33,14 @@
         </p>  
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+          <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+            <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
 
 
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -80,13 +62,8 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-<<<<<<< HEAD
         <div class="req__img2 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
-=======
-        <div class="req__img"></div>
-        <p class="requisitos__detalle">Requisitos</p>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
@@ -96,27 +73,14 @@
         </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#" id="btnSolcitar">solicitar</a>
+            <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
           <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-    </div>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
 
 
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
           <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -138,13 +102,8 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-<<<<<<< HEAD
         <div class="req__img3 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
-=======
-        <div class="req__img2"></div>
-        <p class="requisitos__detalle">Requisitos</p>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
@@ -154,28 +113,15 @@
         </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#" id="btnSolcitar">solicitar</a>
+            <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
-<<<<<<< HEAD
-          <p class="terminos__text">*ver términos y condiciones</p>
-=======
           <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
           </div>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         </div>
       </div>
 
       
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -208,22 +154,13 @@
         </p>  
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+          <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
 
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -245,13 +182,8 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-<<<<<<< HEAD
         <div class="req__img5 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
-=======
-        <div class="req__img3"></div>
-        <p class="requisitos__detalle">Requisitos</p>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
@@ -261,21 +193,12 @@
         </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#" id="btnSolcitar">solicitar</a>
+            <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
           <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -308,22 +231,13 @@
         </p>  
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+          <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
 
       <div class="pyme">
-        <div class="inidicators__productos">
-          <span class="indicator Productos" onclick="currentDiv3(1)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
-          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
-        </div>
         <div class="beneficios__title description2">
             <div class="credito">Crédito PYME</div>
             <span class="beneficios__subtitle">Mujer maravilla</span>
@@ -345,13 +259,8 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
-<<<<<<< HEAD
         <div class="req__img7 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
-=======
-        <div class="req__img4"></div>
-        <p class="requisitos__detalle">Requisitos</p>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
@@ -361,17 +270,20 @@
         </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#" id="btnSolcitar">solicitar</a>
+            <a href="#" id="btnSolcitar" onclick="terminosCondiciones()">solicitar</a>
           </div>
           <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
-<<<<<<< HEAD
-        
-=======
-    </div>
-
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
+      <div class="inidicators__productos">
+          <span class="indicator Productos active" onclick="currentDiv3(1)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(2)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(3)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(4)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(5)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(6)"></span>
+          <span class="indicator Productos" onclick="currentDiv3(7)"></span>
+        </div>
     <!-- Fin de seccion pyme -->
 </section>
 
@@ -380,15 +292,9 @@
    <!-- Inicio de seccion testimonio -->
 
    <div class="testimonio">
-<<<<<<< HEAD
     <div class="testimonio__informacion"> 
       <div class="testimonio__title">    
        <h3>Testimonios</h3>
-=======
-    <div class="testimonio__informacion">
-      <div class="testimonio__title">
-       <h3>Testimonio</h3>
->>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
       </div>
       <div class="testimonio__principal">
         <div class="testimonio__imagen-container">
