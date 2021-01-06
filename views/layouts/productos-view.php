@@ -289,9 +289,9 @@
 
 
 
-   <!-- Inicio de seccion testimonio -->
+<!-- Inicio de seccion testimonio -->
 
-   <div class="testimonio">
+  <div class="testimonio">
     <div class="testimonio__informacion"> 
       <div class="testimonio__title">    
        <h3>Testimonios</h3>
@@ -308,29 +308,28 @@
           </p>
         </div>
       </div>
-      <p class="testimonio__text">
-        “Contrary to popular belief, Lorem Ipsum is not simply
-        random text. It has roots in a piece of classical Latin literature
-        from 45 BC, making it over 2000 years old. Richard
-        McClintock, a Latin professor at Hampden-Sydney College in
-        Virginia, looked up one of the more obscure Latin words,
-        consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature”.
-      </p>
-      <div class="description2 btn__beneficios">
-        <a href="#" id="btnSolcitar">solicitar</a>
+        <p class="testimonio__text">
+          “Contrary to popular belief, Lorem Ipsum is not simply
+          random text. It has roots in a piece of classical Latin literature
+          from 45 BC, making it over 2000 years old. Richard
+          McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words,
+          consectetur, from a Lorem Ipsum passage, and going through
+          the cites of the word in classical literature”.
+        </p>
+        <div class="description2 btn__beneficios">
+          <a href="#" class="btnSolcitar">solicitar</a>
+        </div>
+    </div>
+      <div class="testimonio__img">
+        <div class="testimonio__imagenes">
+          <div class="testimonio__img1"></div>
+          <div class="testimonio__img2"></div>
+          <div class="testimonio__img3"></div>
+        </div>
       </div>
-
-    </div>
-    <div class="testimonio__img">
-      <div class="testimonio__imagenes">
-        <div class="testimonio__img1"></div>
-        <div class="testimonio__img2"></div>
-        <div class="testimonio__img3"></div>
-    </div>
-   </div>
-</div>
+  </div>
 <script src="<?php echo SERVERURL; ?>views/js/slidesProductos.js"></script>
- <!-- Fin de seccion testimonio -->
+<!-- Fin de seccion testimonio -->
 
- <?php include "modals/services_modal.php"; ?>
+<?php include "modals/services_modal.php"; ?>
