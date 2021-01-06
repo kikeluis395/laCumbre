@@ -97,13 +97,15 @@ function autoPlay() {
   var popup = document.getElementById("modal-container");
   var btnClose = document.getElementById("modal-close");
 
-  btnOpen.addEventListener("click", () => {
-    popup.style.display = "flex";
-  });
+  if (btnOpen) {
+    btnOpen.addEventListener("click", () => {
+      popup.style.display = "flex";
+    });
 
-  btnClose.addEventListener("click", () => {
-    popup.style.display = "none";
-  });
+    btnClose.addEventListener("click", () => {
+      popup.style.display = "none";
+    });
+  }
 
 /* FIN MODAL/POPUP CONTÁCTANOS */
 
@@ -112,13 +114,15 @@ function autoPlay() {
   var popupService = document.getElementById("modal-container-service");
   var btnCloseService = document.getElementById("modal-close-service");
 
-function terminosCondiciones() {
-  popupService.style.display = "flex";
-}
+  if (popupService) {
+    function terminosCondiciones() {
+      popupService.style.display = "flex";
+    }
 
-  btnCloseService.addEventListener("click", () => {
-    popupService.style.display = "none";
-  });
+    btnCloseService.addEventListener("click", () => {
+      popupService.style.display = "none";
+    });
+  }
 
 /* FIN MODAL/POPUP SERVICIOS */
 
@@ -129,14 +133,16 @@ function terminosCondiciones() {
   var popupNotice = document.getElementById("container-modal-notice");
   var btnCloseNotice = document.getElementById("modal-notice-close");
 
-  for (let i = 0; i < btnNotice.length; i++) {
-    btnNotice[i].addEventListener("click", function () {
-      popupNotice.style.display = "flex";
+  if (btnCloseNotice) {
+    for (let i = 0; i < btnNotice.length; i++) {
+      btnNotice[i].addEventListener("click", function () {
+        popupNotice.style.display = "flex";
+      });
+    }
+
+    btnCloseNotice.addEventListener("click", () => {
+      popupNotice.style.display = "none";
     });
   }
-
-  btnCloseNotice.addEventListener("click", () => {
-    popupNotice.style.display = "none";
-  });
 
 /* FIN MODAL/POPUP NOTICIAS */
