@@ -67,10 +67,10 @@
           Este es un crédito pensado especialmente para todas las
           mujeres emprendedoras que trabajan día a día por su familia,
           para cuidar a los que más quieren y darles todo lo mejor. Este
-          crédito está para reforzar tu lado más maravilloso. 
+          crédito está para reforzar tu lado más maravilloso.
           </p>
           <p class="beneficios__detalle">Beneficios</p>
-        
+
           <p class="beneficios__lista">
           -Te asesoramos con tus planes de negocio.<br>
           -Financiamiento en soles.<br>
@@ -80,22 +80,31 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
+<<<<<<< HEAD
         <div class="req__img2 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
+=======
+        <div class="req__img"></div>
+        <p class="requisitos__detalle">Requisitos</p>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
           último PDT anual (régimen general) con el respectivo voucher
           de pago.La Cumbre puede solicitar documentos adicionales.<br>
-          -Negocio con un mínimo de funcionamiento de 6 meses para 
-        </p>  
+          -Negocio con un mínimo de funcionamiento de 6 meses para
+        </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+            <a href="#" id="btnSolcitar">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+    </div>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
 
 
       <div class="pyme">
@@ -116,10 +125,10 @@
           Este es un crédito pensado especialmente para todas las
           mujeres emprendedoras que trabajan día a día por su familia,
           para cuidar a los que más quieren y darles todo lo mejor. Este
-          crédito está para reforzar tu lado más maravilloso. 
+          crédito está para reforzar tu lado más maravilloso.
           </p>
           <p class="beneficios__detalle">Beneficios</p>
-        
+
           <p class="beneficios__lista">
           -Te asesoramos con tus planes de negocio.<br>
           -Financiamiento en soles.<br>
@@ -129,20 +138,30 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
+<<<<<<< HEAD
         <div class="req__img3 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
+=======
+        <div class="req__img2"></div>
+        <p class="requisitos__detalle">Requisitos</p>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
           último PDT anual (régimen general) con el respectivo voucher
           de pago.La Cumbre puede solicitar documentos adicionales.<br>
-          -Negocio con un mínimo de funcionamiento de 6 meses para 
-        </p>  
+          -Negocio con un mínimo de funcionamiento de 6 meses para
+        </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+            <a href="#" id="btnSolcitar">solicitar</a>
           </div>
+<<<<<<< HEAD
           <p class="terminos__text">*ver términos y condiciones</p>
+=======
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
+          </div>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         </div>
       </div>
 
@@ -165,10 +184,10 @@
           Este es un crédito pensado especialmente para todas las
           mujeres emprendedoras que trabajan día a día por su familia,
           para cuidar a los que más quieren y darles todo lo mejor. Este
-          crédito está para reforzar tu lado más maravilloso. 
+          crédito está para reforzar tu lado más maravilloso.
           </p>
           <p class="beneficios__detalle">Beneficios</p>
-        
+
           <p class="beneficios__lista">
           -Te asesoramos con tus planes de negocio.<br>
           -Financiamiento en soles.<br>
@@ -226,23 +245,27 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
+<<<<<<< HEAD
         <div class="req__img5 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
+=======
+        <div class="req__img3"></div>
+        <p class="requisitos__detalle">Requisitos</p>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
           último PDT anual (régimen general) con el respectivo voucher
           de pago.La Cumbre puede solicitar documentos adicionales.<br>
-          -Negocio con un mínimo de funcionamiento de 6 meses para 
-        </p>  
+          -Negocio con un mínimo de funcionamiento de 6 meses para
+        </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+            <a href="#" id="btnSolcitar">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
-
       <div class="pyme">
         <div class="inidicators__productos">
           <span class="indicator Productos" onclick="currentDiv3(1)"></span>
@@ -261,10 +284,10 @@
           Este es un crédito pensado especialmente para todas las
           mujeres emprendedoras que trabajan día a día por su familia,
           para cuidar a los que más quieren y darles todo lo mejor. Este
-          crédito está para reforzar tu lado más maravilloso. 
+          crédito está para reforzar tu lado más maravilloso.
           </p>
           <p class="beneficios__detalle">Beneficios</p>
-        
+
           <p class="beneficios__lista">
           -Te asesoramos con tus planes de negocio.<br>
           -Financiamiento en soles.<br>
@@ -322,23 +345,33 @@
           </p>
 
           <!-- <img src="http://placehold.it/250X200" alt=""> -->
+<<<<<<< HEAD
         <div class="req__img7 requisitos__img"></div>
         <p class="requisitos__detalle">Requisitos</p>     
+=======
+        <div class="req__img4"></div>
+        <p class="requisitos__detalle">Requisitos</p>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
         <p class="requisitos__lista">
           -Ser socia habilitada en LA CUMBRE.<br>
           -Boletas de compra y venta, facturas, contratos de servicios y
           último PDT anual (régimen general) con el respectivo voucher
           de pago.La Cumbre puede solicitar documentos adicionales.<br>
-          -Negocio con un mínimo de funcionamiento de 6 meses para 
-        </p>  
+          -Negocio con un mínimo de funcionamiento de 6 meses para
+        </p>
         <div class="terminos">
           <div class="description2 btn__beneficios">
-            <a href="#">solicitar</a>
+            <a href="#" id="btnSolcitar">solicitar</a>
           </div>
-          <p class="terminos__text">*ver términos y condiciones</p>
+          <a href="<?php echo SERVERURL; ?>views/files/HOME.pdf" target="_blank" class="terminos__text">*ver términos y condiciones</a>
         </div>
       </div>
+<<<<<<< HEAD
         
+=======
+    </div>
+
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
     <!-- Fin de seccion pyme -->
 </section>
 
@@ -347,9 +380,15 @@
    <!-- Inicio de seccion testimonio -->
 
    <div class="testimonio">
+<<<<<<< HEAD
     <div class="testimonio__informacion"> 
       <div class="testimonio__title">    
        <h3>Testimonios</h3>
+=======
+    <div class="testimonio__informacion">
+      <div class="testimonio__title">
+       <h3>Testimonio</h3>
+>>>>>>> 8568efd7b47c87b73bf47dede31d5e5e830fce41
       </div>
       <div class="testimonio__principal">
         <div class="testimonio__imagen-container">
@@ -372,18 +411,20 @@
         consectetur, from a Lorem Ipsum passage, and going through
         the cites of the word in classical literature”.
       </p>
-      <div class="description2 btn__beneficios"> 
-        <a href="#">solicitar</a>
+      <div class="description2 btn__beneficios">
+        <a href="#" id="btnSolcitar">solicitar</a>
       </div>
-      
+
     </div>
     <div class="testimonio__img">
-      <div class="testimonio__imagenes">       
+      <div class="testimonio__imagenes">
         <div class="testimonio__img1"></div>
         <div class="testimonio__img2"></div>
         <div class="testimonio__img3"></div>
     </div>
-   </div>    
+   </div>
 </div>
 <script src="<?php echo SERVERURL; ?>views/js/slidesProductos.js"></script>
  <!-- Fin de seccion testimonio -->
+
+ <?php include "modals/services_modal.php"; ?>

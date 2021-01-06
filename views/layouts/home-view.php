@@ -75,7 +75,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -94,7 +94,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -113,7 +113,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -132,7 +132,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -151,7 +151,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -173,7 +173,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
     <div class="servicios">
@@ -195,7 +195,7 @@
                 repudiandae asperiores voluptates quas dolore alias voluptatum,
                 debitis nemo tempora sed?
             </p>
-            <a href="#">ver más</a>
+            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
         </section>
     </div>
 </div>
@@ -219,5 +219,8 @@
         <div class="entradas__img i4"></div>
     </section>
 </section>
+
+<?php include "modals/noticia_modal.php"; ?>
+
 <!-- FIN DE LA SECCION NOTICIAS -->
 <script src="<?php echo SERVERURL; ?>views/js/slidesHero.js"></script>

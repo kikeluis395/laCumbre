@@ -1,7 +1,5 @@
-<!-- MODAL/POPUP CONTÁCTANOS -->
-<div class="modal-container" id="modal-container">
+<section class="contactanos">
     <div class="content-modal">
-        <p class="modal-close" id="modal-close">X</p>
         <h1>Envíanos un mensaje,
             <br>¡Te responderemos de inmediato!
         </h1>
@@ -17,5 +15,4 @@
             </form>
         </div>
     </div>
-</div>
-<!-- FIN MODAL/POPUP CONTÁCTANOS -->
+</section>

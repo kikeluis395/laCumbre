@@ -45,12 +45,12 @@
 
     <!-- footer -->
     <?php 
-        if ($vistasR != "./views/layouts/transparencia-view.php"):
-            include "./views/partials/contact.php";
-            include "./views/partials/footer.php";
-        else:
-            include "./views/partials/footer.php";
-        endif
+        if ($vistasR != './views/layouts/contactanos-view.php' && $vistasR != './views/layouts/transparencia-view.php') {
+            include "./views/layouts/modals/contact_modal.php";
+        }
+        
+        include "./views/partials/contact.php";
+        include "./views/partials/footer.php";
     ?>
     <?php
     endif;
