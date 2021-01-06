@@ -1,7 +1,7 @@
 <div class="container-modal-notice" id="container-modal-notice">
     <div class="content-modal-notice">
-        <p class="modal-notice-close" id="modal-notice-close">X</p>
         <div class="content-notice">
+            <p class="modal-notice-close" id="modal-notice-close">X</p>
             <h1>Conoce la tendencia
                 <br>en la bolsa de valores
             </h1>
@@ -43,9 +43,8 @@
                     medidas económicas que aplicará el Poder Ejecuvo liderado por
                     Manuel Merino, quien asumió la presidencia de la República tras la
                     vacancia de Vizcarra impulsada por el Congreso de la República.
-
                 <div>
-                    <img src="<?php echo SERVERURL . "views/img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg"; ?>" alt="">
+                    <img src="<?php echo SERVERURL."views/img/NOTICIAS 1.png"; ?>" alt="">
                 </div>
 
                 </p>
