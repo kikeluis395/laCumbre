@@ -894,6 +894,7 @@ footer {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
+  text-align: center;
   letter-spacing: 1px;
   color: #f1f1f1;
   font-family: fontExtraLight;
@@ -1160,9 +1161,6 @@ footer {
   padding: 0px 60px 0px 0px;
 }
 
-.inidicators--alianzas {
-
-}
 .alianzas--beneficios {
   width: 50%;
 }

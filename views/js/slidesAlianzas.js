@@ -72,6 +72,6 @@ function showAlianzas(n) {
   for (i = 0; i < indicators.length; i++) {
     indicators[i].className = indicators[i].className.replace(" active", " ");
   }
-  slides[slideI - 1].style.display = "block";
+  slides[slideI - 1].style.display = "flex";
   indicators[slideI - 1].className += " active";
 }
