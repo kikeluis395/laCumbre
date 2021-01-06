@@ -154,7 +154,7 @@
   position: relative;
 }
 .servicios {
-  grid-template: 10% 40% 40%/ 100%;
+  grid-template: 10% 50% 40%/ 100%;
   justify-items: center;
   margin: auto;
   grid-template-areas: "description"
@@ -170,7 +170,7 @@
   max-width: max-content;
 }
 .image {
-  font-size: 45rem;
+  height: 300px;
 }
 
 .inidicators {
@@ -326,4 +326,11 @@
 
 .misionVision .misionVision__texto {
   font-size: 3rem;
+}
+
+/* seccion alianzas */
+
+.alianzas--items {
+  display: flex;
+  flex-direction: column;
 }

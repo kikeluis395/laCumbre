@@ -2,18 +2,44 @@
 <section class="hero">
     <div class="hero--container">
         <div class="hero__img-container">
-            <div class="hero__img hero1"></div>
-            <div class="hero__img hero2"></div>
-            <div class="hero__img hero3"></div>
-            <div class="hero__img hero1"></div>
-        </div>
-        <div class="hero--box">
-            <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
-            <div class="hero--container-content">
-                <p>10% OFF <br><span class="content-description">En la pensión</span></p>
-                <a href="" class="hero--container-button">ver más</a>
+            <div class="hero__img hero1">
+                <div class="hero--box">
+                    <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
+                    <div class="hero--container-content">
+                        <p>10% OFF <br><span class="content-description">En la pensión</span></p>
+                        <a href="" class="hero--container-button">ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__img hero2">
+                <div class="hero--box">
+                    <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
+                    <div class="hero--container-content">
+                        <p>15% OFF <br><span class="content-description">En la pensión</span></p>
+                        <a href="" class="hero--container-button">ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__img hero3">
+                <div class="hero--box">
+                    <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
+                    <div class="hero--container-content">
+                        <p>8% OFF <br><span class="content-description">En la pensión</span></p>
+                        <a href="" class="hero--container-button">ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__img hero1">
+                <div class="hero--box">
+                    <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
+                    <div class="hero--container-content">
+                        <p>10% OFF <br><span class="content-description">En la pensión</span></p>
+                        <a href="" class="hero--container-button">ver más</a>
+                    </div>
+                </div>
             </div>
         </div>
+        
     </div>
 </section>
 
@@ -35,7 +61,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg1">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -55,7 +80,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg2">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -75,7 +99,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg3">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -95,7 +118,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg4">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -115,7 +137,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg5">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -135,7 +156,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg6">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>
@@ -158,7 +178,6 @@
     </div>
     <div class="servicios">
         <section class="image bkg7">
-            <p>C</p>
         </section>
         <section class="description1">
             <h2>

@@ -307,17 +307,18 @@ li:hover>ul {
 }
 
 .hero2 {
-  background: url(../img/beautiful-girl-in-hat-in-swimming-pool.jpg) no-repeat;
+  background: url(../img/traffic-vehicle-urban-reflections-city.jpg) no-repeat;
   background-size: cover;
 }
 
 .hero3 {
-  background: url(../img/executive-business-woman-in-an-office.jpg) no-repeat;
+  background: url(../img/pexels-juan-salamanca-61136.jpg) no-repeat;
   background-size: cover;
 }
 
 .hero--box {
   width: 70%;
+  margin: 0px auto;
   margin-top: 60px;
   height: 60%;
   display: flex;
@@ -424,11 +425,11 @@ li:hover>ul {
 }
 
 .inidicators--alianzas {
-  position: absolute;
-  bottom: -50px;
-  left: 70%;
   display: flex;
-  width: 150px;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  padding-right: 50px;
   height: 50px;
 }
 .inidicators .indicator, .inidicators--alianzas .Alianzas {
@@ -452,64 +453,41 @@ li:hover>ul {
 .image {
   grid-area: image;
   position: relative;
-  height: 500px;
-  width: max-content;
-  font-size: 65rem;
-  line-height: 50rem;
-  font-weight: 700;
-}
-
-.image p {
-  position: relative;
-  cursor: default;
-  height: 100%;
-  font-family: fontBold;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(15, 67, 73, 0.424);
+  height: 530px;
+  width: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-}
-
-.bkg1 p {
-  background-image: url('../img/nuestrosServicios1.jpg');
-  background-size: 160%;
-  background-position: right;
-}
-
-.bkg2 p {
-  background-image: url('../img/pexels-fauxels-3184292.jpg');
-  background-size: 200%;
-  background-position: right;
-}
-
-.bkg3 p {
-  background-image: url('../img/beautiful-female-women-driver-sitting-her-vehicle-holding-car-keys-ready-drive.jpg');
-  background-size: cover;
   background-position: center;
 }
 
-.bkg4 p {
-  background-image: url('../img/coin-on-wooden-table.jpg');
-  background-size: cover;
-  background-position: center;
+
+.bkg1 {
+  background-image: url('../img/PNG\ C_Mujer\ maravilla.png');
+
 }
 
-.bkg5 p {
-  background-image: url('../img/handshake-close-up-executives.jpg');
-  background-size: cover;
-  background-position: right;
+.bkg2 {
+  background-image: url('../img/PNG\ C_Crédito\ MICROPYME.png');
 }
 
-.bkg6 p {
-  background-image: url('../img/home-improvement-kitchen-view-installed-new-kitchen-cabinet.jpg');
-  background-size: 210%;
-  background-position: right;
+.bkg3 {
+  background-image: url('../img/PNG\ C_Crédito\ vehicular.png');
 }
 
-.bkg7 p {
-  background-image: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
-  background-size: cover;
-  background-position: right;
+.bkg4 {
+  background-image: url('../img/PNG\ C_Depósito\ a\ plazo\ fijo.png');
+}
+
+.bkg5 {
+  background-image: url('../img/PNG\ C_Convenios.png');
+}
+
+.bkg6 {
+  background-image: url('../img/PNG\ C_Crédito\ remodelación.png');
+}
+
+.bkg7 {
+  background-image: url('../img/PNG\ C_Garantía\ de\ inmueble.png');
 }
 
 .description {
@@ -647,32 +625,32 @@ li:hover>ul {
 
 .img1 {
   grid-area: img1;
-  background: url('../img/executive-business-woman-in-an-office.jpg');
+  background: url('../img/1.png');
   background-size: cover;
 }
 
 .img2 {
   grid-area: img2;
-  background: url('../img/smiling-african-american-cashier-sitting-at-checkout.jpg');
+  background: url('../img/2.png');
   background-size: cover;
 }
 
 .img3 {
   grid-area: img3;
-  background: url('../img/businesswomen-looking-at-speaker-with-papers.jpg');
+  background: url('../img/3.png');
   background-size: cover;
   background-position: center;
 }
 
 .img4 {
   grid-area: img4;
-  background: url('../img/shopkeeper-grocery-store.jpg');
+  background: url('../img/4.png');
   background-size: cover;
 }
 
 .img5 {
   grid-area: img5;
-  background: url('../img/young-couple-buying-car-in-car-showroom.jpg');
+  background: url('../img/5.png');
   background-size: cover;
 }
 
@@ -738,7 +716,7 @@ li:hover>ul {
   cursor: pointer;
   align-items: flex-end;
   padding: 30px 35px;
-  background: url('../img/pexels-burst-374016.jpg');
+  background: url('../img/NOTICIAS\ 1.png');
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -748,7 +726,7 @@ li:hover>ul {
 .i2 {
   position: relative;
   grid-area: i2;
-  background: url('../img/pexels-karolina-grabowska-5632379.jpg');
+  background: url('../img/NOTICIAS\ 2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -757,14 +735,14 @@ li:hover>ul {
 .i3 {
   position: relative;
   grid-area: i3;
-  background: url('../img/pexels-fauxels-3184291.jpg');
+  background: url('../img/NOTICIAS\ 3.png');
   background-size: cover;
 }
 
 .i4 {
   position: relative;
   grid-area: i4;
-  background: url('../img/real-estate-agent-hand-giving-house-keys-house-buyer.jpg');
+  background: url('../img/NOTICIAS\ 4.png');
   background-size: cover;
   background-position: center;
 }
@@ -1138,7 +1116,6 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Euroidiomas */
 .section--alianza {
   display: flex;
-  margin: 80px 0;
 }
 
 .title--alianza {
@@ -1183,6 +1160,9 @@ footer {
   padding: 0px 60px 0px 0px;
 }
 
+.inidicators--alianzas {
+
+}
 .alianzas--beneficios {
   width: 50%;
 }
@@ -1197,26 +1177,23 @@ footer {
 }
 
 .img--alianzas {
-  background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
+  background: url("../img/Euroidiomas_1.png") no-repeat;
 }
 
 .img--alianzas01 {
-  background: url("../img/LSP9rE9xR2WUpOsK2nfh_surface-DMVU0XqiT90-unsplash.jpg") no-repeat;
+  background: url("../img/Euroidiomas_2.png") no-repeat;
 }
 
 .img--alianzas02 {
-  background: url("../img/blog_virtual_classroom.jpg") no-repeat;
+  background: url("../img/Euroidiomas_3.png") no-repeat;
 }
 
-.img--alianzas03 {
-  background: url("../img/pexels-thirdman-5649522.jpg") no-repeat;
-}
 /* Fin de estilos Nuestras Alianzas - Euroidiomas */
 
 /* Inicio estilos Nuestras Alianzas - Cruz del sur */
 
 .img--cruzSur {
-  background: url("../img/traffic-vehicle-urban-reflections-city.jpg") no-repeat;
+  background: url("../img/Cruzdelsur_1.png") no-repeat;
 }
 
 .img--cruzSur--container {
@@ -1234,15 +1211,11 @@ footer {
 }
 
 .img--cruzSur01 {
-  background: url("../img/pexels-julia-volk-5273189.jpg") no-repeat;
+  background: url("../img/Cruzdelsur_2.png") no-repeat;
 }
 
 .img--cruzSur02 {
-  background: url("../img/view-from-sightseeing-bus-from-inside-outside-motion-toning-travel-concept.jpg") no-repeat;
-}
-
-.img--cruzSur03 {
-  background: url("../img/interior-of-public-bus-transport.jpg") no-repeat;
+  background: url("../img/Cruzdelsur_3.png") no-repeat;
 }
 
 /* Fin de estilos Nuestras Alianzas - Cruz del sur */
@@ -1250,7 +1223,7 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Huampani */
 
 .img--huampani {
-  background: url("../img/pexels-juan-salamanca-61136.jpg") no-repeat;
+  background: url("../img/Huampaní_1.png") no-repeat;
 }
 
 .img--huampani--container {
@@ -1268,15 +1241,11 @@ footer {
 }
 
 .img--huampani01 {
-  background: url("../img/pexels-armin-rimoldi-5269789.jpg") no-repeat;
+  background: url("../img/Huampaní_2.png") no-repeat;
 }
 
 .img--huampani02 {
-  background: url("../img/pexels-perfecto-capucine-1247523.jpg") no-repeat;
-}
-
-.img--huampani03 {
-  background: url("../img/pexels-marctutorials-870170.jpg") no-repeat;
+  background: url("../img/Huampaní_3.png") no-repeat;
 }
 
 .alianzas--img--slides {
@@ -1287,6 +1256,7 @@ footer {
 
 .alianzas--container {
   position:relative;
+  margin: 80px 0;
 }
 
 /* SECCION PRODUCTOS */
@@ -1553,18 +1523,18 @@ footer {
 
 .testimonio__img1 {
   grid-area: testimonio__img1;
-  background: url("../img/pexels-armin-rimoldi-5269789.jpg");
+  background: url("../img/testimonios1.png");
   background-size: cover;
   background-position: center;
 }
 .testimonio__img2 {
   grid-area: testimonio__img2;
-  background: url("../img/shopkeeper-grocery-store.jpg");
+  background: url("../img/testimonios2.png");
   background-size: cover;
 }
 .testimonio__img3 {
   grid-area: testimonio__img3;
-  background: url("../img/young-couple-buying-car-in-car-showroom.jpg");
+  background: url("../img/testimonios3.png");
   background-size: cover;
 }
 
