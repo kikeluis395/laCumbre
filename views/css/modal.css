@@ -321,7 +321,7 @@
     background-color: #4f487a;
 }
 
-.service-desc h1, p {
+.service-desc h1, .service-desc p {
     color: white;
 }
 
@@ -340,7 +340,7 @@
     text-align: right;
     cursor: pointer;
     margin-top: 10px;
-    margin-right: -20px;
+    margin-right: -10px;
 }
 
 .service-req {

@@ -5,9 +5,9 @@ window.onscroll = function () {
   scrollFunction();
 };
 
-const top_navbar = document.getElementById("top_navbar");
-const menu_navbar = document.getElementById("menu_navbar");
-const logo = document.getElementById("logo_white");
+var top_navbar = document.getElementById("top_navbar");
+var menu_navbar = document.getElementById("menu_navbar");
+var logo = document.getElementById("logo_white");
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
@@ -93,9 +93,9 @@ function autoPlay() {
 
 /* MODAL/POPUP CONTÁCTANOS */
 
-  const btnOpen = document.getElementById("btnOpen");
-  const popup = document.getElementById("modal-container");
-  const btnClose = document.getElementById("modal-close");
+  var btnOpen = document.getElementById("btnOpen");
+  var popup = document.getElementById("modal-container");
+  var btnClose = document.getElementById("modal-close");
 
   btnOpen.addEventListener("click", () => {
     popup.style.display = "flex";
@@ -109,13 +109,15 @@ function autoPlay() {
 
 /* MODAL/POPUP SERVICIOS */
 
-  const btnOpenService = document.getElementById("btnSolcitar");
-  const popupService = document.getElementById("modal-container-service");
-  const btnCloseService = document.getElementById("modal-close-service");
+  var popupService = document.getElementById("modal-container-service");
+  var btnCloseService = document.getElementById("modal-close-service");
+  var btnOpenService = document.querySelectorAll(".btnSolcitar");
 
-  btnOpenService.addEventListener("click", () => {
-    popupService.style.display = "flex";
-  });
+  for (let i = 0; i < btnOpenService.length; i++) {
+    btnOpenService[i].addEventListener("click", function () {
+      popupService.style.display = "flex";
+    });
+  }
 
   btnCloseService.addEventListener("click", () => {
     popupService.style.display = "none";
@@ -125,10 +127,10 @@ function autoPlay() {
 
 /* MODAL/POPUP NOTICIAS */
 
-  const botones = document.querySelector(".entradas");
-  const btnNotice = document.querySelectorAll(".entradas__img");
-  const popupNotice = document.getElementById("container-modal-notice");
-  const btnCloseNotice = document.getElementById("modal-notice-close");
+  var botones = document.querySelector(".entradas");
+  var btnNotice = document.querySelectorAll(".entradas__img");
+  var popupNotice = document.getElementById("container-modal-notice");
+  var btnCloseNotice = document.getElementById("modal-notice-close");
 
   for (let i = 0; i < btnNotice.length; i++) {
     btnNotice[i].addEventListener("click", function () {
