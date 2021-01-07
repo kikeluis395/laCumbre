@@ -62,7 +62,6 @@
     <div class="servicios">
         <section class="image bkg1">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -76,12 +75,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg2">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -95,12 +92,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg3">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -114,12 +109,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg4">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -133,12 +126,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg5">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -152,12 +143,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg6">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -174,12 +163,10 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
     <div class="servicios">
         <section class="image bkg7">
         </section>
-        <div class="servicios__fondo">
             <section class="description1">
                 <h2>
                     Nuestros
@@ -196,7 +183,6 @@
                 </p>
                 <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
             </section>
-        </div>
     </div>
 </div>
 </div>

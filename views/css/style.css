@@ -418,19 +418,9 @@ li:hover>ul {
   grid-area: servicios;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "image serviciosfondo" 
-                        ;
+  grid-template-areas: "image description"
+                       "image description2";
   column-gap: 20px;
-}
-
-.servicios__fondo {
-  grid-area: serviciosfondo;
-  height: 100%;
-  background: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 20px;
 }
 
 .inidicators {
