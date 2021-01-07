@@ -199,18 +199,19 @@
 }
 
 .pyme {
-  grid-template: 250px repeat(5,auto)/ 10% 10% 70% 10%;
-  grid-template-areas: ". indicators imagen imagen"
-                       ". title title ."
+  grid-template: auto minmax(130px,130px) auto 270px repeat(5,auto)/ 10% 10% 70% 10%;
+  grid-template-areas: ". title title ."
                        ". description description ."
                        ". terminos terminos ."
+                       "imagen imagen imagen imagen"
+                       ". indicators indicators ."
                        ". detalle detalle ."
                        ". lista lista ."
                        ". reqdetalle reqdetalle ."
                        ". reqlista reqlista .";
 }
 .beneficios__title.description2 {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 10px;
   align-items: flex-start;
 }
@@ -250,8 +251,10 @@
 
 .inidicators__productos {
   position: absolute;
-  top: 130px;
-  width: 25%;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .inidicators__productos .Productos {

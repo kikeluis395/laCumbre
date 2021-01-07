@@ -62,141 +62,141 @@
     <div class="servicios">
         <section class="image bkg1">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>Mujer maravilla</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>Mujer maravilla</span>
+                <p>
+                Este es un crédito pensado especialmente para todas las mujeres emprendedoras que trabajan día a día por su familia, para cuidar a los que más quieren y darles todo lo mejor. Este crédito está para reforzar tu lado más maravilloso. 
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg2">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>Crédito MICROPYME</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>Crédito MICROPYME</span>
+                <p>
+                Eres un emprendedor con ganas de crecer a base de esfuerzo y trabajo, te ayudamos a alcanzar la cumbre con el crédito pensado especialmente en el desarrollo y crecimiento de tu emprendimiento.
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg3">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>Crédito vehicular</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>Crédito vehicular</span>
+                <p>
+                Es la oportunidad que has estado esperando, el sueño del auto propio cada vez más cerca. Te mostramos los requisitos a cumplir para tener el crédito. 
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg4">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>Depósito a plazo fijo</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>Depósito a plazo fijo</span>
+                <p>
+                Depositar tus ahorros a plazo fijo puede ser una de tus más grandes oportunidades para crecer financieramente. En La Cumbre nos preocupamos por tu situación económica, social y familiar, por eso queremos ayudarte a rentabilizar tus ahorros y hacer que tu dinero crezca en el futuro. 
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg5">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>Convenios</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>Convenios</span>
+                <p>
+                A través de convenios empresariales entre La Cumbre y la organización donde trabajas, podrás sacar provecho de todos los beneficios, productos y servicios que ofrece nuestra cooperativa.
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg6">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>
-                Remodelaciones para
-                venta de inmuebles
-            </span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>
+                    Remodelaciones para
+                    venta de inmuebles
+                </span>
+                <p>
+                ¿Estás pensando en remodelar un inmueble antes de venderlo? con este crédito podrás hacerlo. No te preocupes por nada, nosotros nos encargamos de la venta posterior del inmueble. Estamos para ayudarte 
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
     <div class="servicios">
         <section class="image bkg7">
         </section>
-        <section class="description1">
-            <h2>
-                Nuestros
-                Servicios
-            </h2>
-        </section>
-        <section class="description2">
-            <span>
-                Préstamos con garantías
-                de inmueble
-            </span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repudiandae asperiores voluptates quas dolore alias voluptatum,
-                debitis nemo tempora sed?
-            </p>
-            <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
-        </section>
+        <div class="servicios__fondo">
+            <section class="description1">
+                <h2>
+                    Nuestros
+                    Servicios
+                </h2>
+            </section>
+            <section class="description2">
+                <span>
+                    Préstamos con garantías
+                    de inmueble
+                </span>
+                <p>
+                Si tienes pensado remodelar tu hogar o comprar electrodomésticos para seguir creciendo con tu familia, este es el crédito ideal para ti. Es el momento perfecto para que tu hogar crezca a tu gusto.
+                </p>
+                <a href="<?php echo SERVERURL; ?>productos/">ver más</a>
+            </section>
+        </div>
     </div>
 </div>
 </div>

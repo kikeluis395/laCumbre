@@ -145,14 +145,14 @@
     top: 0;
     left: 0;
     height: 100%;
+    margin: auto;
     width: 100%;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .content-modal-notice {
     max-width: 90%;
     width: 100%;
-    height: 80%;
     margin: auto;
     /* padding: 3em; */
     /* padding-top: 30px; */
@@ -172,7 +172,6 @@
     font-weight: 900;
     text-align: right;
     cursor: pointer;
-    margin-top: 30px;
     margin-right: -10px;
 }
 

@@ -34,17 +34,17 @@
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>conocenos/">Conócenos</a></li>
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>productos/">Productos</a>
                     <ul class="submenu">
-                        <li><a href="">Ahorros</a></li>
-                        <li><a href="">Créditos personales</a></li>
-                        <li><a href="">Crédito pyme</a></li>
-                        <li><a href="">Crédito con garantía</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>productos/ahorros">Ahorros</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>productos/creditosPersonales">Créditos personales</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>productos/creditoPyme">Crédito pyme</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>productos/creditoConGarantia">Crédito con garantía</a></li>
                     </ul>
                 </li>
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>alianzas/">Alianzas</a>
                     <ul class="submenu">
-                        <li><a href="">Euroidiomas</a></li>
-                        <li><a href="">Huampaní</a></li>
-                        <li><a href="">Cruz del sur</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/euroidiomas">Euroidiomas</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/cruzDelSur">Cruz del sur</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/huampani">Huampaní</a></li>
                     </ul>
                 </li>
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>transparencia/">Transparencia</a>

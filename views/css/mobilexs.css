@@ -119,3 +119,15 @@
 .conocenos__info {
   padding-top: 30px;
 }
+
+.inidicators__productos {
+  position: absolute;
+  top: 98%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.beneficios__description {
+  overflow-y: scroll;
+}

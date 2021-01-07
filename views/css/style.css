@@ -418,8 +418,19 @@ li:hover>ul {
   grid-area: servicios;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "image description" "image description2";
+  grid-template-areas: "image serviciosfondo" 
+                        ;
   column-gap: 20px;
+}
+
+.servicios__fondo {
+  grid-area: serviciosfondo;
+  height: 100%;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
 }
 
 .inidicators {
@@ -1266,8 +1277,9 @@ footer {
 /* Estilos del section: pyme */
 
 .credito {
-  width: 200px;
+  width: max-content;
   height: 40px;
+  padding: 0 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1289,8 +1301,9 @@ footer {
 .pyme {
   position: relative;
   width: 100%;
+  column-gap: 30px;
   display: grid;
-  grid-template: 30% 25% 10% 25% 10% / 10% 40% 40% 10%;
+  grid-template: auto auto 10% 150px 10% / 10% 40% 40% 10%;
   grid-template-areas: ". title imagen imagen"
                        ". description imagen imagen"
                        ". detalle reqdetalle ."
@@ -1302,11 +1315,14 @@ footer {
 .beneficios__title {
   grid-area: title;
   margin-top: 50px;
+  width: 80%;
   margin-bottom: 30px;
 }
 
-.beneficios__title .beneficios__subtitle {
+.pyme .beneficios__title .beneficios__subtitle {
   font-size: 4rem;
+  width: 250px;
+  height: 100%;
 }
 
 .beneficios__description {
@@ -1328,6 +1344,7 @@ footer {
   font-size: 2rem;
   color: #4d4d4d;
   line-height: 2.8rem;
+  width: 90%;
 }
 .requisitos__detalle {
   font-size: 2.8rem;
@@ -1366,10 +1383,9 @@ footer {
   grid-area: imagen;
   background-size: cover;
   background-position: 50%;
-  align-self: center;
-  height: 80%;
+  height: 250px;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
 }
 .requisitos__description {
   grid-area: reqdescription;
@@ -1383,10 +1399,26 @@ footer {
 
 .requisitos__lista {
   grid-area: reqlista;
+  overflow-y: scroll;
   font-size: 2rem;
   color: #4d4d4d;
   line-height: 3rem;
 }
+
+.requisitos__lista::-webkit-scrollbar {
+  width: 0.7em;
+}
+.requisitos__lista::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px RGB(178, 178, 178);
+  /* -webkit-box-shadow: inset 0 0 6px rgb(225, 225, 225); */
+}
+
+.requisitos__lista::-webkit-scrollbar-thumb {
+  background-color: RGB(77, 77, 77);
+  /* outline: 2px solid rgb(248, 244, 0); */
+}
+
+
 .requisitos__detalle {
   font-size: 2.8rem;
   color: rgba(27, 176, 194, 1);
@@ -1416,7 +1448,7 @@ footer {
   display: flex;
   position:relative;
   z-index: 1;
-  width: 50%;
+  width: 60%;
   margin-top: -30px;
   justify-content: center;
   align-items: center;
