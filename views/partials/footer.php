@@ -32,9 +32,9 @@
             <div class="footer__social">
                 <div class="footer__social--logo"></div>
                 <div class="footer__social--redes">
-                    <a href="#" class="footer__social--instagram"><i class="fab fa-instagram-square"></i></a>
-                    <a href="" class="footer__social--linkedin"><i class="fab fa-linkedin"></i></a>
-                    <a href="" class="footer__social--facebook"><i class="fab fa-facebook-square"></i></i></a>
+                    <a href="https://www.instagram.com/cooperativa.lacumbre/" class="footer__social--instagram"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.linkedin.com/company/cooperativa-lacumbre" class="footer__social--linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/cooperativa.lacumbre" class="footer__social--facebook"><i class="fab fa-facebook-square"></i></i></a>
                 </div>
             </div>
             <div class="footer__description">

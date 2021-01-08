@@ -7,9 +7,10 @@
                     <img src="<?php echo SERVERURL; ?>views/img/Logotipo-04.png" alt="" class="logotipo">
                 </a>
             </div>
-            <ul class="header--menu-main">
+            <ul class="header--menu-main" id="menu--main">
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>conocenos/">Conócenos</a></li>
-                <li class="menu-item"><a href="<?php echo SERVERURL; ?>productos/">Productos</a>
+                <li class="menu-item menuSubmenu"><a href="<?php echo SERVERURL; ?>productos/">Productos</a>
+                    <i class="fas fa-angle-down arrow" id="submenu--icon" onclick="mostrarSubmenu(0)"></i>
                     <ul class="submenu">
                         <li><a href="<?php echo SERVERURL; ?>productos/ahorros">Ahorros</a></li>
                         <li><a href="<?php echo SERVERURL; ?>productos/creditosPersonales">Créditos personales</a></li>
@@ -17,14 +18,16 @@
                         <li><a href="<?php echo SERVERURL; ?>productos/creditoConGarantia">Crédito con garantía</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="<?php echo SERVERURL; ?>alianzas/">Alianzas</a>
+                <li class="menu-item menuSubmenu"><a href="<?php echo SERVERURL; ?>alianzas/">Alianzas</a>
+                    <i class="fas fa-angle-down arrow" id="submenu--icon" onclick="mostrarSubmenu(1)"></i>
                     <ul class="submenu">
                         <li><a href="<?php echo SERVERURL; ?>alianzas/euroidiomas">Euroidiomas</a></li>
                         <li><a href="<?php echo SERVERURL; ?>alianzas/cruzDelSur">Cruz del sur</a></li>
                         <li><a href="<?php echo SERVERURL; ?>alianzas/huampani">Huampaní</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="<?php echo SERVERURL; ?>transparencia/">Transparencia</a>
+                <li class="menu-item menuSubmenu"><a href="<?php echo SERVERURL; ?>transparencia/">Transparencia</a>
+                    <i class="fas fa-angle-down arrow" id="submenu--icon" onclick="mostrarSubmenu(2)"></i>
                     <ul class="submenu">
                         <li><a href="">Tablas</a></li>
                         <li><a href="">Tarifarios</a></li>
@@ -33,8 +36,8 @@
                 </li>
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>contactanos/">Contáctanos</a></li>
             </ul>
-            <div class="menu--icon" id="menu--icon">
-                <i class="fa fa-bars"></i>
+            <div class="menu--icon" >
+                <i class="fa fa-bars" id="menu--icon"></i>
             </div>
         </div>
     </nav>

@@ -65,7 +65,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -82,7 +82,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -99,7 +99,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -116,7 +116,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -133,7 +133,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -150,7 +150,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">
@@ -170,7 +170,7 @@
             <section class="description1">
                 <h2>
                     Nuestros
-                    Servicios
+                    <span class="bold">Servicios</span>
                 </h2>
             </section>
             <section class="description2">

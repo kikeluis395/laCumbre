@@ -8,7 +8,7 @@
               <div class="description title--alianza">
                 <h2 class="">
                   Nuestras <br />
-                  Alianzas
+                  <span class="bold">Alianzas</span>
                 </h2>
               </div>
               <div class="img--alianzas--container">
@@ -44,7 +44,7 @@
               <div class="description title--alianza">
                 <h2 class="">
                   Nuestras <br />
-                  Alianzas
+                  <span class="bold">Alianzas</span>
                 </h2>
               </div>
               <div class="img--alianzas--container">
@@ -83,7 +83,7 @@
               <div class="description title--alianza">
                 <h2 class="">
                   Nuestras <br />
-                  Alianzas
+                  <span class="bold">Alianzas</span>
                 </h2>
               </div>
               <div class="img--alianzas--container">

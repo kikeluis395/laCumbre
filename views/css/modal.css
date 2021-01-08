@@ -367,3 +367,35 @@
     overflow: auto;
     height: 50%;
 }
+
+/* modal inicio */
+.container-modal-inicio {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+
+.modal-inicio-close {
+    font-size: 2rem;
+    position: absolute;
+    color: #4d4d4d;
+    left: 95%;
+    top: 5%;
+    z-index: 1;
+}
+
+.content-modal-inicio {
+    position: relative;
+    background: url(../img/POP\ UP\ MOMENTÁNEO.png);
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}

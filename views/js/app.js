@@ -8,18 +8,21 @@ window.onscroll = function () {
 var top_navbar = document.getElementById("top_navbar");
 var menu_navbar = document.getElementById("menu_navbar");
 var logo = document.getElementById("logo_white");
+var particles = document.getElementById('particles-js');
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     if (top_navbar) {
       top_navbar.style.display = "none";
       logo.style.display = "block";
+      particles.style.margin = '55px 0 0 0';
     }
     menu_navbar.style.justifyContent="space-between";
   } else {
     if (top_navbar) {
       top_navbar.style.display = "flex";
       logo.style.display = "none";
+      particles.style.margin = '120px 0 0 0';
     }
     menu_navbar.style.justifyContent="flex-end";
   }
@@ -29,8 +32,22 @@ function scrollFunction() {
 
 // MENU RESPONSIVE
 var menu_icon = document.getElementById("menu--icon");
+var menu = document.getElementById('menu_navbar');
+var menu_responsive = document.getElementById('menu--main');
+var menu_item = document.querySelectorAll('.menuSubmenu');
+var arrow = document.querySelectorAll('#submenu--icon');
+var submenu = document.querySelectorAll('.submenu');
 
-menu_icon.addEventListener("click", function () {});
+mostrarSubmenu = index => {
+  submenu[index].classList.toggle('showSubmenu');
+  arrow[index].classList.toggle('rotate');
+  menu_item[index].classList.toggle('mostrarSubmenu');
+}
+
+menu_icon.addEventListener("click", function () {
+  menu.classList.toggle('show');
+  menu_responsive.classList.toggle('showMenu');
+});
 // FIN DEL MENU RESPONSIVE
 
 /** SLIDER SERVICIOS */
@@ -146,3 +163,12 @@ function autoPlay() {
   }
 
 /* FIN MODAL/POPUP NOTICIAS */
+// MODAL INICIO
+var modalInicio = document.getElementById('container-modal-inicio');
+var modalInicioClose = document.getElementById('modal-inicio-close');
+setTimeout(() => {
+  modalInicio.style.display= 'flex';
+}, 5000);
+modalInicioClose.addEventListener('click', () => {
+  modalInicio.style.display= 'none';
+});

@@ -23,8 +23,7 @@
     //echo $vistasR;
     
     if ($vistasR == "404") :
-        //require_once "./views/layouts/404-view.php";
-        echo "Error 404";
+        require_once "./views/layouts/404-view.php";
     else :
 
         if ($vistasR == "./views/layouts/home-view.php"):
@@ -47,6 +46,7 @@
     <?php 
         if ($vistasR != './views/layouts/contactanos-view.php' && $vistasR != './views/layouts/transparencia-view.php') {
             include "./views/layouts/modals/contact_modal.php";
+            include "./views/layouts/modals/popup_inicio.php";
         }
         
         include "./views/partials/contact.php";

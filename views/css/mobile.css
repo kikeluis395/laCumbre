@@ -2,6 +2,9 @@
   display: block;
 }
 
+.description .conocenos__texto {
+  max-height: 300px;
+}
 /* seccion nuestros servicios */
 
 .footer__grid {
@@ -63,6 +66,8 @@
 .footer__description {
   font-size: 1.6rem;
 }
+
+/* header menu responsive */
 
 .header1--logo {
   object-fit: cover;
@@ -150,7 +155,7 @@
   position: relative;
 }
 .servicios {
-  grid-template: 10% 50% 40%/ 100%;
+  grid-template: repeat(3,auto)/ 100%;
   justify-items: center;
   margin: auto;
   grid-template-areas: "description"
@@ -186,8 +191,8 @@
   font-size: 2.4rem;
 }
 .description2 span {
-  margin-top: 20px;
   margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 /* seccion hero */
@@ -198,6 +203,7 @@
 
 .pyme {
   grid-template: auto minmax(130px,130px) auto 270px repeat(5,auto)/ 10% 10% 70% 10%;
+  column-gap: 0;
   grid-template-areas: ". title title ."
                        ". description description ."
                        ". terminos terminos ."
@@ -212,6 +218,14 @@
   margin-top: 20px;
   margin-bottom: 10px;
   align-items: flex-start;
+}
+
+.beneficios__title {
+  width: 100%;
+}
+
+.pyme .beneficios__title .beneficios__subtitle {
+  width: 100%;
 }
 
 .beneficios__description {
@@ -235,6 +249,15 @@
 }
 .terminos {
   flex-direction: column;
+  margin-top: 10px;
+}
+.requisitos__img {
+  margin:30px auto 0 auto;
+  height: 200px;
+}
+
+.description2 a {
+  font-size: 2.4rem;
 }
 
 .terminos__text {
@@ -261,14 +284,15 @@
 }
 
 .credito {
-  width: 120px;
+  width: auto;
   height: 30px;
   display: flex;
+  padding: 5px;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient( 90deg, rgba(27, 176, 194, 1) 60%, rgba(83, 70, 130, 1) 120% );
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   margin-bottom: 30px;
 }
 
@@ -290,18 +314,19 @@
 }
 
 .conocenos__container {
-  height: calc(200vh);
+  height: auto;
   flex-direction: column;
 }
 
 .conocenos__img {
   width: 100%;
-  height: 60%;
+  height: 75vh;
 }
 
 .conocenos__info {
   width: 100%;
   margin-bottom: 30px;
+  height: auto;
 }
 
 .container .misionVision {
@@ -310,6 +335,7 @@
 
 .misionVision__info--mision {
   grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto auto auto;
   row-gap: 20px;
   grid-template-areas: ". title ."
                       ". content ."
@@ -318,8 +344,18 @@
   margin-bottom: 50px;
 }
 
+.img--mision {
+  background-position: bottom;
+  height: 200px;
+}
+.img--vision {
+  background-position: center;
+  height: 200px;
+}
+
 .misionVision__info--vision {
   grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto auto auto;
   row-gap: 20px;
   grid-template-areas: ". title ."
                       ". content ."
@@ -334,6 +370,7 @@
 
 .misionVision .misionVision__texto {
   font-size: 3rem;
+  margin-bottom: 0;
 }
 
 /* seccion alianzas */
@@ -352,6 +389,7 @@
 
 .alianzas--beneficios {
   width: 100%;
+  margin-top: 340px;
 }
 
 .title--alianza {
@@ -384,14 +422,131 @@
 .inidicators--alianzas {
   position:absolute;
   z-index: 1;
-  top: 50%;
+  top: 520px;
   width: 100%;
   justify-content: center;
   padding: 0;
 }
 
+.header {
+  align-items: flex-start;
+
+}
+
+.header--container {
+  margin: 0 auto;
+}
 .header--menu-main {
+  position: absolute;
   display: none;
 }
 
+.showMenu {
+  display: block;
+}
 
+.header--menu-main {
+  top: 15%;
+  left: 10%;
+  bottom: 0;
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+}
+
+.header li {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-item::after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  left: -20%;
+  width: 250px;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to left, #534682, #1bb0c2 80%);
+}
+
+.menu-item:not(:first-child):before {
+  display: none;
+}
+
+.submenu {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  list-style: none;
+  display: none;
+}
+
+.submenu li{
+  font-size: 2rem;
+  margin-bottom: 0;
+  height: auto;
+  padding: 0;
+}
+
+.submenu li a {
+  padding: 0;
+}
+
+.submenu li:not(:last-child):after {
+  display: none;
+}
+
+.mostrarSubmenu {
+  height: 115px !important;
+}
+
+.showSubmenu {
+  display: block;
+}
+
+.show {
+  height: 100vh;
+}
+
+.arrow {
+  display: block;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.conocenos__info .description h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.conocenos__info{
+  padding-top: 30px;
+}
+.misionVision .misionVision__texto {
+  width: 100%;
+}
+
+.misionVision .misionVision__texto {
+  font-size: 2.4rem;
+}
+
+
+.img--alianzas--container {
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+
+.error p {
+  margin-top: 30px;
+}
