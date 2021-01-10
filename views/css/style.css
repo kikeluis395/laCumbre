@@ -265,10 +265,7 @@ header {
 
 /* visualizacion del submenu */
 
-li:hover>.submenu {
-  display: block;
-  z-index: 999999;
-}
+
 
 /* estilos del hero */
 

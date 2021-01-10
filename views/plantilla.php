@@ -13,7 +13,7 @@
     <?php include "./views/partials/styles.php"; ?>
 </head>
 
-<body>
+<body id="pantalla">
     <?php
     require_once "./controllers/vistasControlador.php";
 

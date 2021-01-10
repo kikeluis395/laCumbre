@@ -37,6 +37,26 @@ var menu_responsive = document.getElementById('menu--main');
 var menu_item = document.querySelectorAll('.menuSubmenu');
 var arrow = document.querySelectorAll('#submenu--icon');
 var submenu = document.querySelectorAll('.submenu');
+var pantalla = document.getElementById('pantalla');
+var tamaño = pantalla.clientWidth;
+
+window.addEventListener("resize", function () {
+  tamaño = pantalla.clientWidth;
+});
+
+if(tamaño >= 900) {
+  var mostrar = (i) => {
+    menu_item[i].addEventListener('mouseover', () => {
+      submenu[i].style.display= 'block';
+    })
+    menu_item[i].addEventListener('mouseout', () => {
+      submenu[i].style.display= 'none';
+    })
+  }
+  for(i=0; i<menu_item.length; i++) {
+    mostrar(i);
+  }
+}
 
 mostrarSubmenu = index => {
   submenu[index].classList.toggle('showSubmenu');
