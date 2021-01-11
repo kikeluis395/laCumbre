@@ -79,7 +79,7 @@
     font-weight: normal;
 }
 
-.contact-form form input, .contact-form form textarea, .contact-form form button {
+.contact-form form input, .contact-form form textarea, .contact-form form .btn {
     width: 100%;
     padding: .5em 0 .5em 0;
     font-size: 1.6rem;
@@ -114,7 +114,7 @@
     /* outline: 1px solid slategrey; */
 }
 
-.contact-form form button {
+.contact-form form .btn {
     max-width: 80px;
     width: 100%;
     height: auto;
@@ -130,7 +130,7 @@
     border: 2px solid #4f487a;
 }
 
-.contact-form form button:hover, .contact-form form button:focus {
+.contact-form form .btn:hover, .contact-form form .btn:focus {
     background-color: white;
     color: #4f487a;
     border: 2px solid #4f487a;
@@ -390,6 +390,7 @@
     left: 95%;
     top: 5%;
     z-index: 1;
+    cursor: pointer;
 }
 
 .content-modal-inicio {

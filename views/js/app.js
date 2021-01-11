@@ -67,6 +67,7 @@ mostrarSubmenu = index => {
 menu_icon.addEventListener("click", function () {
   menu.classList.toggle('show');
   menu_responsive.classList.toggle('showMenu');
+  menu_icon.classList.toggle("fa-times");
 });
 // FIN DEL MENU RESPONSIVE
 

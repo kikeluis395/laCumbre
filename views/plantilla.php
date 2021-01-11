@@ -9,6 +9,8 @@
 
     <script src="https://kit.fontawesome.com/adf54586be.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
     <!-- Css Styles -->
     <?php include "./views/partials/styles.php"; ?>
 </head>
