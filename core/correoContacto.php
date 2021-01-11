@@ -2,7 +2,7 @@
 
 if (isset($_POST['enviar'])) {
     if (isset($_POST['email']) && $_POST['message']) {
-        $para = "angel_fake@yopmail.com";
+        $para = "contactos@lacumbre.com";
         $asunto = "Contacto";
         $mensaje = ($_POST['message']);
         $from = ($_POST['email']);
