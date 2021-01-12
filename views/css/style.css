@@ -474,15 +474,15 @@ header {
 }
 
 .bkg2 {
-  background-image: url('../img/PNG\ C_Crédito\ MICROPYME.png');
+  background-image: url('../img/PNG\ C_CreditoMICROPYME.png');
 }
 
 .bkg3 {
-  background-image: url('../img/PNG\ C_Crédito\ vehicular.png');
+  background-image: url('../img/PNG\ C_Creditovehicular.png');
 }
 
 .bkg4 {
-  background-image: url('../img/PNG\ C_Depósito\ a\ plazo\ fijo.png');
+  background-image: url('../img/PNG\ C_Depositoplazofijo.png');
 }
 
 .bkg5 {
@@ -490,11 +490,11 @@ header {
 }
 
 .bkg6 {
-  background-image: url('../img/PNG\ C_Crédito\ remodelación.png');
+  background-image: url('../img/PNG\ C_Creditoremodelacion.png');
 }
 
 .bkg7 {
-  background-image: url('../img/PNG\ C_Garantía\ de\ inmueble.png');
+  background-image: url('../img/PNG\ C_Garantiadeinmueble.png');
 }
 
 .description {
@@ -856,14 +856,14 @@ header {
 }
 
 .img--mision {
-  background: url("../img/MISIÓN.png") no-repeat;
+  background: url("../img/MISION.png") no-repeat;
   background-size: cover;
   background-position: 40% 10%;
   height: 400px;
 }
 
 .img--vision {
-  background: url("../img/VISIÓN.png") no-repeat;
+  background: url("../img/VISION.png") no-repeat;
   background-size: cover;
   background-position: 40% 10%;
   height: 400px;
@@ -996,7 +996,7 @@ footer {
 .icon-number {
   width: 30px;
   height: 30px;
-  background: url('../img/iconos_teléfono.png') no-repeat center;
+  background: url('../img/iconos_telefono.png') no-repeat center;
   background-size: contain;
 }
 
@@ -1010,7 +1010,7 @@ footer {
 .icon-address {
   width: 25px;
   height: 34px;
-  background: url('../img/iconos_ubicación.png') no-repeat center;
+  background: url('../img/iconos_ubicacion.png') no-repeat center;
   background-size: contain;
 }
 
@@ -1225,7 +1225,7 @@ footer {
 /* Inicio estilos Nuestras Alianzas - Huampani */
 
 .img--huampani {
-  background: url("../img/huampaní_1.png") no-repeat;
+  background: url("../img/huampani_1.png") no-repeat;
 }
 
 .img--huampani--container {
@@ -1243,11 +1243,11 @@ footer {
 }
 
 .img--huampani01 {
-  background: url("../img/huampaní-02.png") no-repeat;
+  background: url("../img/huampani-02.png") no-repeat;
 }
 
 .img--huampani02 {
-  background: url("../img/huampaní-03.png") no-repeat;
+  background: url("../img/huampani-03.png") no-repeat;
 }
 
 .alianzas--img--slides {
