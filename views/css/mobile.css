@@ -561,3 +561,8 @@
 .error p {
   margin-top: 30px;
 }
+
+.content-modal-inicio {
+  width: 500px;
+  height: 500px;
+}

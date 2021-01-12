@@ -174,3 +174,8 @@
 .contact-form form button {
   align-self: center;
 }
+
+.content-modal-inicio {
+  width: 300px;
+  height: 300px;
+}
