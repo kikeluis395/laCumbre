@@ -1,11 +1,17 @@
 let slider1 = document.querySelector(".slide--container")
 let slider2 = document.querySelector(".slide--container2")
 let slider3 = document.querySelector(".slide--container3")
+let slider4 = document.querySelector(".slide--container4")
+let slider5 = document.querySelector(".slide--container5")
+let slider6 = document.querySelector(".slide--container6")
 
 
 let sliderIndividual1 = document.querySelectorAll(".slide")
 let sliderIndividual2 = document.querySelectorAll(".slide2")
 let sliderIndividual3 = document.querySelectorAll(".slide3")
+let sliderIndividual4 = document.querySelectorAll(".slide4")
+let sliderIndividual5 = document.querySelectorAll(".slide5")
+let sliderIndividual6 = document.querySelectorAll(".slide6")
 
 
 let contador = 1;
@@ -29,6 +35,15 @@ function slides(){
 
     slider3.style.transform = "translate("+(-width*contador)+"px)";
     slider3.style.transition = "transform .8s";
+
+    slider4.style.transform = "translate("+(-width*contador)+"px)";
+    slider4.style.transition = "transform .8s";
+
+    slider5.style.transform = "translate("+(-width*contador)+"px)";
+    slider5.style.transition = "transform .8s";
+
+    slider6.style.transform = "translate("+(-width*contador)+"px)";
+    slider6.style.transition = "transform .8s";
     contador++;
 
     if(contador == sliderIndividual1.length){
@@ -41,6 +56,15 @@ function slides(){
 
             slider3.style.transform = "translate(0px)";
             slider3.style.transition = "transform 0s";
+
+            slider4.style.transform = "translate(0px)";
+            slider4.style.transition = "transform 0s";
+
+            slider5.style.transform = "translate(0px)";
+            slider5.style.transition = "transform 0s";
+
+            slider6.style.transform = "translate(0px)";
+            slider6.style.transition = "transform 0s";
             contador=1;
         },1500)
     }
@@ -52,7 +76,7 @@ var slideI = window.location.href;
 var last = slideI.split("/").pop();
 var num2; 
 switch (last) {
-  case 'euroidiomas':
+    case 'euroidiomas':
      num2 = 1;
     break;
     case 'cruzDelSur':
@@ -60,8 +84,16 @@ switch (last) {
     break;
     case 'huampani':
       num2 = 3;
-     break;
-
+    break;
+    case 'anytime':
+      num2 = 4;
+    break;
+    case 'eides':
+      num2 = 5;
+    break;
+    case 'nova':
+      num2 = 6;
+    break;
 
   default:
     num2 = 1;

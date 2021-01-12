@@ -24,14 +24,17 @@
                         <li><a href="<?php echo SERVERURL; ?>alianzas/euroidiomas">Euroidiomas</a></li>
                         <li><a href="<?php echo SERVERURL; ?>alianzas/cruzDelSur">Cruz del sur</a></li>
                         <li><a href="<?php echo SERVERURL; ?>alianzas/huampani">Huampaní</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/anytime">Anytime</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/eides">Eides</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>alianzas/nova">Nova</a></li>
                     </ul>
                 </li>
                 <li class="menu-item menuSubmenu"><a href="<?php echo SERVERURL; ?>transparencia/">Transparencia</a>
                     <i class="fas fa-angle-down arrow" id="submenu--icon" onclick="mostrarSubmenu(2)"></i>
                     <ul class="submenu">
-                        <li><a href="">Tablas</a></li>
-                        <li><a href="">Tarifarios</a></li>
-                        <li><a href="">Libro de sugerencias</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>transparencia/">Tablas</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>transparencia/">Tarifarios</a></li>
+                        <li><a href="<?php echo SERVERURL; ?>transparencia/">Libro de sugerencias</a></li>
                     </ul>
                 </li>
                 <li class="menu-item"><a href="<?php echo SERVERURL; ?>contactanos/">Contáctanos</a></li>

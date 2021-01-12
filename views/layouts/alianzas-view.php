@@ -108,13 +108,127 @@
                 Relájate con tu familia con las tarifas exclusivas que tenemos
                 para ti. </br>Es la oportunidad perfecta de tomar un descanso.
               </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ANYTIME -->
+        <div class="alianzas--items">
+          <div class="section--alianza">
+            <div class="alianzas--title">
+              <div class="description title--alianza">
+                <h2 class="">
+                  Nuestras <br />
+                  <span class="bold">Alianzas</span>
+                </h2>
               </div>
+              <div class="img--alianzas--container">
+                <div class="img--container slide--container4">
+                  <div class="img--anytime alianzas--img--slides slide4"></div>
+                  <div class="img--anytime01 alianzas--img--slides slide4"></div>
+                  <div class="img--anytime02 alianzas--img--slides slide4"></div>
+                  <div class="img--anytime alianzas--img--slides slide4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="alianzas--beneficios">    
+              <div class="footer__anytime--logo"></div>     
+              <div class="description2 title--beneficios">
+                <span>
+                  Beneficios
+                </span>
+              </div>     
+              <p class="info--beneficios">              
+                -Exoneración de pago de matrícula (S/)</br>
+                -Exoneración de pago de examen de clasicación (S/ 30.00)</br>
+                -10% de descuento en la pensión de los cursos de Inglés para
+                Jóvenes y Adultos, Portugués y Alemán.</br>
+                -Tarifa preferencial programa de Inglés virtual (Plataforma</br>            
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- EIDES -->
+        <div class="alianzas--items">
+          <div class="section--alianza">
+            <div class="alianzas--title">
+              <div class="description title--alianza">
+                <h2 class="">
+                  Nuestras <br />
+                  <span class="bold">Alianzas</span>
+                </h2>
+              </div>
+              <div class="img--alianzas--container">
+                <div class="img--container slide--container5">
+                  <div class="img--eides alianzas--img--slides slide5"></div>
+                  <div class="img--eides01 alianzas--img--slides slide5"></div>
+                  <div class="img--eides02 alianzas--img--slides slide5"></div>
+                  <div class="img--eides alianzas--img--slides slide5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="alianzas--beneficios">    
+              <div class="footer__eides--logo"></div>     
+              <div class="description2 title--beneficios">
+                <span>
+                  Beneficios
+                </span>
+              </div>     
+              <p class="info--beneficios">              
+                -Exoneración de pago de matrícula (S/)</br>
+                -Exoneración de pago de examen de clasicación (S/ 30.00)</br>
+                -10% de descuento en la pensión de los cursos de Inglés para
+                Jóvenes y Adultos, Portugués y Alemán.</br>
+                -Tarifa preferencial programa de Inglés virtual (Plataforma</br>            
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ANYTIME -->
+        <div class="alianzas--items">
+          <div class="section--alianza">
+            <div class="alianzas--title">
+              <div class="description title--alianza">
+                <h2 class="">
+                  Nuestras <br />
+                  <span class="bold">Alianzas</span>
+                </h2>
+              </div>
+              <div class="img--alianzas--container">
+                <div class="img--container slide--container6">
+                  <div class="img--nova alianzas--img--slides slide6"></div>
+                  <div class="img--nova01 alianzas--img--slides slide6"></div>
+                  <div class="img--nova02 alianzas--img--slides slide6"></div>
+                  <div class="img--nova alianzas--img--slides slide6"></div>
+                </div>
+              </div>
+            </div>
+            <div class="alianzas--beneficios">    
+              <div class="footer__nova--logo"></div>     
+              <div class="description2 title--beneficios">
+                <span>
+                  Beneficios
+                </span>
+              </div>     
+              <p class="info--beneficios">              
+                -Exoneración de pago de matrícula (S/)</br>
+                -Exoneración de pago de examen de clasicación (S/ 30.00)</br>
+                -10% de descuento en la pensión de los cursos de Inglés para
+                Jóvenes y Adultos, Portugués y Alemán.</br>
+                -Tarifa preferencial programa de Inglés virtual (Plataforma</br>            
+              </p>
+            </div>
           </div>
         </div>
         <div class="inidicators--alianzas">
               <span class="indicator Alianzas active" onclick="currentDiv2(1)"></span>
               <span class="indicator Alianzas" onclick="currentDiv2(2)"></span>
               <span class="indicator Alianzas" onclick="currentDiv2(3)"></span>
+              <span class="indicator Alianzas" onclick="currentDiv2(4)"></span>
+              <span class="indicator Alianzas" onclick="currentDiv2(5)"></span>
+              <span class="indicator Alianzas" onclick="currentDiv2(6)"></span>
           </div>
       </div>
   </section>

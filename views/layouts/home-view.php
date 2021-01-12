@@ -7,7 +7,7 @@
                     <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
                     <div class="hero--container-content">
                         <p>10% OFF <br><span class="content-description">En la pensión</span></p>
-                        <a href="" class="hero--container-button">ver más</a>
+                        <a href="<?php echo SERVERURL; ?>alianzas/euroidiomas" class="hero--container-button">ver más</a>
                     </div>
                 </div>
             </div>
@@ -16,7 +16,7 @@
                     <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
                     <div class="hero--container-content">
                         <p>15% OFF <br><span class="content-description">En la pensión</span></p>
-                        <a href="" class="hero--container-button">ver más</a>
+                        <a href="<?php echo SERVERURL; ?>alianzas/cruzDelSur" class="hero--container-button">ver más</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     <h1 class="hero--container-title">Nuestras <br><span class="title-bold">Alianzas</span></h1>
                     <div class="hero--container-content">
                         <p>8% OFF <br><span class="content-description">En la pensión</span></p>
-                        <a href="" class="hero--container-button">ver más</a>
+                        <a href="<?php echo SERVERURL; ?>alianzas/huampani" class="hero--container-button">ver más</a>
                     </div>
                 </div>
             </div>

@@ -579,6 +579,8 @@ header {
 .description2 p {
   width: 70%;
   font-family: fontLight;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 30px 30px rgba(241,241,241,1);
   color: #4d4d4d;
   margin: 30px 0px 50px 0px;
   font-size: 1.8rem;
@@ -677,6 +679,8 @@ header {
   min-width: 100%;
   height: auto;
   overflow-y: scroll;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 30px 30px rgba(241,241,241,1);
   font-size: 1.8rem;
   letter-spacing: 1px;
   line-height: 40px;
@@ -849,6 +853,8 @@ header {
 .misionVision .misionVision__texto {
   grid-area: content;
   color:#4d4d4d;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 45px 50px rgba(241,241,241,1);
   width: 90%;
   font-size: 1.8rem;
   line-height: 30px;
@@ -956,6 +962,8 @@ footer {
 
 .contact__info {
   display: grid;
+  box-shadow: 0px 0px 30px 30px rgba(241,241,241,1);
+  background-color: #f1f1f1;
   max-width: 350px;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -1135,6 +1143,8 @@ footer {
 .info--beneficios {
   width: 75%;
   margin-top: 50px;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 30px 30px rgba(241,241,241,1);
   font-size: 2rem;
   line-height: 40px;
   color: #4d4d4d;
@@ -1237,7 +1247,7 @@ footer {
 .footer__huampani--logo {
   width: 380px;
   height: 65px;
-  background: url("../img/logo/logo_huampaní.png") no-repeat center;
+  background: url("../img/logo/logo_huampani.png") no-repeat center;
   background-size: 80%;
   margin: 52.5px 0px 92.5px 0px;
 }
@@ -1250,6 +1260,73 @@ footer {
   background: url("../img/huampani-03.png") no-repeat;
 }
 
+
+ /* seccion anytime */
+
+ .img--anytime {
+  background: url("../img/Anytime_01.png") no-repeat;
+}
+
+ .footer__anytime--logo {
+  width: 380px;
+  height: 65px;
+  background: url("../img/anytime_logo.png") no-repeat center;
+  background-size: 80%;
+  margin: 52.5px 0px 92.5px 0px;
+}
+
+.img--anytime01 {
+  background: url("../img/Anytime-02.png") no-repeat;
+}
+
+.img--anytime02 {
+  background: url("../img/Anytime-03.png") no-repeat;
+}
+
+/* seccion eides */
+
+.img--eides {
+  background: url("../img/EIDES_01.png") no-repeat;
+}
+
+ .footer__eides--logo {
+  width: 380px;
+  height: 75px;
+  background: url("../img/EIDES_logo.png") no-repeat center;
+  background-size: 80%;
+  margin: 52.5px 0px 92.5px 0px;
+}
+
+.img--eides01 {
+  background: url("../img/EIDES-02.png") no-repeat;
+}
+
+.img--eides02 {
+  background: url("../img/EIDES-03.png") no-repeat;
+}
+
+/* seccion nova */
+
+.img--nova {
+  background: url("../img/NOVA_01.png") no-repeat;
+}
+
+ .footer__nova--logo {
+  width: 170px;
+  height: 110px;
+  background: url("../img/nova_logo.png") no-repeat center;
+  background-size: contain;
+  margin: 52.5px 0px 92.5px 0px;
+}
+
+.img--nova01 {
+  background: url("../img/NOVA-02.png") no-repeat;
+}
+
+.img--nova02 {
+  background: url("../img/NOVA-03.png") no-repeat;
+}
+
 .alianzas--img--slides {
   background-size: cover;
   background-position: 40% 10%;
@@ -1260,7 +1337,6 @@ footer {
   position:relative;
   margin: 80px 0;
 }
-
 /* SECCION PRODUCTOS */
 
 /* Estilos del section: pyme */
@@ -1319,6 +1395,8 @@ footer {
   font-size: 2rem;
   color: #4d4d4d;
   margin-bottom: 30px;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 8px 8px rgba(241,241,241,1);
   line-height: 2.8rem;
 }
 .beneficios__detalle {
@@ -1331,6 +1409,8 @@ footer {
   grid-area: lista;
   font-size: 2rem;
   color: #4d4d4d;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 8px 8px rgba(241,241,241,1);
   line-height: 2.8rem;
   width: 100%;
 }
@@ -1387,6 +1467,8 @@ footer {
 
 .requisitos__lista {
   grid-area: reqlista;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 8px 8px rgba(241,241,241,1);
   overflow-y: scroll;
   font-size: 2rem;
   color: #4d4d4d;
@@ -1505,6 +1587,8 @@ footer {
 
 .datos__text {
   margin-left: 50px;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 45px 50px rgba(241,241,241,1);
 }
 .testimonio__datos {
   font-size: 2rem;
@@ -1520,6 +1604,8 @@ footer {
   font-size: 2rem;
   color: #4d4d4d;
   margin-bottom: 30px;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 45px 50px rgba(241,241,241,1);
   line-height: 3.2rem;
   width: 100%;
 }
